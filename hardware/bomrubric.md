@@ -7,4 +7,4 @@
 |Price per unit, quantitym and subtotal              |              |             |Possible to deduce | Not clear | NA   |
 |Taxes, shipping, customs duty, totals               |              |             |Possible to deduce | Not clear | NA   |
 |Name of item and link                               |              |             |Possible to deduce | Not clear | NA   |
-|Submitted  |Within 15 minutes of the begining of the class|Later the same day -0.25|Next day (1 day late) -0.5|Two days late -(0.5*2)|x days late -(0.5*x), will recieve 0/5 if submitted a week or more late.|
+|Submitted  |Within 15 minutes of the begining of the class -0.0|Later the same day -0.25|Next day (1 day late) -0.5|Two days late -(0.5*2)|x days late -(0.5*x), will recieve 0/5 if submitted a week or more late.|
