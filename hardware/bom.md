@@ -1,4 +1,5 @@
 # Bill Of Materials
+## [Link to rubric](bomrubric.md)
 Clicking on the part should take the reader to the item on the intended vendor's website.
 | Part                                                                                             |Price in CAD|Quantity|Shipping Cost|Duty| Tax |Subtotal Paid|Subtotal propose to order|Expected Arrival Date|
 |--------------------------------------------------------------------------------------------------|------------|--------|-------------|----|-----|-------------|-------------------------|---------------------|
