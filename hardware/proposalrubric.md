@@ -9,4 +9,4 @@
 |Conclusion |Clear summary of proposal with approval request.    |Minor errors such as an unclear statement.|Compounded errors such as both in spelling and layout.|Not clear|NA|
 |Submitted  |Within 15 minutes of the begining of the class -0.0|Later the same day -0.25|Next day (1 day late) -0.5|Two days late -(0.5*2)|x days late -(0.5*x), will recieve 0/5 if submitted a week or more late.|
 
-[ ] Approval
+- [ ] Approval
