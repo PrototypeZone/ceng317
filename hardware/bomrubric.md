@@ -1,5 +1,6 @@
 # Bill Of Materials - Analytic Feedback Rubric
 ## Level of Achievement - Total Grade: &nbsp;&nbsp;&nbsp;&nbsp;/5
+To be printed out on a single sided page of letter size paper.   
 |Criteria                                            |Proficient 1.0|Competent 0.8|Basic 0.6|Needs Improvement 0.4|NA 0.2|
 |----------------------------------------------------|--------------|-------------|---------|---------------------|------|
 |Correct parts                                       |              |             |Possible to deduce | Not clear | NA   |
