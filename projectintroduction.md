@@ -6,9 +6,10 @@
 3. [Bill Of Materials](hardware/bom.md) (and 3D printing) remember for next week to bring safety glasses if you don't already wear eyeglasses, parts kit, as well as Raspberry Pi kit every class from next week on.
    ![pcbstacking](media/pcbstacking.png)
 4. Project Roadmap, bring safety glasses if you don't already wear eyeglasses, parts kit, as well as Raspberry Pi kit every class from now on.
-6. Proof of purchase, (CorelDraw for Monday section)
-7. CorelDraw for Wednesday section (Thanksgiving)
-8. Soldering (each group gets a practice board)
+5. Proof of purchase, (KiCad for Monday section)
+6. KiCad for Wednesday section (Thanksgiving)
+7. Soldering (each group gets a practice board), CorelDraw
+8. Parts arrival
 9. PCB Assembly and testing
 10. Coding
 11. Troubleshooting
