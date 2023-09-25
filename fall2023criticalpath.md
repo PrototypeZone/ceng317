@@ -8,7 +8,7 @@ Fall 2023 Class Schedule (Tentative)
 
 |Week|A         |B         |Topics/Assignment                                                                                         | Due %               |
 |----|----------|----------|----------------------------------------------------------------------------------------------------------|---------------------|
-|1   |2023-09-04|          |Public Holiday (Labour Day) - College Closed
+|1   |2023-09-04|          |Public Holiday (Labour Day) - College Closed                                                              |                     |
 |1   |          |2023-09-06|Course Introduction and Schedule, First Class Sheet, Project Proposal                                     |1 First Class Sheet  |
 |2   |2023-09-11|2023-09-13|Project Selection, 3D printing tutorial and library session sign up                                       |1 Project Selection  |
 
