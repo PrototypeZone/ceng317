@@ -14,7 +14,7 @@ Fall 2023 Class Schedule (Tentative)
 |    |          |          |                                                                                                          |                     |
 |3   |2023-09-18|2023-09-20|Bill of Materials, 3D printing library session                                                            |5 Bill of Materials  |
 |    |          |          |                                                                                                          |                     |
-|4   |2023-09-25|2023-09-27|Project Roadmap                                                                                           |3                    |
+|4   |2023-09-25|2023-09-27|[Project Roadmap](https://github.blog/changelog/2023-01-31-roadmap-in-projects-public-beta/)              |3                    |
 |5   |          |2023-10-04|Project Roadmap                                                                                           |5                    |
 |    |          |          |                                                                                                          |                     |
 |5   |2023-10-02|          |Proof of purchase, KiCad                                                                                  |5                    |
