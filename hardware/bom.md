@@ -1,6 +1,7 @@
 # Bill Of Materials
 ### [Link to rubric](bomrubric.md)   
 Clicking on the part should take the reader to the item on the intended vendor's website.
+Student Name: ________________________________
 | Part                                                                                             |Price in CAD|Quantity|Shipping Cost|Duty| Tax |Subtotal Paid|Subtotal propose to order|Expected Arrival Date|
 |--------------------------------------------------------------------------------------------------|------------|--------|-------------|----|-----|-------------|-------------------------|---------------------|
 |[2N4124 PNP Transistor from Parts kit](https://www.onsemi.com/pdf/datasheet/2n4123-d.pdf)         |       0.70 |      1 |             |    |     |        0.70 |                         |          Semester 1 |
