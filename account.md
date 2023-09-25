@@ -1,5 +1,5 @@
 # Creating an account on GitHub.
-1. Choose a Username for yourself at GitHub. Consider your choice carefully as you could end up using this account to share your profile/work with potential employers during this academic year when applying for jobs that you would start after you graduate.
+1. If you don't already have one, choose a Username for yourself at GitHub. Consider your choice carefully as you could end up using this account to share your profile/work with potential employers during this academic year when applying for jobs that you would start after you graduate.
 2. Enter an email address.
 3. Choose a new, unique password for GitHub and record it.
 4. Read the Terms of Service.
