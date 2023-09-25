@@ -11,16 +11,16 @@ Fall 2023 Class Schedule (Tentative)
 |1   |2023-09-04|          |Public Holiday (Labour Day) - College Closed                                                              |                     |
 |1   |          |2023-09-06|Course Introduction and Schedule, First Class Sheet, Project Proposal                                     |1 First Class Sheet  |
 |2   |2023-09-11|2023-09-13|Project Selection, 3D printing tutorial and library session sign up                                       |1 Project Selection  |
-
+|    |          |          |                                                                                                          |                     |
 |3   |2023-09-18|2023-09-20|Bill of Materials, 3D printing library session                                                            |5 Bill of Materials  |
-
+|    |          |          |                                                                                                          |                     |
 |4   |2023-09-25|2023-09-27|Project Roadmap                                                                                           |3                    |
 |5   |          |2023-10-04|Project Roadmap                                                                                           |5                    |
-
+|    |          |          |                                                                                                          |                     |
 |5   |2023-10-02|          |Proof of purchase, KiCad                                                                                  |5                    |
 |6   |2023-10-09|          |Public Holiday (Thanksgiving) - College Closed
 |6   |          |2023-10-11|Proof of purchase, KiCad                                                                                  |5                    |
-
+|    |          |          |                                                                                                          |                     |
 |7   |2023-10-16|2023-10-18|Soldering, Laser Cutting                                                                                  |10                   |
 |    |2023-10-23|2023-10-25|*Reading Week, No Class Scheduled*                                                                        |                     |
 |8   |2023-10-30|2023-11-01|Parts arrival (November 3 Midterm Grades Due)                                                             |5                    |
