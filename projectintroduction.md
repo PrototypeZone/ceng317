@@ -55,7 +55,7 @@ In CENG 317, students learn how to create the embedded modules. In CENG 322, stu
 - Wellness monitor
 - Envirorover which measures temperature, humidity, and light as it moves
 - Waste bin monitoring system
-- Sailing race start signal system
+- Sailing race start signal system as per [page 41](https://www.nsyc.net/wp-content/uploads/RC_SEMINAR_NSYC.pdf)   
     - [Drawing](https://buckeyelakeyc.com/wp-content/uploads/2020/02/RC_Drawing.png), [Actual](http://www.sail.ie/speedtips/speedtips_images/favour18.jpg)
     - -6 *Attention Signal* 4 Horns
     - -5 *Warning Signal* Red Shape up, Horn 
