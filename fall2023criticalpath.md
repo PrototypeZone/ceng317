@@ -21,7 +21,7 @@ Fall 2023 Class Schedule (Tentative)
 |6   |2023-10-09|          |Public Holiday (Thanksgiving) - College Closed
 |6   |          |2023-10-11|Proof of purchase, KiCad                                                                                  |5                    |
 |    |          |          |                                                                                                          |                     |
-|7   |2023-10-16|2023-10-18|Soldering, Laser Cutting                                                                                  |10                   |
+|7   |2023-10-16|2023-10-18|[Soldering](https://www.linkedin.com/learning/learning-soldering-for-electronics/solder-for-electronic-products-and-manufacturing), Laser Cutting |10                   |
 |    |2023-10-23|2023-10-25|*Reading Week, No Class Scheduled*                                                                        |                     |
 |8   |2023-10-30|2023-11-01|Parts arrival (November 3 Midterm Grades Due)                                                             |5                    |
 |9   |2023-11-06|2023-11-08|PCB Assembly and testing                                                                                  |5                    |
