@@ -73,6 +73,7 @@ In CENG 317, students learn how to create the embedded modules. In CENG 322, stu
 - Next bus sign
 - Touchfree washroom
 - Solar battery charger
+- Water bottle filling station
 
 ## Your Existing Sense Hat
 In addition to power and ground the sense hat uses:   
@@ -149,7 +150,7 @@ Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Blac
 2.  
 3. Auto pilot:   
    B Alessandro Alberico [Qwiic Motor Driver](https://www.sparkfun.com/products/15451) ( )    
-   B Emiliyano Ilia [SparkFun Digital Temperature Sensor - TMP102 (Qwiic)](https://www.sparkfun.com/products/16304) (0x48 by default, 0x49, 0x4A, 0x4B) changing to [9DoF IMU Breakout - ISM330DHCX, MMC5983MA (Qwiic)](https://www.sparkfun.com/products/19895) (Default 0x6B, Alternate 0x6A)   
+   B Emiliyano Ilia [SparkFun Digital Temperature Sensor - TMP102 (Qwiic)](https://www.sparkfun.com/products/16304) (0x48 by default, 0x49, 0x4A, 0x4B) changing to [9DoF IMU Breakout - ISM330DHCX, MMC5983MA (Qwiic)](https://www.sparkfun.com/products/19895) (Default 0x6B & 0x30, Alternate 0x6A & 0x30)   
    B Sebastian Luis [Liquid Level Sensor - 8"](https://www.sparkfun.com/products/10221) with [Qwiic 12 Bit ADC - 4 Channel (ADS1015)](https://www.sparkfun.com/products/15334) (default 0x48, 0x49, 0x4A, 0x4B)   
    B Abdicasis Ali [SparkFun Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21262) (0x3C) requesting change to [Atmospheric Sensor Breakout - BME280 (Qwiic)](https://www.sparkfun.com/products/15440) (0x77)?   
 
@@ -205,8 +206,8 @@ Cedric, Melvin, Youngkyu, and Davyd Tsapko with [INA219](https://www.adafruit.co
 39. A Alex Fontaine-Bolanos [Indoor Air Quality Sensor - ENS160 (Qwiic)](https://www.sparkfun.com/products/20844) (Default 0x53, 0x52)
 40. B Ali Mohebi See reply on Discussion Board
 42. A Nemanja Petrovic [Humidity and Temperature Sensor - DHT20](https://www.sparkfun.com/products/18364) (0x38)
-43. 
 44. B Adrian Portal Calcines
+45. Hassan Noorani [Micro Magnetometer - MMC5983MA (Qwiic)](https://www.sparkfun.com/products/19921) (0x30)   
 
 ## Past sensors/effectors
 ADC needed for analog sensors   
