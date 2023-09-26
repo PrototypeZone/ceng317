@@ -141,42 +141,46 @@ Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Blac
     [Battery Babysitter - BQ24075](https://www.sparkfun.com/products/13777)   
 
 ### CENG 322 Group Number
-1. Delivery Robot: William, Ilia, Dylan, Alex   
+1. Delivery Robot:      
    A William Margalik Optical odometer such as Breakout for ADNS2620 Optical Mouse Sensor   
    A Illia Popov [Ultrasonic Distance Sensor with I2C Interface](https://www.adafruit.com/product/4742) (0x57 doesn't share I2C 100%)   
    A Dylan Ashton [Proximity Sensor Breakout VCNL4040 (Qwiic)](https://www.sparkfun.com/products/15177) (0x60)   
    A Ahmad Aljawish [Triple Axis Magnetometer Breakout - MLX90393 (Qwiic)](https://www.sparkfun.com/products/14571) (0xC0)   
-3.   
-4.   
-5.   
-6. Smart Pet Feeder: Robert, Medi, Damanpreet, Aduse (previous temperature)   
-7. Inventory management: Lucas, Julian, Jared, Kaiden   
+2.  
+3. Auto pilot:
+    Alessandro [Qwiic Motor Driver](https://www.sparkfun.com/products/15451) ( )    
+   B Emiliyano Ilia [SparkFun Digital Temperature Sensor - TMP102 (Qwiic)](https://www.sparkfun.com/products/16304) (0x48 by default, 0x49, 0x4A, 0x4B) changing to [9DoF IMU Breakout - ISM330DHCX, MMC5983MA (Qwiic)](https://www.sparkfun.com/products/19895) (Default 0x6B, Alternate 0x6A)   
+   B Sebastian Luis [Liquid Level Sensor - 8"](https://www.sparkfun.com/products/10221) with [Qwiic 12 Bit ADC - 4 Channel (ADS1015)](https://www.sparkfun.com/products/15334) (default 0x48, 0x49, 0x4A, 0x4B)
+   B Abdicasis Ali [SparkFun Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21262) (0x3C) requesting change to [Atmospheric Sensor Breakout - BME280 (Qwiic)](https://www.sparkfun.com/products/15440) (0x77)?   
+
+5.
+6.   
+7.   
+8. Smart Pet Feeder:   
+   B Robert Rowlison [SparkFun Ambient Light Sensor - VEML6030 (Qwiic)](https://www.sparkfun.com/products/15436) (0x48)   
+   A Medi Muamba Nzambi [SparkFun Qwiic BMA400 Micro Triple Axis Accelerometer Breakout](https://www.sparkfun.com/products/21207) (0x14 (Default), 0x15)
+   B Damanpreet Singh [SparkFun Spectral Sensor Breakout - AS7262 Visible (Qwiic) - May change](https://www.sparkfun.com/products/14347) (0x49)
+   Aduse (previous temperature)   
+9. Inventory management:   
    A Lucas Szwagiel [BH1750 Light Intensity Sensor](https://www.addicore.com/products/bh1750-light-intensity-sensor) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x23, 0x5C)   
    B Jared Craig [SparkFun Photodetector Breakout - MAX30101 (Qwiic)](https://www.sparkfun.com/products/16474) (0x57) changing to: [HX711](https://www.circuito.io/app?components=9443,13879,200000)   
    A Julian Fragassi [SparkFun Qwiic Mini ToF Imager - VL53L5CX](https://www.sparkfun.com/products/19013) (0x52)   
    B Kaiden Phillip [SparkFun RFID Qwiic Reader](https://www.sparkfun.com/products/15191) and [RFID Reader ID-12LA (125 kHz)](https://www.sparkfun.com/products/11827) (0x7D)   
    
-9.   
-10.   
 11.   
 12.   
 13.   
 14.   
-Auto pilot: Emiliyano, Alessandro, Sebastian, Abdicasis   
+15.   
+16.   
 Cedric, Melvin, Youngkyu, and Davyd Tsapko with [INA219](https://www.adafruit.com/product/904) (Default 0x40, A0 soldered 0x41, A1 soldered 0x44, A0 and A1 soldered 0x45)   
 
 ## Fall 2023 Sensor/effector choices:
-1. 
-2. B Robert Rowlison [SparkFun Ambient Light Sensor - VEML6030 (Qwiic)](https://www.sparkfun.com/products/15436) (0x48)
-3. B Faraz Ahmed [SparkFun Qwiic Mini ToF Imager - VL53L5CX](https://www.sparkfun.com/products/19013) (0x52) changed to [Capacitive Touch Slider - CAP1203 (Qwiic)](https://www.sparkfun.com/products/15344) (0x28)
+2. B Faraz Ahmed [SparkFun Qwiic Mini ToF Imager - VL53L5CX](https://www.sparkfun.com/products/19013) (0x52) changed to [Capacitive Touch Slider - CAP1203 (Qwiic)](https://www.sparkfun.com/products/15344) (0x28)
 4. B Nathaniel Lozano [SparkFun 9DoF IMU Breakout - ICM - 20948](https://www.sparkfun.com/products/15335) (0x69, 0x68 with Jumper)
-5. B Abdicasis Ali [SparkFun Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21262) (0x3C) requesting change to [Atmospheric Sensor Breakout - BME280 (Qwiic)](https://www.sparkfun.com/products/15440) (0x77)?
-6. 
-8. B Damanpreet Singh [SparkFun Spectral Sensor Breakout - AS7262 Visible (Qwiic) - May change](https://www.sparkfun.com/products/14347) (0x49)
-10. B Aaron Morris Jara [Person Sensor by Useful Sensors](https://www.sparkfun.com/products/21231) (0x62)
+8.  B Aaron Morris Jara [Person Sensor by Useful Sensors](https://www.sparkfun.com/products/21231) (0x62)
 11. A Muhammad Desai [SparkFun Humidity Sensor Breakout](https://www.sparkfun.com/products/16467) (0x70)
-12. A Medi Muamba Nzambi [SparkFun Qwiic BMA400 Micro Triple Axis Accelerometer Breakout](https://www.sparkfun.com/products/21207) (0x14 (Default), 0x15)
-13. B Emiliyano Ilia [SparkFun Digital Temperature Sensor - TMP102 (Qwiic)](https://www.sparkfun.com/products/16304) (0x48 by default, 0x49, 0x4A, 0x4B) changing to [9DoF IMU Breakout - ISM330DHCX, MMC5983MA (Qwiic)](https://www.sparkfun.com/products/19895) (Default 0x6B, Alternate 0x6A)   
+12. 
 14. B Ali Sunan Faizi [Qwiic MicroPressure Sensor](https://www.sparkfun.com/products/16476) (0x18)
 16. A Gobind Matharu [SparkFun Human Presence Sensor Breakout - AK9753 (Qwiic)](https://www.sparkfun.com/products/14349) (0x64, jumper selectable to 0x65 or 0x67) changed to [Distance Sensor - 1.3 Meter, VL53L4CD (Qwiic)](https://www.sparkfun.com/products/18993) (0x29)
 17. A Patrik Prenga [Pulse Oximeter and Heart Rate Sensor - MAX30101 & MAX32664 (Qwiic)](https://www.sparkfun.com/products/15219) (0x55)
@@ -200,7 +204,6 @@ Cedric, Melvin, Youngkyu, and Davyd Tsapko with [INA219](https://www.adafruit.co
 38. A Taksim Islam [Micro Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21273) (default 0x3C, 0x38)
 39. A Alex Fontaine-Bolanos [Indoor Air Quality Sensor - ENS160 (Qwiic)](https://www.sparkfun.com/products/20844) (Default 0x53, 0x52)
 40. B Ali Mohebi See reply on Discussion Board
-41. B Sebastian Luis [Liquid Level Sensor - 8"](https://www.sparkfun.com/products/10221) with [Qwiic 12 Bit ADC - 4 Channel (ADS1015)](https://www.sparkfun.com/products/15334) (default 0x48, 0x49, 0x4A, 0x4B)
 42. A Nemanja Petrovic [Humidity and Temperature Sensor - DHT20](https://www.sparkfun.com/products/18364) (0x38)
 43. 
 44. B Adrian Portal Calcines
