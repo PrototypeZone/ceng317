@@ -207,7 +207,7 @@ Cedric, Melvin, Youngkyu, and Davyd Tsapko with [INA219](https://www.adafruit.co
 40. B Ali Mohebi See reply on Discussion Board
 42. A Nemanja Petrovic [Humidity and Temperature Sensor - DHT20](https://www.sparkfun.com/products/18364) (0x38)
 44. B Adrian Portal Calcines
-45. Hassan Noorani [Micro Magnetometer - MMC5983MA (Qwiic)](https://www.sparkfun.com/products/19921) (0x30)   
+45. Hassan Noorani    
 
 ## Past sensors/effectors
 ADC needed for analog sensors   
