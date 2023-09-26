@@ -76,6 +76,7 @@ In CENG 317, students learn how to create the embedded modules. In CENG 322, stu
 - Solar battery charger
 - Water bottle filling station
 - Elevator
+- [Prescription Kiosk](https://humber.ca/staff/announcement/spotrx-pharmacy-now-available-north-campus)
 
 ## Your Existing Sense Hat
 In addition to power and ground the sense hat uses:   
