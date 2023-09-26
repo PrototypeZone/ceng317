@@ -61,7 +61,8 @@ In CENG 317, students learn how to create the embedded modules. In CENG 322, stu
     - -5 *Warning Signal* Red Shape up, Horn 
     - -4 *Preparatory Signal* P Flag Up, Horn 
     - -1 *One to go warning* P Flag Down, Long Horn 
-    - 0 *Start* Red Shape down, Horn 
+    - 0 *Start* Red Shape down, Horn
+    - If there is a false start X flag up as per [page 50](https://www.nsyc.net/wp-content/uploads/RC_SEMINAR_NSYC.pdf)
 - Autonomous Electric Skidsteer
 - Microwave
 - Traffic light
