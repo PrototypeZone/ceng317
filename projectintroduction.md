@@ -75,6 +75,7 @@ In CENG 317, students learn how to create the embedded modules. In CENG 322, stu
 - Touchfree washroom
 - Solar battery charger
 - Water bottle filling station
+- Elevator
 
 ## Your Existing Sense Hat
 In addition to power and ground the sense hat uses:   
