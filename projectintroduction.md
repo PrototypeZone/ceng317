@@ -211,7 +211,7 @@ B Alfred Dowuona [Ambient Light Sensor - VEML6030 (Qwiic)](https://www.sparkfun.
 40. B Ali Mohebi [Qwiic OLED Display (0.91 in, 128x32)](https://www.sparkfun.com/products/17153) ()   
 42. A Nemanja Petrovic [Humidity and Temperature Sensor - DHT20](https://www.sparkfun.com/products/18364) (0x38)
 44. B Adrian Portal Calcines [Spectral Sensor Breakout - AS7263 NIR (Qwiic)](https://www.sparkfun.com/products/14351) (0x49)   
-45. B Hassan Noorani See reply on Discussion Board   
+45. B Hassan Noorani [TFMini - Micro LiDAR Module (Qwiic)](https://www.sparkfun.com/products/14786) (0x10)  
 
 ## Past sensors/effectors
 ADC needed for analog sensors   
