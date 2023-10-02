@@ -1,0 +1,16 @@
+Title	URL	Assignees	Status	start date	end
+Research and compile a list of materials needed for the barrier gate model				Sep 21, 2023	Sep 25, 2023
+Review the existing app's architecture and user interface				Sep 26, 2023	Oct 1, 2023
+Begin planning the integration of the app with the barrier gate model				Oct 2, 2023	Oct 6, 2023
+Purchase necessary materials for the barrier gate model				Oct 7, 2023	Oct 11, 2023
+Begin building the physical barrier gate model				Oct 12, 2023	Oct 16, 2023
+Prepare the app for integration with the barrier gate model				Oct 17, 2023	Oct 21, 2023
+Set up communication  between the app and the Raspberry Pis				Oct 22, 2023	Oct 26, 2023
+implement communication between the app and the first Raspberry Pi				Oct 27, 2023	Oct 31, 2023
+Test the barrier gate model for functionality, addressing any issues				Nov 1, 2023	Nov 3, 2023
+Optimize app performance and data synchronization with both Raspberry Pis				Nov 4, 2023	Nov 8, 2023
+Prepare presentation materials and practice for the final presentation.				Nov 6, 2023	Nov 9, 2023
+Finalize the barrier gate model documentation.				Nov 6, 2023	Nov 10, 2023
+Presentation of the project				Nov 6, 2023	Nov 10, 2023
+intergrate the app to the cloud	https://github.com/PrototypeZone/computer-systems-project-smartgate/issues/8				
+integrate hardware to cloud	https://github.com/PrototypeZone/computer-systems-project-smartgate/issues/9				
