@@ -7,7 +7,7 @@
    ![pcbstacking](media/pcbstacking.png)
 4. Project Roadmap (upload tsv file to hardware folder), bring safety glasses if you don't already wear eyeglasses, parts kit, as well as Raspberry Pi kit every class from now on.
 5. Proof of purchase, (KiCad for Monday section)
-6. KiCad for Wednesday section (Thanksgiving)
+6. KiCad (incl. BJT as a switch circuit Section 4.5 Page 192 in your Electronic Devices by Floyd) for Wednesday section (Thanksgiving)
 7. Soldering (each group gets a practice board), CorelDraw
 8. Parts arrival
 9. PCB Assembly and testing
