@@ -9,4 +9,4 @@
 3. I have followed [Using a template](https://techexplorations.com/guides/kicad/3e/create-a-new-kicad-project-from-a-template/)https://techexplorations.com/guides/kicad/3e/create-a-new-kicad-project-from-a-template/ and [Vlad's guide to PCB facilities in J233](PCBPrototypes.md) to a certain extent in order to create the:
    [Project File](/hardware/pcb/StudentName2023-09-24.kicad_pro)
    [Schematic File](/hardware/pcb/StudentName2023-09-24.kicad_sch)
-   [PCB File](/hardware/pcb/StudentName2023-09-24.kicad_brd)
+   [PCB File](/hardware/pcb/StudentName2023-09-24.kicad_pcb)
