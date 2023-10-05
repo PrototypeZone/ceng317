@@ -145,7 +145,7 @@ Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Blac
     [Battery Babysitter - BQ24075](https://www.sparkfun.com/products/13777)   
 
 ### CENG 322 Group Number
-1. Delivery Robot:      
+1. PetasosExpress Delivery Robot by Hermes Logistics    
    A William Margalik Optical odometer such as Breakout for ADNS2620 Optical Mouse Sensor   
    A Illia Popov [Ultrasonic Distance Sensor with I2C Interface](https://www.adafruit.com/product/4742) (0x57 doesn't share I2C 100%)   
    A Dylan Ashton [Proximity Sensor Breakout VCNL4040 (Qwiic)](https://www.sparkfun.com/products/15177) (0x60)   
