@@ -180,7 +180,11 @@ Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Blac
    B Kaiden Phillip [SparkFun RFID Qwiic Reader](https://www.sparkfun.com/products/15191) and [RFID Reader ID-12LA (125 kHz)](https://www.sparkfun.com/products/11827) (0x7D)   
 
 9.   
-10.   
+10. VitalTracker by LifesaverEngineeringTechs   
+   A Patrik Prenga [Pulse Oximeter and Heart Rate Sensor - MAX30101 & MAX32664 (Qwiic)](https://www.sparkfun.com/products/15219) (0x55)   
+   A Michael Carinci [High Accuracy MAX30205MTA MAX30205 Human Body Temperature Sensor](https://www.amazon.ca/Accuracy-MAX30205MTA-Temperature-Measuring-Wristband/dp/B09PZDVMSS) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x48, 0x4D)   
+   A Jason Macdonald [Triple Axis Accelerometer Breakout - KX134](https://www.sparkfun.com/products/17589) (0x1E, 0x1F alternate)   
+   Nicholas Rafuse  
 11. Group name?   
     B Ali Sunan Faizi [Qwiic MicroPressure Sensor](https://www.sparkfun.com/products/16476) (0x18)   
     B Steven Lambrinos [Distance Sensor Breakout - 4 Meter, VL53L1X (Qwiic)](https://www.sparkfun.com/products/14722) (0x29)   
@@ -198,14 +202,13 @@ Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Blac
     B Alfred Dowuona [Ambient Light Sensor - VEML6030 (Qwiic)](https://www.sparkfun.com/products/15436) (Default 0x48 but using jumper to choose 0x10)   
     B Ali Mohebi [Qwiic OLED Display (0.91 in, 128x32)](https://www.sparkfun.com/products/17153) ()   
     B Hassan Noorani [TFMini - Micro LiDAR Module (Qwiic)](https://www.sparkfun.com/products/14786) (0x10)  
+
  
 ## Fall 2023 Sensor/effector choices:
 8.  B Aaron Morris Jara [Person Sensor by Useful Sensors](https://www.sparkfun.com/products/21231) (0x62)
 11. A Muhammad Desai [SparkFun Humidity Sensor Breakout](https://www.sparkfun.com/products/16467) (0x70)
 16. A Gobind Matharu [SparkFun Human Presence Sensor Breakout - AK9753 (Qwiic)](https://www.sparkfun.com/products/14349) (0x64, jumper selectable to 0x65 or 0x67) changed to [Distance Sensor - 1.3 Meter, VL53L4CD (Qwiic)](https://www.sparkfun.com/products/18993) (0x29)
-17. A Patrik Prenga [Pulse Oximeter and Heart Rate Sensor - MAX30101 & MAX32664 (Qwiic)](https://www.sparkfun.com/products/15219) (0x55)
-19. A Jason Macdonald [Triple Axis Accelerometer Breakout - KX134](https://www.sparkfun.com/products/17589) (0x1E, 0x1F alternate)
-25. A Michael Carinci [High Accuracy MAX30205MTA MAX30205 Human Body Temperature Sensor](https://www.amazon.ca/Accuracy-MAX30205MTA-Temperature-Measuring-Wristband/dp/B09PZDVMSS) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x48, 0x4D)
+
 26. A Tajinder Notta [Qwiic Scale - NAU7802](https://www.sparkfun.com/products/15242) plus a Load Cell (0x2A)
 28. A David Ankrah [9DoF IMU Breakout - ICM-20948](https://www.sparkfun.com/products/15335) (Qwiic) (0x69) changed to [SGP40 Air Quality Sensor](https://www.adafruit.com/product/4829) (0x59)
 29. A Ishanjot Dhahan [Environmental Sensor Breakout - BME680](https://www.sparkfun.com/products/16466) (default 0x77, 0x76)
