@@ -14,7 +14,7 @@
 - Use KiCad to change the board to have your name and the current date.
 - Route the BJT as a switch circuit (Section 4.5 Page 192 in your Electronic Devices by Floyd) traces on the PCB.   
 - Save "project as" what you changed the name and date to.   
-- Use File->fabrication outputs->Gerbers (.gbr)...   
+- Use File->fabrication outputs->Gerbers (.gbr)... to Plot the Gerbers   
 - also "Generate Drill Files"->PTH and NPTH in single file   
 - Save project   
 - Upload to /hardware/pcb/ what you changed the name and date to as a zip (StudentName2023-09-24.zip) it should contain the defaults of:   
