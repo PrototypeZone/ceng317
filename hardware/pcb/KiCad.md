@@ -26,6 +26,6 @@
    6. B.Mask   
    7. Edge.Cuts   
    8. The drill file   
-      9. Your _pro file   
+   9. Your _pro file   
    10. Your _sch file   
    11. Your _pcb file   
