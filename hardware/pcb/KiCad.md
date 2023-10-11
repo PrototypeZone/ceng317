@@ -12,7 +12,7 @@
 -   [PCB File](/hardware/pcb/StudentName2023-09-24.kicad_pcb)   
 6. Download /hardware/pcb/StudentName2023-09-24.kicad_pro, pcb, and sch.   
 - Use KiCad to change the board to have your name and the current date.
-- Connect the BJT as a switch traces on the PCB.   
+- Connect the BJT as a switch circuit (Section 4.5 Page 192 in your Electronic Devices by Floyd) traces on the PCB.   
 - Save "project as" what you changed the name and date to.   
 - Use File->fabrication outputs->Gerbers (.gbr)...   
 - also "Generate Drill Files"->PTH and NPTH in single file   
