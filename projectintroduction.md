@@ -169,7 +169,7 @@ Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Blac
    B Robert Rowlison [SparkFun Ambient Light Sensor - VEML6030 (Qwiic)](https://www.sparkfun.com/products/15436) (0x48)   
    A Medi Muamba Nzambi [SparkFun Qwiic BMA400 Micro Triple Axis Accelerometer Breakout](https://www.sparkfun.com/products/21207) (0x14 (Default), 0x15)   
    B Damanpreet Singh [SparkFun Spectral Sensor Breakout - AS7262 Visible (Qwiic) - May change](https://www.sparkfun.com/products/14347) (0x49)   
-   Aduse Boateng (previous temperature)
+   Aduse Boateng (future temperature)
 6. myDisposal by Studious   
     A Tajinder Notta [Qwiic Scale - NAU7802](https://www.sparkfun.com/products/15242) plus a Load Cell (0x2A)   
     A Gobind Matharu [SparkFun Human Presence Sensor Breakout - AK9753 (Qwiic)](https://www.sparkfun.com/products/14349) (0x64, jumper selectable to 0x65 or 0x67) changed to [Distance Sensor - 1.3 Meter, VL53L4CD (Qwiic)](https://www.sparkfun.com/products/18993) (0x29)   
