@@ -175,13 +175,12 @@ Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Blac
     A Gobind Matharu [SparkFun Human Presence Sensor Breakout - AK9753 (Qwiic)](https://www.sparkfun.com/products/14349) (0x64, jumper selectable to 0x65 or 0x67) changed to [Distance Sensor - 1.3 Meter, VL53L4CD (Qwiic)](https://www.sparkfun.com/products/18993) (0x29)   
     A David Ankrah [9DoF IMU Breakout - ICM-20948](https://www.sparkfun.com/products/15335) (Qwiic) (0x69) changed to [SGP40 Air Quality Sensor](https://www.adafruit.com/product/4829) (0x59)   
     David Ajose   
-7.    
-8. [Inventory management by Innovisionaries](https://github.com/JaredCraig6148/InventoryManagement)   
+7. [Inventory management by Innovisionaries](https://github.com/JaredCraig6148/InventoryManagement)   
    A Lucas Szwagiel [BH1750 Light Intensity Sensor](https://www.addicore.com/products/bh1750-light-intensity-sensor) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x23, 0x5C)   
    B Jared Craig [SparkFun Photodetector Breakout - MAX30101 (Qwiic)](https://www.sparkfun.com/products/16474) (0x57) changing to: [HX711](https://www.circuito.io/app?components=9443,13879,200000) - [Load Cell Amplifier - HX711](https://www.sparkfun.com/products/13879) and [Load cell](https://www.sparkfun.com/products/13329)   
    A Julian Fragassi [SparkFun Qwiic Mini ToF Imager - VL53L5CX](https://www.sparkfun.com/products/19013) (0x52)   
    B Kaiden Phillip [SparkFun RFID Qwiic Reader](https://www.sparkfun.com/products/15191) and [RFID Reader ID-12LA (125 kHz)](https://www.sparkfun.com/products/11827) (0x7D)   
-
+8.    
 9.  [Cave Examination Bot by TeamBot](https://github.com/HassanNoorani5518/CaveExaminationBot)   
     B Adrian Portal Calcines [Spectral Sensor Breakout - AS7263 NIR (Qwiic)](https://www.sparkfun.com/products/14351) (0x49)   
     B Alfred Dowuona [Ambient Light Sensor - VEML6030 (Qwiic)](https://www.sparkfun.com/products/15436) (Default 0x48 but using jumper to choose 0x10)   
