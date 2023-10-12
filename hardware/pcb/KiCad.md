@@ -29,3 +29,12 @@
    9. Your _pro file   
    10. Your _sch file   
    11. Your _pcb file   
+Board can be made in house or by [OSHpark](https://oshpark.com/),  [MicroArt](https://microart.pcborders.com/), [Bittele](https://onlinequote.7pcb.com/), [JLC](https://jlcpcb.com/), [PCBway](https://www.pcbway.com/QuickOrderOnline.aspx); or [Seeedstudio](https://www.seeedstudio.com/fusion_pcb.html)   
+
+
+
+
+
+
+
+
