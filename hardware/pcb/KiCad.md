@@ -18,27 +18,27 @@
 11. also "Generate Drill Files"->PTH and NPTH in single file   
 12. Save project
 13. Use the Gerber Viewer to preview:
-   1. F_Cu.gtl
-   2. B_Cu.gbl
-   3. F_Silkscreen.gto
-   4. B_Silkscreen.gbo
-   5. F_Mask.gts
-   6. B_Mask.gbs
-   7. Edge_Cuts.gm1
-   8. .drl    
+    1. F_Cu.gtl
+    2. B_Cu.gbl
+    3. F_Silkscreen.gto
+    4. B_Silkscreen.gbo
+    5. F_Mask.gts
+    6. B_Mask.gbs
+    7. Edge_Cuts.gm1
+    8. .drl    
 14. Upload to /hardware/pcb/ what you changed the name and date to as a zip (StudentName2023-09-24.zip) it should contain the defaults of:   
-   1. F.Cu   
-   2. B.Cu   
-   3. F.Silkscreen   
-   4. B.Silkscreen   
-   5. F.Mask   
-   6. B.Mask   
-   7. Edge.Cuts   
-   8. The drill file   
-   9. Your _pro file   
-   10. Your _sch file   
-   11. Your _pcb file
-13. The board can be made in house or by [OSHpark](https://oshpark.com/),  [MicroArt](https://microart.pcborders.com/), [Bittele](https://onlinequote.7pcb.com/), [JLC](https://jlcpcb.com/), [PCBway](https://www.pcbway.com/QuickOrderOnline.aspx), [Seeedstudio](https://www.seeedstudio.com/fusion_pcb.html), or other alternatives.   
+    1. F.Cu   
+    2. B.Cu   
+    3. F.Silkscreen   
+    4. B.Silkscreen   
+    5. F.Mask   
+    6. B.Mask   
+    7. Edge.Cuts   
+    8. The drill file   
+    9. Your _pro file   
+    10. Your _sch file   
+    11. Your _pcb file
+15. The board can be made in house or by [OSHpark](https://oshpark.com/),  [MicroArt](https://microart.pcborders.com/), [Bittele](https://onlinequote.7pcb.com/), [JLC](https://jlcpcb.com/), [PCBway](https://www.pcbway.com/QuickOrderOnline.aspx), [Seeedstudio](https://www.seeedstudio.com/fusion_pcb.html), or other alternatives.   
 
 
 
