@@ -1,22 +1,21 @@
-# Troubleshooting 
-## Pre soldering Inspection
+# Pre soldering Inspection
 1. Visual Inspection:   
 Inspect the PCB for any visible shorts or copper imperfections from the production process.
 Check for any damage to the traces, or PCB.
 2. Power and Ground:   
 Ensure that the power and ground connections are correctly established for all components.
 Verify that the power supply voltage matches the requirements of the components.
-3. Consult Documentation:   
+3. Continuity Test:   
+Use a multimeter's continuity mode to verify the above and that there are no open circuits/breaks, or shorts in the
+traces.
+4. Consult Documentation:   
 Refer to datasheets and technical documentation for components to ensure correct usage and
 connections.
-4. Component Orientation:   
+5. Component Orientation:   
 Double-check that all components, including the LED and transistor are
 correctly oriented.
-6. Continuity Test:   
-Use a multimeter's continuity mode to verify that there are no open circuits or breaks in the
-traces.
-7. If all is well, proceed to begin with surface mount components followed by through hole components.
-## Post soldering Inspection Process adapted from BioBytes
+6. If all is well, proceed to begin with surface mount components followed by through hole components.
+# Post soldering Inspection Process adapted from BioBytes
 1. Visual Inspection:
 Inspect the soldered connections, components, and PCB for any visible solder bridges, cold
 solder joints, or misplaced components.
