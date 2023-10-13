@@ -64,10 +64,9 @@ In CENG 317, students learn how to create the embedded modules. In CENG 322, stu
     - 0 *Start* Red Shape down, Horn
     - If there is a false start X flag up as per [page 50](https://www.nsyc.net/wp-content/uploads/RC_SEMINAR_NSYC.pdf)
 - Autonomous Electric Skidsteer
-- Microwave
+- IoT Home Appliance
 - Traffic light
 - Traffic counter
-- IoT Home Appliance
 - Vending Machine
 - Book/Equipment Sign-out System
 - Air monitoring
