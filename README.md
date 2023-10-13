@@ -110,7 +110,7 @@ https://www.sparkfun.com/categories/tags/qwiic-distance
 https://www.sparkfun.com/categories/tags/qwiic-movement   
 https://www.sparkfun.com/categories/tags/qwiic-environmental   
 https://www.sparkfun.com/categories/tags/qwiic-other   
-When choosing a sensor/effector Consider your interest, cost, the I2C address, whether it duplicates something already available on the Sense Hat, and ease of development, for example:   
+When choosing a sensor/effector Consider your interest, cost, the I2C address, whether it duplicates something already available on the Sense Hat, and ease of development. Typiccal choices are I2C sensors/effectors, Dallas one wire and SPI sensors/effectors often require more harware software work, while simple On/Off digital sensors/effectors such as breakbeam, IR proximity, and capacitive touch are too simple unless multiples are considered. Some Qwiic options are problematic for example:   
 https://www.sparkfun.com/categories/tags/qwiic-gps   
 The 0x10 XA1110 GPS Breakout it not a good choice since we don't have access to a solid GPS signal in the classroom.   
 Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Black for GND, Red for V+, Blue for SDA, Yellow for SCL). Keep in mind the logic on the Raspberry Pi is 3.3V only.
@@ -119,7 +119,6 @@ Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Blac
 3. TSL2561 - Digital Luminosity/Lux/Light Sensor (0x39-floating, 0x29-gnd, or 0x49-3.3V)
 4. TCS34725 Colour Sensor (0x29)
 5. Total Dissolved Solids-ADC Converter (CQRSENTDS01 and ADS1115) (0x48, switchable to 0x49)
-6. ADXL-345 Accelerometer (0x53)
 7. TMP006 Contact-less Infrared Thermopile Sensor (0x40) obsolete
 8. MAX30102 Oximeter and Heart Rate Sensor (0x57)
 9. Using the [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495)
@@ -149,12 +148,9 @@ Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Blac
     [16 Output I/O Expander - SX1509](https://www.sparkfun.com/products/13601)   
     [Battery Babysitter - BQ24075](https://www.sparkfun.com/products/13777)   
 
-## Past sensors/effectors
-ADC needed for analog sensors   
-Relay or drivers required for higher current draw devices, freewheeling diodes for solenoids, consider buffers for servos   
+## Past sensor/effector address choices to prevent bus conflicts
+- Redudent (to the SenseHat) choices:   
 MAG3110 3-Axis Magnetometer (0x0E)   
-Si4713 FM Transmitter with RDS (0x11)   
-VCNL40x0 proximity sensor (0x13)   
 LIS3DH 3-axis accelerometer (0x18)   
 LSM303 Accelerometer & Magnetometer (0x19 for accelerometer and *0x1E for magnetometer)   
 MCP9808 temp sensor (0x1A)   
@@ -162,39 +158,48 @@ MMA845x 3-axis Accelerometer (0x1C)
 LSM9DS0 9-axis IMU (0x1D for Accel/Mag, *0x6A for Gyro)   
 *LSM303 Accelerometer & Magnetometer (0x19 for accelerometer and *0x1E for magnetometer)   
 FXOS8700 Accelerometer/Magnetometer (0x1F)   
-Chirp! Water sensor (0x20)   
 FXAS21002 Gyroscope (0x21)   
+BNO055 IMU (0x28)   
+HTU21D-F Humidity/Temp Sensor (0x40)   
+HDC1008 Humidity/Temp sensor (0x42)   
+SHT31 Humidity/Temp sensor (0x45)   
+TMP102 Temperature sensor (0x4A)   
+ADXL345 3-axis accelerometer (0x53)   
+AM2315 Humidity/Temp sensor (0x5C)   
+*LSM9DS0 9-axis IMU (0x1D for Accel/Mag, *0x6A for Gyro)   
+L3GD20H gyroscope (0x6B)   
+MS5607/MS5611 Barometric Pressure (0x76)   
+BME280 Temp/Barometric/Humidity (0x77)   
+- Suplemental (to the SenseHat) choices:   
+ADC needed for analog sensors   
+Relay or drivers required for higher current draw devices, freewheeling diodes for solenoids, consider buffers for servos   
+Si4713 FM Transmitter with RDS (0x11)   
+VCNL40x0 proximity sensor (0x13)   
+Chirp! Water sensor (0x20)   
 MCP23008 I2C GPIO expander (0x22)   
 MCP23017 I2C GPIO expander (0x23)   
 VL53L0x ToF distance (0x24 software selectable)   
-BNO055 IMU (0x28)   
 TCS34725 color sensor (0x29)   
 CAP1188 8-channel Capacitive Touch (0x2A)   
 FT6x06 Capacitive Touch Driver (0x38)   
 VEML6070 UV Index (0x39)   
 SSD1305 monochrome OLED (0x3C)   
 SSD1306 monochrome OLED (0x3D)   
-HTU21D-F Humidity/Temp Sensor (0x40)   
 STMPE610/STMPE811 Resistive Touch controller (0x41)   
-HDC1008 Humidity/Temp sensor (0x42)   
 ISL29125 Color Sensor (0x44)   
-SHT31 Humidity/Temp sensor (0x45)   
 TMP006 IR Temperature sensor (0x46)   
 TMP006 is a retired product https://www.sparkfun.com/products/retired/11859, it is also discontinued here https://www.adafruit.com/product/1296 and TMP007 here https://www.adafruit.com/product/2023, even Melexis Contact-less Infrared Sensor - MLX90614 3V - MLX90614ESF-BAA is out of stock https://www.adafruit.com/product/1747   
 TMP007 IR Temperature sensor (0x47)   
 YL-40 PCF8591 (0x48) https://www.adafruit.com/product/4648   
 TSL2561 light sensor (0x49)   
-TMP102 Temperature sensor (0x4A)   
 ADS1115 4-channel 16-bit ADC (0x4B)   
 INA219 High-Side DC Current/Voltage sensor (0x4C)   
 MB85RC I2C FRAM (0x50)   
 Nintendo Nunchuck controller (0x52)   
-ADXL345 3-axis accelerometer (0x53)   
 MAX3010x Pulse & Oximetry sensor (0x57)   
 TPA2016 I2C-controlled Amplifier (0x58)   
 DRV2605 Haptic Motor Driver (0x5A)   
 CCS811 VOC sensor (0x5B)   
-AM2315 Humidity/Temp sensor (0x5C)   
 MPR121 12-point capacitive touch sensor (0x5D)   
 TEA5767 Radio receiver (0x60)   
 Si5351A Clock Generator (0x61)   
@@ -203,14 +208,10 @@ MCP4725A2 12-bit DAC (0x64)
 MCP4725A3 12-bit DAC (0x66)   
 DS3231 RTC (0x68)   
 AMG8833 IR Thermal Camera Breakout (0x69)   
-*LSM9DS0 9-axis IMU (0x1D for Accel/Mag, *0x6A for Gyro)   
-L3GD20H gyroscope (0x6B)   
 TCA9548 1-to-8 I2C Multiplexer (0x70)   
 HT16K33 LED Matrix Driver (0x72)   
 IS31FL3731 144-LED CharliePlex driver (0x74)   
 PCA9685 16-channel PWM driver (0x75)   
-MS5607/MS5611 Barometric Pressure (0x76)   
-BME280 Temp/Barometric/Humidity (0x77)   
 PN532 NFC/RFID reader (Use UART pins 8:TX and 10:RX)   
 [Conversion of cheap optical mouse to robot odometer](https://blog.jgc.org/2012/09/conversion-of-cheap-optical-mouse-to.html)   
 [Further to the above](https://www.instructables.com/Interfacing-With-a-Mouse-Sensor-ADNS-3050/), [alternate](https://www.hackteria.org/wiki/Hacked_Optical_Mouse).   
