@@ -94,10 +94,10 @@ LPS25H Pressure/Temperature sensor (0x5c)
 HTS221 Humidity/Temperature sensor (0x5f)   
 
 ## Your individual project in CENG 317
-- Each student creates a custom interface board to fit between your Sense Hat and your Broadcom Single board computer to add at least one additional sensor or effector to their Raspberry Pi.
+- Each student creates a custom interface board to fit between their Sense Hat and their Broadcom Single board computer to add at least one additional sensor or effector to their Raspberry Pi. A case should be lasercut/3D printed to accomodate their boards, sensor, and computing device within the overall maximum project dimensions.
    ![pcbstacking](media/pcbstacking.png)
 - Standoffs, screws to be specified on [Bill Of Materials](hardware/bom.md)   
-- Although it is not always the case, if all the students in a group formed in CENG 322 software project are also in the same section in CENG 317 hardware project, the students may combine their designs into one PCB design of which multiple are made. This is also an opportunity to ensure that code written can operate with multi threading.
+- Although it is not always the situation, if all the students in a group formed in CENG 322 software project are also in the same section in CENG 317 hardware project, the students may combine their designs into one PCB design of which multiple are made. This is also an opportunity to ensure that code written can operate with multi threading.
 - Ideally the PCB would comply with the [Raspberry Pi Hardware Attached on Top specifications](https://github.com/raspberrypi/hats) including an [EEPROM](https://www.digikey.ca/en/products/base-product/onsemi/488/CAT24C256/56536).
 - It will include a [Stacking Header](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1979/6238003).
 - It will include a [Qwiic socket](https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-14417/7652746) ([alternate equivalent part](https://www.digikey.ca/en/products/detail/jst-sales-america-inc/SM04B-SRSS-TB/926710))to make use of [Qwiic Cables](https://www.digikey.ca/en/products/detail/sparkfun-electronics/KIT-15081/9770723).
