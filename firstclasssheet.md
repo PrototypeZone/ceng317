@@ -12,4 +12,4 @@
 | I2C address:                         |           |
 | A link to where you will buy it from:|           |
 ## Possible choices:   
-See [Project Introduction](https://github.com/PrototypeZone/ceng317/blob/main/projectintroduction.md)   
+See [Project Introduction](https://github.com/PrototypeZone/ceng317/blob/main/README.md)   
