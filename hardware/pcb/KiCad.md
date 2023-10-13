@@ -26,7 +26,7 @@
     6. B_Mask.gbs
     7. Edge_Cuts.gm1
     8. .drl    
-14. Upload to /hardware/pcb/ what you changed the name and date to as a zip (StudentName2023-09-24.zip) it should contain the defaults of:   
+14. Upload your work in a zip file to your /hardware/pcb/ folder in the PrototypeZone organisation. The name of the zip should be in the format of your changed name and date (StudentName2023-09-24.zip) and it should contain the 3 KiCad files you worked on, the combined drill file, and the default Gerber plots as per the following list:   
     1. F.Cu   
     2. B.Cu   
     3. F.Silkscreen   
@@ -38,7 +38,9 @@
     9. Your _pro file   
     10. Your _sch file   
     11. Your _pcb file
-15. The board can be made [in house](/hardware/pcb/PCBPrototypes.md) or by [OSHpark](https://oshpark.com/),  [MicroArt](https://microart.pcborders.com/), [Bittele](https://onlinequote.7pcb.com/), [JLC](https://jlcpcb.com/), [PCBway](https://www.pcbway.com/QuickOrderOnline.aspx), [Seeedstudio](https://www.seeedstudio.com/fusion_pcb.html), or other alternatives.   
+15. Once the professor knows that your zip file has been uploaded correctly they will send the class set to the lab next door to be made [in house](/hardware/pcb/PCBPrototypes.md).
+16. When the completed PCB is available,
+17. Further iterations of the board can be made [in house](/hardware/pcb/PCBPrototypes.md) or by [OSHpark](https://oshpark.com/),  [MicroArt](https://microart.pcborders.com/), [Bittele](https://onlinequote.7pcb.com/), [JLC](https://jlcpcb.com/), [PCBway](https://www.pcbway.com/QuickOrderOnline.aspx), [Seeedstudio](https://www.seeedstudio.com/fusion_pcb.html), or other alternatives.   
 
 
 
