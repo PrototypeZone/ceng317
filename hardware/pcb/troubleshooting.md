@@ -1,4 +1,22 @@
-# Troubleshooting Process adapted from BioBytes
+# Troubleshooting 
+## Pre soldering Inspection
+1. Visual Inspection:   
+Inspect the PCB for any visible shorts or copper imperfections from the production process.
+Check for any damage to the traces, or PCB.
+2. Power and Ground:   
+Ensure that the power and ground connections are correctly established for all components.
+Verify that the power supply voltage matches the requirements of the components.
+3. Consult Documentation:   
+Refer to datasheets and technical documentation for components to ensure correct usage and
+connections.
+4. Component Orientation:   
+Double-check that all components, including the LED and transistor are
+correctly oriented.
+6. Continuity Test:   
+Use a multimeter's continuity mode to verify that there are no open circuits or breaks in the
+traces.
+7. If all is well, proceed to begin with surface mount components followed by through hole components.
+## Post soldering Inspection Process adapted from BioBytes
 1. Visual Inspection:
 Inspect the soldered connections, components, and PCB for any visible solder bridges, cold
 solder joints, or misplaced components.
@@ -10,7 +28,7 @@ Verify that the power supply voltage matches the requirements of the components.
 Refer to datasheets and technical documentation for components to ensure correct usage and
 connections.
 4. Component Orientation:
-Double-check that all components, including the LED, ADXL345 sensor, and resistors, are
+Double-check that all components, including the LED, sensors/effectors, and resistors, are
 correctly oriented and soldered in the right positions.
 5. Soldering Quality:
 Reheat any suspicious solder joints to ensure proper bonding and conductivity.
@@ -31,7 +49,7 @@ Check the sender's address and the Raspberry Pi's I2C settings in the software c
 If the LED is not blinking as expected, review the software code controlling the LED.
 Confirm that the GPIO pin settings and blinking pattern are correctly programmed.
 11. Sensor Data:
-If the LED behaviour is influenced by the ADXL345 sensor's data, ensure that the sensor is
+If the LED behaviour is influenced by the sensor or effector's use, ensure that the sensor is
 correctly connected and functioning.
 Check if the sensor is providing accurate acceleration data to the Raspberry Pi.
 12. Component Replacement:
