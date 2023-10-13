@@ -99,7 +99,7 @@ HTS221 Humidity/Temperature sensor (0x5f)
 - Ideally it would comply with the [Raspberry Pi Hardware Attached on Top specifications](https://github.com/raspberrypi/hats) including an [EEPROM](https://www.digikey.ca/en/products/base-product/onsemi/488/CAT24C256/56536).
 - It will include a [Stacking Header](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1979/6238003).
 - It will include a [Qwiic socket](https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-14417/7652746) to make use of [Qwiic Cables](https://www.digikey.ca/en/products/detail/sparkfun-electronics/KIT-15081/9770723).
-- Use [KiCad 6](https://github.com/KiCad/kicad-source-mirror/releases/download/6.0.10/kicad-6.0.10-x86_64.exe)
+- Use [KiCad](https://github.com/PrototypeZone/ceng317/tree/main/hardware/pcb)
 - Standoffs, screws to be specified on [Bill Of Materials](hardware/bom.md)   
 
 ## Additional sensor/effector options include:
