@@ -1,13 +1,13 @@
 # Project Introduction
 
 ## Weeks
-1. First Class Sheet
-2. Project Selection (Contact me via course messages if you have yet to choose one)
+1. [First Class Sheet](firstclasssheet.md)
+2. Project Selection (Contact me via course messages if you have yet to choose one on the discussion board)
 3. [Bill Of Materials](hardware/bom.md) (and 3D printing) remember for next week to bring safety glasses if you don't already wear eyeglasses, parts kit, as well as Raspberry Pi kit every class from next week on.
    ![pcbstacking](media/pcbstacking.png)
 4. Project Roadmap (upload tsv file to hardware folder), bring safety glasses if you don't already wear eyeglasses, parts kit, as well as Raspberry Pi kit every class from now on.
 5. Proof of purchase, (KiCad for Monday section)
-6. KiCad (incl. BJT as a switch circuit Section 4.5 Page 192 in your Electronic Devices by Floyd) for Wednesday section (Thanksgiving)
+6. [KiCad](/hardware/pcb/) (incl. BJT as a switch circuit Section 4.5 Page 192 in your Electronic Devices by Floyd) for Wednesday section (Thanksgiving)
 7. Soldering (each group gets a practice board), CorelDraw
 8. Parts arrival
 9. PCB Assembly and testing
