@@ -4,7 +4,6 @@
 1. [First Class Sheet](firstclasssheet.md)
 2. [Project Selection](https://github.com/PrototypeZone/ceng317/blob/main/fall2023projects.md) (Contact me via course messages if you have yet to choose one on the discussion board)
 3. [Bill Of Materials](hardware/bom.md) (and 3D printing) remember for next week to bring safety glasses if you don't already wear eyeglasses, parts kit, as well as Raspberry Pi kit every class from next week on.
-   ![pcbstacking](media/pcbstacking.png)
 4. Project Roadmap (upload tsv file to hardware folder), bring safety glasses if you don't already wear eyeglasses, parts kit, as well as Raspberry Pi kit every class from now on.
 5. Proof of purchase, (KiCad for Monday section)
 6. [KiCad](/hardware/pcb/) (incl. BJT as a switch circuit Section 4.5 Page 192 in your Electronic Devices by Floyd) for Wednesday section (Thanksgiving)
@@ -95,12 +94,16 @@ LSM9DS1 IMU magnetometer 0x1c(0x1e) and accelerometer/gyroscope 0x6a(0x6b)
 LPS25H Pressure/Temperature sensor (0x5c)   
 HTS221 Humidity/Temperature sensor (0x5f)   
 
-## Your Custom interface board to fit between your Sense Hat and your Broadcom Single board computer
-- Ideally it would comply with the [Raspberry Pi Hardware Attached on Top specifications](https://github.com/raspberrypi/hats) including an [EEPROM](https://www.digikey.ca/en/products/base-product/onsemi/488/CAT24C256/56536).
-- It will include a [Stacking Header](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1979/6238003).
-- It will include a [Qwiic socket](https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-14417/7652746) to make use of [Qwiic Cables](https://www.digikey.ca/en/products/detail/sparkfun-electronics/KIT-15081/9770723).
-- Use [KiCad](https://github.com/PrototypeZone/ceng317/tree/main/hardware/pcb)
+## Your individual project in CENG 317
+- Each student creates a custom interface board to fit between your Sense Hat and your Broadcom Single board computer to add at least one additional sensor or effector to their Raspberry Pi.
+   ![pcbstacking](media/pcbstacking.png)
 - Standoffs, screws to be specified on [Bill Of Materials](hardware/bom.md)   
+- Although it is not always the case, if all the students in a group formed in CENG 322 software project are also in the same section in CENG 317 hardware project, the students may combine their designs into one PCB design of which multiple are made. This is also an opportunity to ensure that code written can operate with multi threading.
+- Ideally the PCB would comply with the [Raspberry Pi Hardware Attached on Top specifications](https://github.com/raspberrypi/hats) including an [EEPROM](https://www.digikey.ca/en/products/base-product/onsemi/488/CAT24C256/56536).
+- It will include a [Stacking Header](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1979/6238003).
+- It will include a [Qwiic socket](https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-14417/7652746) ([alternate equivalent part](https://www.digikey.ca/en/products/detail/jst-sales-america-inc/SM04B-SRSS-TB/926710))to make use of [Qwiic Cables](https://www.digikey.ca/en/products/detail/sparkfun-electronics/KIT-15081/9770723).
+- Use [KiCad](https://github.com/PrototypeZone/ceng317/tree/main/hardware/pcb) for the design.
+- We also add: a spare header, a 2N4124 NPN transistor with a 2.2 kOhm resistor between pin 11 -- GPIO17 and the base of the transistor, connect the emitter to the ground, and connect an LED with a series 220 Ohm resistor on the collector side to 3.3V.
 
 ## Additional sensor/effector options include:
 https://www.sparkfun.com/categories/tags/qwiic-imaging   
@@ -108,9 +111,9 @@ https://www.sparkfun.com/categories/tags/qwiic-distance
 https://www.sparkfun.com/categories/tags/qwiic-movement   
 https://www.sparkfun.com/categories/tags/qwiic-environmental   
 https://www.sparkfun.com/categories/tags/qwiic-other   
-When choosing a sensor/effector Consider your interest, cost, the I2C address, for example:   
+When choosing a sensor/effector Consider your interest, cost, the I2C address, whether it duplicates something already available on the Sense Hat, and ease of development, for example:   
 https://www.sparkfun.com/categories/tags/qwiic-gps   
-0x10 XA1110 GPS Breakout, not a good choice since we don't have access to a solid GPS signal in the classroom.   
+The 0x10 XA1110 GPS Breakout it not a good choice since we don't have access to a solid GPS signal in the classroom.   
 Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Black for GND, Red for V+, Blue for SDA, Yellow for SCL). Keep in mind the logic on the Raspberry Pi is 3.3V only.
 1. [BH1750 16-bit Ambient Light Sensor](https://learn.adafruit.com/adafruit-bh1750-ambient-light-sensor?view=all) Default I2C address 0x23 (alternate 0x5C)
 2. SparkFun Qwiic OLED (0x3C for 128x32)
@@ -120,7 +123,8 @@ Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Blac
 6. ADXL-345 Accelerometer (0x53)
 7. TMP006 Contact-less Infrared Thermopile Sensor (0x40) obsolete
 8. MAX30102 Oximeter and Heart Rate Sensor (0x57)
-9. [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495)   
+9. Using the [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495)
+   - Redudent (to the SenseHat) choices:
     [9DoF IMU - MPU-9250](https://www.sparkfun.com/products/15335)   
     [6DoF IMU - LSM303C SparkFun Retired Product](https://www.sparkfun.com/products/retired/13303)   
     [6DoF IMU - LSM6DS3](https://www.sparkfun.com/products/18020)   
@@ -132,7 +136,8 @@ Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Blac
     [Barometric Pressure Sensor - MS5803-14BA](https://www.sparkfun.com/products/12909)   
     [Barometric Pressure Sensor - T5403 SparkFun Retired Product](https://www.sparkfun.com/products/retired/12039)   
     [Humidity and Temperature Sensor - Si7021](https://www.sparkfun.com/products/13763)   
-    [Digital Temperature Sensor - TMP102](https://www.sparkfun.com/products/13314)   
+    [Digital Temperature Sensor - TMP102](https://www.sparkfun.com/products/13314)
+   - Suplemental (to the SenseHat) choices:
     [Particle Sensor - MAX30105](https://www.sparkfun.com/products/16474)   
     [Air Quality Sensor - CCS811 SparkFun Retired Product](https://www.sparkfun.com/products/retired/14181)   
     [ToF Range Finder - VL6180](https://www.sparkfun.com/products/12785)   
@@ -211,4 +216,3 @@ PN532 NFC/RFID reader (Use UART pins 8:TX and 10:RX)
 [Conversion of cheap optical mouse to robot odometer](https://blog.jgc.org/2012/09/conversion-of-cheap-optical-mouse-to.html)   
 [Further to the above](https://www.instructables.com/Interfacing-With-a-Mouse-Sensor-ADNS-3050/), [alternate](https://www.hackteria.org/wiki/Hacked_Optical_Mouse).   
 
-Consider adding: a spare header, a 2N4124 NPN transistor with a 2.2 kOhm resistor between pin 11 -- GPIO17 and the base of the transistor, connect the emitter to the ground, and connect an LED with a series 220 Ohm resistor on the collector side to 3.3V.
