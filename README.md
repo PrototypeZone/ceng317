@@ -2,7 +2,7 @@
 
 ## Weeks
 1. [First Class Sheet](firstclasssheet.md)
-2. Project Selection (Contact me via course messages if you have yet to choose one on the discussion board)
+2. [Project Selection](https://github.com/PrototypeZone/ceng317/blob/main/fall2023projects.md) (Contact me via course messages if you have yet to choose one on the discussion board)
 3. [Bill Of Materials](hardware/bom.md) (and 3D printing) remember for next week to bring safety glasses if you don't already wear eyeglasses, parts kit, as well as Raspberry Pi kit every class from next week on.
    ![pcbstacking](media/pcbstacking.png)
 4. Project Roadmap (upload tsv file to hardware folder), bring safety glasses if you don't already wear eyeglasses, parts kit, as well as Raspberry Pi kit every class from now on.
