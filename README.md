@@ -123,7 +123,7 @@ Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Blac
 7. TMP006 Contact-less Infrared Thermopile Sensor (0x40) obsolete
 8. MAX30102 Oximeter and Heart Rate Sensor (0x57)
 9. Using the [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495)
-   - Redudent (to the SenseHat) choices:
+   - Redudent (to the SenseHat) choices:   
     [9DoF IMU - MPU-9250](https://www.sparkfun.com/products/15335)   
     [6DoF IMU - LSM303C SparkFun Retired Product](https://www.sparkfun.com/products/retired/13303)   
     [6DoF IMU - LSM6DS3](https://www.sparkfun.com/products/18020)   
@@ -136,7 +136,7 @@ Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Blac
     [Barometric Pressure Sensor - T5403 SparkFun Retired Product](https://www.sparkfun.com/products/retired/12039)   
     [Humidity and Temperature Sensor - Si7021](https://www.sparkfun.com/products/13763)   
     [Digital Temperature Sensor - TMP102](https://www.sparkfun.com/products/13314)
-   - Suplemental (to the SenseHat) choices:
+   - Suplemental (to the SenseHat) choices:   
     [Particle Sensor - MAX30105](https://www.sparkfun.com/products/16474)   
     [Air Quality Sensor - CCS811 SparkFun Retired Product](https://www.sparkfun.com/products/retired/14181)   
     [ToF Range Finder - VL6180](https://www.sparkfun.com/products/12785)   
