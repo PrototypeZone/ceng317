@@ -1,4 +1,4 @@
-# Pre soldering Inspection
+# Pre-soldering Inspection
 1. Visual Inspection:   
 Inspect the PCB for any visible shorts or copper imperfections from the production process.
 Check for any damage to the traces, or PCB.
@@ -15,7 +15,7 @@ connections.
 Double-check that all components, including the LED and transistor are
 correctly oriented.
 6. If all is well, proceed to begin with surface mount components followed by through hole components.
-# Post soldering Inspection Process adapted from BioBytes
+# Post-soldering Inspection Process adapted from BioBytes
 1. Visual Inspection:
 Inspect the soldered connections, components, and PCB for any visible solder bridges, cold
 solder joints, or misplaced components.
