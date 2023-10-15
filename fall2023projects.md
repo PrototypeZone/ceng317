@@ -38,7 +38,7 @@
 9.  [Cave Examination Bot by TeamBot](https://github.com/HassanNoorani5518/CaveExaminationBot)   
     B Adrian Portal Calcines [Spectral Sensor Breakout - AS7263 NIR (Qwiic)](https://www.sparkfun.com/products/14351) (0x49)   
     B Alfred Dowuona [Ambient Light Sensor - VEML6030 (Qwiic)](https://www.sparkfun.com/products/15436) (Default 0x48 but using jumper to choose 0x10)   
-    B Ali Mohebi [Qwiic OLED Display (0.91 in, 128x32)](https://www.sparkfun.com/products/17153) ()   
+    B Ali Mohebi [Qwiic OLED Display (SSD1306 0.91 in, 128x32)](https://www.sparkfun.com/products/17153) (0x3C)   
     B Hassan Noorani [TFMini - Micro LiDAR Module (Qwiic)](https://www.sparkfun.com/products/14786) (0x10)  
 10. [VitalTracker by LifesaverEngineeringTechs](https://github.com/MichaelCarinci0052/LifesaverEngineersVitalTracker)   
    A Patrik Prenga [Pulse Oximeter and Heart Rate Sensor - MAX30101 & MAX32664 (Qwiic)](https://www.sparkfun.com/products/15219) (0x55)   
