@@ -11,8 +11,10 @@
 -   [Schematic File](/hardware/pcb/StudentName2023-09-24.kicad_sch)
 -   [PCB File](/hardware/pcb/StudentName2023-09-24.kicad_pcb)   
 6. Download the above /hardware/pcb/StudentName2023-09-24.kicad_pro, pcb, and sch.
-7. Use KiCad to change the board to have your name and the current date.
-8. Route the BJT as a switch circuit (Section 4.5 Page 192 in your Electronic Devices by Floyd) traces on the PCB.   
+7. Use KiCad to change the board in the PCB view to have your name and the current date.
+8. Route the BJT as a switch circuit (Section 4.5 Page 192 in your Electronic Devices by Floyd) traces on the PCB. To do this:
+   - Click on the the end of say a resistor and press 'x' on the keyboard.
+   - Then click on the other terminal that it should be connected to.
 9. Save "project as" what you changed the name and date to.   
 10. Use File->fabrication outputs->Gerbers (.gbr)... to Plot the Gerbers   
 11. also "Generate Drill Files"->PTH and NPTH in single file   
