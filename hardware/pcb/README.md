@@ -11,16 +11,17 @@
 -   [Schematic File](/hardware/pcb/StudentName2023-09-24.kicad_sch)
 -   [PCB File](/hardware/pcb/StudentName2023-09-24.kicad_pcb)   
 6. Download the above /hardware/pcb/StudentName2023-09-24.kicad_pro, pcb, and sch.
-7. Use KiCad to change the board in the PCB view to have your name and the current date.
-8. Route the BJT as a switch circuit (Section 4.5 Page 192 in your Electronic Devices by Floyd) traces on the PCB. To do this:
+7. Use KiCad to open the _pro project file, then navigate to opening the PCB file.
+8. Change the board in the PCB view to have your name and the current date.
+9. Route the BJT as a switch circuit (Section 4.5 Page 192 in your Electronic Devices by Floyd) traces on the PCB. To do this:
    - Click on the the end of say a resistor and press 'x' on the keyboard.
    - Then click on the other terminal that it should be connected to.
    - The ground connections inside the connector pins are already made on the Raspberry Pi board, you do not need to make them on your board.
-9. Save "project as" what you changed the name and date to.   
-10. Use File->fabrication outputs->Gerbers (.gbr)... to Plot the Gerbers   
-11. also "Generate Drill Files"->PTH and NPTH in single file   
-12. Save project
-13. Use the Gerber Viewer to preview:
+10. Save "project as" what you changed the name and date to.   
+11. Use File->fabrication outputs->Gerbers (.gbr)... to Plot the Gerbers   
+12. also "Generate Drill Files"->PTH and NPTH in single file   
+13. Save project
+14. Use the Gerber Viewer to preview:
     1. F_Cu.gtl
     2. B_Cu.gbl
     3. F_Silkscreen.gto
@@ -29,7 +30,7 @@
     6. B_Mask.gbs
     7. Edge_Cuts.gm1
     8. .drl    
-14. Upload your work in a zip file to your /hardware/pcb/ folder in the PrototypeZone organisation. The name of the zip should be in the format of your changed name and date (StudentName2023-09-24.zip) and it should contain the 3 KiCad files you worked on, the combined drill file, and the default Gerber plots as per the following list:   
+15. Upload your work in a zip file to your /hardware/pcb/ folder in the PrototypeZone organisation. The name of the zip should be in the format of your changed name and date (StudentName2023-09-24.zip) and it should contain the 3 KiCad files you worked on, the combined drill file, and the default Gerber plots as per the following list:   
     1. F.Cu   
     2. B.Cu   
     3. F.Silkscreen   
@@ -41,9 +42,9 @@
     9. Your _pro file   
     10. Your _sch file   
     11. Your _pcb file
-15. Once the professor knows that your zip file has been uploaded correctly they will send the class set to the lab next door to be made [in house](/hardware/pcb/PCBPrototypes.md).
-16. When the completed PCB is available, proceed to [inspect it](/hardware/pcb/inspection.md).
-17. Further iterations of the board can be made [in house](/hardware/pcb/PCBPrototypes.md) or by [OSHpark](https://oshpark.com/),  [MicroArt](https://microart.pcborders.com/), [Bittele](https://onlinequote.7pcb.com/), [JLC](https://jlcpcb.com/), [PCBway](https://www.pcbway.com/QuickOrderOnline.aspx), [Seeedstudio](https://www.seeedstudio.com/fusion_pcb.html), or other alternatives.   
+16. Once the professor knows that your zip file has been uploaded correctly they will send the class set to the lab next door to be made [in house](/hardware/pcb/PCBPrototypes.md).
+17. When the completed PCB is available, proceed to [inspect it](/hardware/pcb/inspection.md).
+18. Further iterations of the board can be made [in house](/hardware/pcb/PCBPrototypes.md) or by [OSHpark](https://oshpark.com/),  [MicroArt](https://microart.pcborders.com/), [Bittele](https://onlinequote.7pcb.com/), [JLC](https://jlcpcb.com/), [PCBway](https://www.pcbway.com/QuickOrderOnline.aspx), [Seeedstudio](https://www.seeedstudio.com/fusion_pcb.html), or other alternatives.   
 
 
 
