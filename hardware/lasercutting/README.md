@@ -15,5 +15,5 @@
 1. Download both the sch and brd files.
 2. Import the Eagle files in KiCad.
 3. Auto match the layers.
-4. Print the brd to pdf.
+4. Print the brd to pdf. (All or just Edge.Cuts and F.Adhesive?)
 5. Import the pdf into CorelDraw.
