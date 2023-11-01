@@ -9,7 +9,9 @@
 1. Open in paint.
 2. Select all.
 3. Right click.
-4. Select Invert Selection.
+4. Select Invert selection/color.
+5. Ctrl-C in Paint, Ctrl-V in CorelDraw.
+6. Right click and choose Order->Send to back of page.
 
 ### To import sch/brd files
 1. Download both the sch and brd files.
@@ -17,4 +19,4 @@
 3. Auto match the layers.
 4. Print the brd to pdf. (All or just Edge.Cuts and F.Adhesive?)
 5. Import the pdf into CorelDraw.
-6. Right click and choose Oreder->Send to back of page.
+6. Right click and choose Order->Send to back of page.
