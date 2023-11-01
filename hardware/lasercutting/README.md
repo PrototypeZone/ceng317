@@ -17,3 +17,4 @@
 3. Auto match the layers.
 4. Print the brd to pdf. (All or just Edge.Cuts and F.Adhesive?)
 5. Import the pdf into CorelDraw.
+6. Right click and choose Oreder->Send to back of page.
