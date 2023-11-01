@@ -8,7 +8,8 @@
 ### To invert Sparkfun images
 1. Open in paint.
 2. Select all.
-3. Invert.
+3. Right click.
+4. Select Invert Selection.
 
 ### To import sch/brd files
 1. Download both the sch and brd files.
