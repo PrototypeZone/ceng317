@@ -6,6 +6,8 @@
  *  @version CENG153, serial: 1a2b3c4d
  *  adapted from http://wiringpi.com/examples/blink/
  *  and from https://projects.drogon.net/raspberry-pi/examples/
+ *  Originally used on Student Sense Hat on Pi 2B see:
+ *  https://pinout.xyz/pinout/pin11_gpio17/
  *  @author Gordon Henderson
  *  @author krismedri
  *  @author Your Name
