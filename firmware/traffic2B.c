@@ -1,9 +1,18 @@
-//adapted from http://wiringpi.com/examples/blink/
-//and from https://projects.drogon.net/raspberry-pi/examples/
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include <wiringPi.h>
+/** Toggles LED on Pi interface board
+ *  @version CENG153, serial: 1a2b3c4d
+ *  adapted from http://wiringpi.com/examples/blink/
+ *  and from https://projects.drogon.net/raspberry-pi/examples/
+ *  @author Gordon Henderson
+ *  @author krismedri
+ *  @author Your Name
+ *  @since 2023-11-06
+ *  @param void
+ *  @return int but for(;;) so never
+*/
 int main (void)
 {
 	if (wiringPiSetup () == -1)
