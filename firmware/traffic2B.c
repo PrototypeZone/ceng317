@@ -1,3 +1,6 @@
+//compile and run via:
+//gcc -Wall -o traffic2B traffic2B.c -lwiringPi
+//sudo ./traffic2B
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
@@ -47,6 +50,3 @@ int main (void)
 	}
 	return 0 ;
 }
-//compile and run via:
-//gcc -Wall -o traffic2B traffic2B.c -lwiringPi
-//sudo ./traffic2B
