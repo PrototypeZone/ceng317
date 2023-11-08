@@ -16,8 +16,8 @@ Double-check that all components, including the LED and transistor are
 correctly oriented.
 6. If all is well, proceed to begin with surface mount components followed by through hole components.
 # Space constraints
-1. The LED should be on its side as per the KiCad PCB design file.
-2. Please note that for the transistor you only have about 1 cm of space.
+1. The LED should be on its side as per the KiCad PCB design file.   
+2. Please note that for the transistor you only have about 1 cm of space.   
    ![transistorspace.jpg](transistorspace.jpg)
 # Post-soldering Inspection Process adapted from BioBytes
 1. Visual Inspection:
