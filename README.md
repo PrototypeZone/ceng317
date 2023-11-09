@@ -109,10 +109,12 @@ HTS221 Humidity/Temperature sensor (0x5f)
 ## Additional sensor/effector options include:
 https://www.sparkfun.com/categories/tags/qwiic-imaging   
 https://www.sparkfun.com/categories/tags/qwiic-distance   
-https://www.sparkfun.com/categories/tags/qwiic-movement   
 https://www.sparkfun.com/categories/tags/qwiic-environmental   
 https://www.sparkfun.com/categories/tags/qwiic-other   
-When choosing a sensor/effector Consider your interest, cost, the I2C address, whether it duplicates something already available on the Sense Hat, and ease of development. Typiccal choices are I2C sensors/effectors, Dallas one wire and SPI sensors/effectors often require more harware software work, while simple On/Off digital sensors/effectors such as breakbeam, IR proximity, and capacitive touch are too simple unless multiples are considered. Some Qwiic options are problematic for example:   
+When choosing a sensor/effector Consider your interest, cost, the I2C address, whether it duplicates something already available on the Sense Hat, and ease of development.   
+The following IMUs, Accel/Magnet/Gyros duplicate SenseHat functionality:    
+https://www.sparkfun.com/categories/tags/qwiic-movement   
+Typical choices are I2C sensors/effectors, Dallas one wire and SPI sensors/effectors often require more harware software work, while simple On/Off digital sensors/effectors such as breakbeam, IR proximity, and capacitive touch are too simple unless multiples are considered. Some Qwiic options are problematic for example:   
 https://www.sparkfun.com/categories/tags/qwiic-gps   
 The 0x10 XA1110 GPS Breakout it not a good choice since we don't have access to a solid GPS signal in the classroom.   
 Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Black for GND, Red for V+, Blue for SDA, Yellow for SCL). Keep in mind the logic on the Raspberry Pi is 3.3V only.
