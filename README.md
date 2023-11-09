@@ -111,7 +111,7 @@ https://www.sparkfun.com/categories/tags/qwiic-imaging
 https://www.sparkfun.com/categories/tags/qwiic-distance   
 https://www.sparkfun.com/categories/tags/qwiic-environmental   
 https://www.sparkfun.com/categories/tags/qwiic-other   
-When choosing a sensor/effector consider your interest, cost, the I2C address, ease of development, and whether it duplicates something already available on the Sense Hat.   
+When choosing a sensor/effector consider your interest, cost, availability (in stock vs backordered), the I2C address, ease of development, and whether it duplicates something already available on the Sense Hat.   
 The following IMUs, Accel/Magnet/Gyros duplicate SenseHat functionality:    
 https://www.sparkfun.com/categories/tags/qwiic-movement   
 Typical choices are I2C sensors/effectors, Dallas one wire and SPI sensors/effectors often require more harware software work, while simple On/Off digital sensors/effectors such as breakbeam, IR proximity, and capacitive touch are too simple unless multiples are considered. Some Qwiic options are problematic for example:   
