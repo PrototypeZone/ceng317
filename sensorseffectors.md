@@ -36,8 +36,7 @@ HTS221 Humidity/Temperature sensor (0x5f)
 
 ### Qwiic mounting holes 0.8" apart
 1.  SGP40 Air
-2.  ENS160 Air quality (the replacement for the popular, but now-discontinued CCS811 https://www.adafruit.com/product/5606)
-3.  ENS160/BME280 Air quality, THP
+2.  ENS160 Air quality (the replacement for the popular, but now-discontinued CCS811 https://www.adafruit.com/product/5606), also available as ENS160/BME280 Air quality, THP
 4.  BME680 Gas, Temp Humid Pressure
 5.  4245 PSOC DC Motor
 6.  4245 PSOC Stepper Motor
