@@ -16,7 +16,7 @@
 9. Route the BJT as a switch circuit (Section 4.5 Page 192 in your Electronic Devices by Floyd) traces on the PCB. To do this:
    - Click on the the end of say a resistor and press 'x' on the keyboard.
    - Then click on the other terminal that it should be connected to.
-   - The ground connections inside the connector pins are already made on the Raspberry Pi board, you do not need to make them on your board.
+   - Consider ease of soldering.
 10. Save "project as" what you changed the name and date to.   
 11. Use File->fabrication outputs->Gerbers (.gbr)... to Plot the Gerbers   
 12. also "Generate Drill Files"->PTH and NPTH in single file   
