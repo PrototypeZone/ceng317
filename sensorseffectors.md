@@ -53,28 +53,28 @@ HTS221 Humidity/Temperature sensor (0x5f)
 21. VL53L5CX ToF
 22. OPT4048DTSR Color
 
-### no mount 
+### No mount 
 MAX30101 & MAX32664 https://www.sparkfun.com/products/15219
 
-### mounting holes 44mm wide, 9mm height
+### Mounting holes 44mm wide, 9mm height
 SparkFun Qwiic OLED (0x3C for 128x32) https://www.sparkfun.com/products/17153
 
-### mounting holes 1.3" wide, .8" height
+### Mounting holes 1.3" wide, .8" height
 CAP1203 touch https://www.sparkfun.com/products/15344
 
-### mounting holes 1" wide, .7" height
+### Mounting holes 1" wide, .7" height
 HX711 Scale https://www.sparkfun.com/products/13879
 
 ### Mounting holes .7" wide
 AK9753 Human https://www.sparkfun.com/products/14349
 
-### mounting holes 1.2" wide, 1.6" height (30.48mm x 40.64mm)
+### Mounting holes 1.2" wide, 1.6" height (30.48mm x 40.64mm)
 zio oled https://www.sparkfun.com/products/15890
 
-### mounting holes .8" wide, 1.2" height (20.32mm x 30.48mm) 
+### Mounting holes .8" wide, 1.2" height (20.32mm x 30.48mm) 
 NAU7802 scale https://www.sparkfun.com/products/15242 and load cell?
 
-### mounting holes 2.05" wide, .8" height (52.07mm x 20.32mm)
+### Mounting holes 2.05" wide, .8" height (52.07mm x 20.32mm)
 Relay https://www.sparkfun.com/products/15093 and solenoid?
 
 ### Need to find the footprints, perhaps using KiCad to import Eagle files
