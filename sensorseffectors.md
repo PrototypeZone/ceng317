@@ -2,11 +2,16 @@
 When choosing a sensor/effector consider your interest, cost (of it and additional components required), availability (in stock vs backordered), the I2C address, ease of development, and whether it duplicates something already available on the Sense Hat.   
 The following IMUs, Accel/Magnet/Gyros duplicate SenseHat functionality:    
 https://www.sparkfun.com/categories/tags/qwiic-movement   
-Typical choices are I2C sensors/effectors, Dallas one wire and SPI sensors/effectors often require more hardware/software work, while simple On/Off digital sensors/effectors such as breakbeam, IR proximity, and capacitive touch are too simple unless multiples are considered. Some Qwiic options are problematic for example:   
+Typical choices are I2C sensors/effectors, Dallas one wire and SPI sensors/effectors often require more hardware/software work, while simple On/Off digital sensors/effectors such as breakbeam, IR proximity, and capacitive touch are too simple unless multiples are considered. Examples:   
+https://www.sparkfun.com/categories/tags/qwiic-imaging   
+https://www.sparkfun.com/categories/tags/qwiic-distance   
+https://www.sparkfun.com/categories/tags/qwiic-environmental   
+https://www.sparkfun.com/categories/tags/qwiic-other   
+However some Qwiic options are problematic for example:   
 https://www.sparkfun.com/categories/tags/qwiic-gps   
 The 0x10 XA1110 GPS Breakout it not a good choice since we don't have access to a solid GPS signal in the classroom.   
 Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Black for GND, Red for V+, Blue for SDA, Yellow for SCL). Keep in mind the logic on the Raspberry Pi is 3.3V only.   
-Note: Some Qwiic breakout boards requires additional connections.
+Note: Some Qwiic breakout boards requires additional connections.   
 
 ## Your Existing Sense Hat
 In addition to power and ground the sense hat uses:   
