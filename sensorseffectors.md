@@ -58,28 +58,28 @@ HTS221 Humidity/Temperature sensor (0x5f)
 22. OPT4048DTSR Color
 
 ### No mount 
-MAX30101 & MAX32664 https://www.sparkfun.com/products/15219
-
-### Mounting holes 44mm wide, 9mm height
-SparkFun Qwiic OLED (0x3C for 128x32) https://www.sparkfun.com/products/17153
-
-### Mounting holes 1.3" wide, .8" height
-CAP1203 touch https://www.sparkfun.com/products/15344
-
-### Mounting holes 1" wide, .7" height
-HX711 Scale https://www.sparkfun.com/products/13879
-
-### Mounting holes .7" wide
-AK9753 Human https://www.sparkfun.com/products/14349
+23. MAX30101 & MAX32664 https://www.sparkfun.com/products/15219
 
 ### Mounting holes 1.2" wide, 1.6" height (30.48mm x 40.64mm)
-zio oled https://www.sparkfun.com/products/15890
+24. zio oled https://www.sparkfun.com/products/15890
 
 ### Mounting holes .8" wide, 1.2" height (20.32mm x 30.48mm) 
-NAU7802 scale https://www.sparkfun.com/products/15242 and load cell?
+25. NAU7802 scale https://www.sparkfun.com/products/15242 and load cell?
 
 ### Mounting holes 2.05" wide, .8" height (52.07mm x 20.32mm)
-Relay https://www.sparkfun.com/products/15093 and solenoid?
+26. Relay https://www.sparkfun.com/products/15093 and solenoid?
+
+### Mounting holes 44mm wide, 9mm height
+27. SparkFun Qwiic OLED (0x3C for 128x32) https://www.sparkfun.com/products/17153
+
+### Mounting holes 1.3" wide, .8" height
+28. CAP1203 touch https://www.sparkfun.com/products/15344
+
+### Mounting holes 1" wide, .7" height
+29. HX711 Scale https://www.sparkfun.com/products/13879
+
+### Mounting holes .7" wide
+30. AK9753 Human https://www.sparkfun.com/products/14349
 
 ### Need to find the footprints, perhaps using KiCad to import Eagle files
 1.  INA219 current https://www.adafruit.com/product/904
