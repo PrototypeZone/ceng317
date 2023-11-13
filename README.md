@@ -100,7 +100,7 @@ HTS221 Humidity/Temperature sensor (0x5f)
    ![pcbstacking](media/pcbstacking.png)
 - Standoffs, screws to be specified on [Bill Of Materials](hardware/bom.md)   
 - Although it is not always the situation, if all the students in a group formed in CENG 322 software project are also in the same section in CENG 317 hardware project, the students may combine their designs into one PCB design of which multiple are made. This is also an opportunity to ensure that code written can operate with multi threading.
-- Ideally the PCB would comply with the [Raspberry Pi Hardware Attached on Top specifications](https://github.com/raspberrypi/hats) including an [EEPROM](https://www.digikey.ca/en/products/base-product/onsemi/488/CAT24C256/56536).
+- Ideally the PCB would comply with the [Raspberry Pi Hardware Attached on Top specifications](https://github.com/raspberrypi/hats) including an [EEPROM](https://www.digikey.ca/en/products/base-product/onsemi/488/CAT24C256/56536) but the Raspberry Pi only checks I2C address 0x50 for eeproms so currently it is not designed for stacking hats.
 - It will include a [Stacking Header](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1979/6238003).
 - It will include a [Qwiic socket](https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-14417/7652746) ([alternate equivalent part](https://www.digikey.ca/en/products/detail/jst-sales-america-inc/SM04B-SRSS-TB/926710))to make use of [Qwiic Cables](https://www.digikey.ca/en/products/detail/sparkfun-electronics/KIT-15081/9770723).
 - Use [KiCad](https://github.com/PrototypeZone/ceng317/tree/main/hardware/pcb) for the design.
