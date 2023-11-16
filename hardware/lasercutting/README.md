@@ -3,7 +3,7 @@
 2. Software access off campus or on a laptop: myapps-> app stream-> Adobe Illustrator
 3. Use Adobe Illustrator to create a .ai file and add that plus the associated exported pdf file to the repository.
 - Red for inside cuts, green for outside cuts, blue for vector engrave, black for raster etch.
-- Get your design cut out of 3mm acrylic at [The Built Environment Labs - N114A Laser Cutting Lab](https://designandbuiltlabs.simplybook.me/v2/#book/category/2/service/11/count/1/) Tuesdays 9-3, other weekdays 8-4. Email your .ai design to fastlasercutter@humber.ca 
+- Get your design cut at [The Built Environment Labs - N114A Laser Cutting Lab](https://designandbuiltlabs.simplybook.me/v2/#book/category/2/service/11/count/1/) Tuesdays 9-3, other weekdays 8-4. Email your .ai design to fastlasercutter@humber.ca and ask them to please cut it out of clear 3mm acrylic letting them know to please give you at least 8 of the donut/spacers.   
 
 ### To invert Sparkfun images
 1. Open in paint.
