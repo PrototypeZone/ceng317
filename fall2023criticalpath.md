@@ -26,7 +26,7 @@ Fall 2023 Class Schedule (Tentative)
 |8   |2023-10-30|2023-11-01|Parts arrival (November 3 Midterm Grades Due)                                                             |5                    |
 |9   |2023-11-06|2023-11-08|PCB Assembly and testing                                                                                  |5                    |
 |10  |2023-11-13|2023-11-15|Coding                                                                                                    |5                    |
-|11  |2023-11-20|2023-11-22|Troubleshooting                                                                                           |5                    |
+|11  |2023-11-20|2023-11-22|Troubleshooting/Slides                                                                                           |5                    |
 |12  |2023-11-27|2023-11-29|Demonstration                                                                                             |15                    |
 |13  |2023-12-04|2023-12-06|Final Presentation                                                                                        |20                   |
 |14  |2023-12-11|2023-12-13|Build instructions (Hardware report)                                                                      |10                   |
