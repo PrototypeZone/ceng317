@@ -77,7 +77,8 @@ In CENG 317, students learn how to create the embedded modules. In CENG 322, stu
 - [Elevator](https://hackaday.com/2021/02/04/reverse-engineering-an-elevator-control-panel-results-in-clicky-goodness/)
 - [Prescription Kiosk](https://humber.ca/staff/announcement/spotrx-pharmacy-now-available-north-campus)
 - Fire protection system
-- Golf simulator   
+- Golf simulator
+- Trainable robot arm   
 
 ## Your Existing Sense Hat
 In addition to power and ground the sense hat uses:   
