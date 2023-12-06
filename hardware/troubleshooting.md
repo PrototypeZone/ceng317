@@ -36,5 +36,4 @@ printf("\nThe device at %#x identifies as %#x\n",DEV_ID,i2c_smbus_read_byte_data
 //Should provide
 //The device at 0x5c identifies as 0xbd
 ```
-
-What does your device at DEV_ID 0x0c identify as? Have you tried connecting your sensor directly to your pi without the circuit board?
+17. What does your device at DEV_ID 0x__ identify as?
