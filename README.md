@@ -69,6 +69,7 @@ In CENG 317, students learn how to create the embedded modules. In CENG 322, stu
 - Traffic counter
 - Vending Machine
 - Book/Equipment Sign-out System
+- Depending on how CENG 260 goes: https://github.com/alexa/avs-device-sdk, https://www.mashgin.com/product/mashgin-kiosk
 - Air monitoring
 - Next bus sign
 - Touchfree washroom
