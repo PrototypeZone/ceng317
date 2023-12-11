@@ -1,20 +1,21 @@
 # Troubleshooting your Hardware Project
 1. Do the labs of CENG 153 work?
-2. [Inspect your PCB](https://github.com/PrototypeZone/ceng317/blob/main/hardware/pcb/inspection.md)https://github.com/PrototypeZone/ceng317/blob/main/hardware/pcb/inspection.md
-3. Power down your pi properly ```sudo shudown -h now``` and wait for green activity LED to show disk activity, for the red power LED to turn off and then back on, then for the green LED to blink 10 times before removing power.
-4. Connect your sensor to your circuit board with a cable.
-5. Power up your Raspberry Pi
-6. ```i2cdetect -y 1```
-7. If address not shown, Power down your pi properly
-8. remove your circuit board
-9. Connect your sense hat
-10. Power up your Raspberry Pi
-11. ```i2cdetect -y 1```
-12. Should be showing the sense hat 6a 5f etc
-13. Power down your pi properly
-14. Connect your sensor directly [Raspberry pi pinout](https://pinout.xyz/) [QWIIC colour scheme](https://www.sparkfun.com/qwiic#faqs)
-15. ```i2cdetect -y 1```
-16. Look at the code for the humidity sensor on the sense hat https://github.com/davebm1/c-sense-hat/blob/main/humidity.c it first checks i2c_smbus_read_byte_data(fd, WHO_AM_I) look into what your sensor reports back.
+2. The image for the SD card is available [here](https://humberital-my.sharepoint.com/:u:/g/personal/mdrk0011_humber_ca/EWYsb95bC2RHuaZOORUl8VwB-CXncsMfPb_dhYUNbys-Aw?e=jIsr3X).
+3. [Inspect your PCB](https://github.com/PrototypeZone/ceng317/blob/main/hardware/pcb/inspection.md)https://github.com/PrototypeZone/ceng317/blob/main/hardware/pcb/inspection.md
+4. Power down your pi properly ```sudo shudown -h now``` and wait for green activity LED to show disk activity, for the red power LED to turn off and then back on, then for the green LED to blink 10 times before removing power.
+5. Connect your sensor to your circuit board with a cable.
+6. Power up your Raspberry Pi
+7. ```i2cdetect -y 1```
+8. If address not shown, Power down your pi properly
+9. remove your circuit board
+10. Connect your sense hat
+11. Power up your Raspberry Pi
+12. ```i2cdetect -y 1```
+13. Should be showing the sense hat 6a 5f etc
+14. Power down your pi properly
+15. Connect your sensor directly [Raspberry pi pinout](https://pinout.xyz/) [QWIIC colour scheme](https://www.sparkfun.com/qwiic#faqs)
+16. ```i2cdetect -y 1```
+17. Look at the code for the humidity sensor on the sense hat https://github.com/davebm1/c-sense-hat/blob/main/humidity.c it first checks i2c_smbus_read_byte_data(fd, WHO_AM_I) look into what your sensor reports back.
 ```c
 /**For the HTS221*/   
 #define DEV_PATH "/dev/i2c-1"   
