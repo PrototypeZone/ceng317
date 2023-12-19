@@ -5,4 +5,4 @@
 - Other options:
   - https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/circuitpython-raspi
   - https://github.com/CoreElectronics/CE-PiicoDev-PyPI/tree/main/src   
-  - https://github.com/adafruit/Adafruit_Blinka   
+
