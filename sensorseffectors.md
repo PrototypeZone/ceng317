@@ -136,6 +136,9 @@ HTS221 Humidity/Temperature sensor (0x5f)
     [16 Output I/O Expander - SX1509](https://www.sparkfun.com/products/13601)   
     [Battery Babysitter - BQ24075](https://www.sparkfun.com/products/13777)   
 
+### Austrailian options
+[https://core-electronics.com.au/piicodev.html](https://core-electronics.com.au/piicodev.html)
+
 ### Past sensor/effector address choices to prevent bus conflicts
 - Suplemental (to the SenseHat) choices:   
 ADC needed for analog sensors   
