@@ -13,7 +13,7 @@
 6. Download the above /hardware/pcb/StudentName2023-09-24.kicad_pro, pcb, and sch.
 7. Use KiCad to open the _pro project file, then navigate to opening the PCB file.
 8. Change the board in the PCB view to have your name and the current date.
-9. Route the BJT as a switch circuit (Section 4.5 Page 192 in your Electronic Devices by Floyd) traces on the PCB. To do this:
+9. If not routed already, route the BJT as a switch circuit (Section 4.5 Page 192 in your Electronic Devices by Floyd) traces on the PCB. To do this:
    - Click on the the end of say a resistor and press 'x' on the keyboard.
    - Then click on the other terminal that it should be connected to.
    - Consider ease of soldering.
