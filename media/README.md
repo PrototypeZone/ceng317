@@ -1,1 +1,1 @@
-# media folders are reserved for images used in .md files
+# media folders are only for images used in .md files
