@@ -1,7 +1,7 @@
 # 3D Printing
-15 minute 3D printing tutorial
+15 minute 3D printing tutorial:
 https://sites.google.com/view/idealab3dprinting/tutorial   
 
 Then:   
-Section _ [Register](https://humber.libcal.com/calendar/idealab)
-LRC 3083 3D Printing workshop
+[Register](https://humber.libcal.com/calendar/idealab)
+for a 3D Printing workshop in LRC 3083.
