@@ -85,6 +85,7 @@ HTS221 Humidity/Temperature sensor (0x5f)
 
 ## Your individual project in CENG 317
 - Each student will choose at least one [additional sensor/effector](sensorseffectors.md)
+   ![SGP40relay](media/SGP40relay.png)
 - Each student creates a custom interface board to fit between their Sense Hat and their Broadcom Single board computer to connect their chosen additional sensor or effector to their Raspberry Pi. A case should be lasercut/3D printed to accomodate their boards, sensor, and computing device within the overall maximum project dimensions.
    ![pcbstacking](media/pcbstacking.png)
 - Standoffs, screws to be specified on [Bill Of Materials](hardware/bom.md)   
