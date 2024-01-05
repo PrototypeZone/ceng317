@@ -1,7 +1,7 @@
 # Project Introduction
 
 ## Welcome to CENG 317
-For weekly activities see the [Critical Path](summer2024criticalpath.md)
+For weekly activities see the [Critical Path](summer2024criticalpath.md).
 
 ## Background
 Our focus has been on six areas of ongoing/continuing multi-year work. In these areas, we welcomed brief project charters from industry that proposed the scope, mandate, and contain the system specification (design approach and requirements).
