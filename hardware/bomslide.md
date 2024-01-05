@@ -11,7 +11,7 @@
 |Network adapter, Ethernet cable                                                                   |      30.48 |      1 |             |         |       30.48 |
 |Sensor/Effector                                                                                   |      18.99 |      1 |        2.00 |     2.47|       23.46 |
 |Stacking Header                                                                                   |       4.24 |      1 |        2.00 |     0.55|        6.79 |
-|Qwiic socket, cables                                                                              |      13.69 |      1 |        2.00 |     1.78|       17.47 |
+|Grove socket, Grove/Qwiic cables                                                                  |      13.69 |      1 |        2.00 |     1.78|       17.47 |
 |16mm Standoff, M2.5 Screws                                                                        |       1.37 |      4 |        2.00 |     0.72|        8.20 |
 |Leadfree Solder, PCB                                                                              |            |        |             |         |        8.54 |
 |3D Printing, Assembly                                                                             |  0.15/gram |    TBD |             |         |   0.15/gram |
