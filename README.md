@@ -1,23 +1,9 @@
 # Project Introduction
 
 ## Weeks
-1. [First Class Sheet](firstclasssheet.md)
-2. [Project Selection](https://github.com/PrototypeZone/ceng317/blob/main/fall2023projects.md) (Contact me via course messages if you have yet to choose one on the discussion board)
-3. [Bill Of Materials](hardware/bom.md) (and 3D printing) remember for next week to bring safety glasses if you don't already wear eyeglasses, parts kit, as well as Raspberry Pi kit every class from next week on.
-4. Project Roadmap (upload tsv file to hardware folder), bring safety glasses if you don't already wear eyeglasses, parts kit, as well as Raspberry Pi kit every class from now on.
-5. Proof of purchase, (KiCad for Monday section)
-6. [KiCad](/hardware/pcb/) (incl. BJT as a switch circuit Section 4.5 Page 192 in your Electronic Devices by Floyd) for Wednesday section (Thanksgiving)
-7. Soldering (each group gets a practice board), CorelDraw
-8. Parts arrival
-9. PCB Assembly and testing
-10. Coding
-11. Troubleshooting
-12. Demonstration
-13. Presentations
-14. Build instructions (Hardware report)
+See [Critical Path](summer2024criticalpath.md)
 
 ## Background
-
 Our focus has been on six areas of ongoing/continuing multi-year work. In these areas, we welcomed brief project charters from industry that proposed the scope, mandate, and contain the system specification (design approach and requirements).
 
 1. Facilities: Bicycle Rental/Parking Lot/Vision System
@@ -91,14 +77,15 @@ pin 22 -- GPIO25 (Atmel Prog Reset)
 pin 24 -- GPIO8 (Atmel Chip Reset)   
 pin 27 -- GPIO0 (or maybe ID_SD or maybe EEPROM SDA or maybe HAT ID)   
 pin 28 -- GPIO1 (or maybe ID_SC or maybe EEPROM SCL or maybe HAT ID)   
-LED2472G connected via an Atmel ATTINY88 (0x46)   
+LED2472G and navigation pad connected via an Atmel ATTINY88 (0x46)   
 LSM9DS1 IMU magnetometer 0x1c(0x1e) and accelerometer/gyroscope 0x6a(0x6b)   
 [9DoF Stick IMU - LSM9DS1 SparkFun Retired Product equivalent to that on the sense hat](https://www.sparkfun.com/products/13944)   
 LPS25H Pressure/Temperature sensor (0x5c)   
 HTS221 Humidity/Temperature sensor (0x5f)   
 
 ## Your individual project in CENG 317
-- Each student creates a custom interface board to fit between their Sense Hat and their Broadcom Single board computer to add at least one additional sensor or effector to their Raspberry Pi. A case should be lasercut/3D printed to accomodate their boards, sensor, and computing device within the overall maximum project dimensions.
+- Each student will choose at least one [additional sensor/effector](sensorseffectors.md)
+- Each student creates a custom interface board to fit between their Sense Hat and their Broadcom Single board computer to connect their chosen additional sensor or effector to their Raspberry Pi. A case should be lasercut/3D printed to accomodate their boards, sensor, and computing device within the overall maximum project dimensions.
    ![pcbstacking](media/pcbstacking.png)
 - Standoffs, screws to be specified on [Bill Of Materials](hardware/bom.md)   
 - Although it is not always the situation, if all the students in a group formed in CENG 322 software project are also in the same section in CENG 317 hardware project, the students may combine their designs into one PCB design of which multiple are made. This is also an opportunity to ensure that code written can operate with multi threading.
@@ -107,4 +94,3 @@ HTS221 Humidity/Temperature sensor (0x5f)
 - It will include a [Qwiic socket](https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-14417/7652746) ([alternate equivalent part](https://www.digikey.ca/en/products/detail/jst-sales-america-inc/SM04B-SRSS-TB/926710))to make use of [Qwiic Cables](https://www.digikey.ca/en/products/detail/sparkfun-electronics/KIT-15081/9770723).
 - Use [KiCad](https://github.com/PrototypeZone/ceng317/tree/main/hardware/pcb) for the design.
 - We also add: a spare header, a 2N4124 NPN transistor with a 2.2 kOhm resistor between pin 11 -- GPIO17 and the base of the transistor, connect the emitter to the ground, and connect an LED with a series 220 Ohm resistor on the collector side to 3.3V.
-- Each student will choose at least one [additional sensor/effector](sensorseffectors.md)

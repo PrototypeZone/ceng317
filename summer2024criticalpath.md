@@ -5,11 +5,14 @@ Summer 2023 Class Schedule (Tentative)
 
 |Week|A         |B         |Topics/Assignment                                                                                         | Due %               |
 |----|----------|----------|----------------------------------------------------------------------------------------------------------|---------------------|
-|1   |2024-05-09|2024-05-09|Course Introduction and Schedule, First Class Sheet, Project Proposal                                     |1 First Class Sheet  |
-|2   |2024-05-16|2024-05-16|Project Group Selection, KiCad, 3D printing tutorial and library session sign up                          |1 Group, 5 Gerbers   |
-|    |2024-05-20|Monday    |Public Holiday (Victoria Day) - College Closed                                                            |                     |
-|3   |2024-05-23|2024-05-23|Bill of Materials, Laser Cutting/Adobe Illustrator                                                        |5 BoM, 2 AI          |
-|4   |2024-05-30|2024-05-30|[Project Roadmap](https://github.blog/changelog/2023-01-31-roadmap-in-projects-public-beta/)              |5 Roadmap            |
+|1   |2024-05-09|2024-05-09|Course Introduction and Schedule, [First Class Sheet](firstclasssheet.md), Project Proposal               |1 First Class Sheet  |
+|    |          |          |Bring safety glasses if you don't already wear eyeglasses, parts kit, as well as Raspberry Pi kit every class from now on.|     |
+|2   |2024-05-16|2024-05-16|[Project Group Selection](https://github.com/PrototypeZone/ceng317/blob/main/fall2023projects.md), [KiCad](/hardware/pcb/)|1 Group, 5 Gerbers|
+|    |          |          |(Contact me via course messages if you have yet to choose one on the discussion board)                    |                     |
+|    |          |          |(BJT as a switch circuit Section 4.5 Page 192 in your Electronic Devices by Floyd)                        |                     |
+|    |2024-05-20|Monday    |Public Holiday (Victoria Day) - College Closed, 3D printing tutorial and library session sign up          |                     |
+|3   |2024-05-23|2024-05-23|[Bill Of Materials](hardware/bom.md), Laser Cutting/Adobe Illustrator                                     |5 BoM, 2 AI          |
+|4   |2024-05-30|2024-05-30|[Project Roadmap](https://github.blog/changelog/2023-01-31-roadmap-in-projects-public-beta/) (upload tsv file to hardware folder)|5 Roadmap|
 |5   |2024-06-06|2024-06-06|Proof of purchase,[Soldering resistors](https://www.linkedin.com/learning/learning-soldering-for-electronics/solder-for-electronic-products-and-manufacturing)|3, 1|
 |6   |2024-06-13|2024-06-13|3D printing library session, Soldering vias                                                               |1                    |
 |7   |2024-06-20|2024-06-20|Enclosure, Soldering LED and transistor																	  |3 Case, 3 Soldering  |
