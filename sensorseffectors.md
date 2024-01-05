@@ -12,7 +12,7 @@ https://www.sparkfun.com/categories/tags/qwiic-gps
 The 0x10 XA1110 GPS Breakout it not a good choice since we don't have access to a solid GPS signal in the classroom.   
 Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Black for GND, Red for V+, Blue for SDA, Yellow for SCL). Keep in mind the logic on the Raspberry Pi is 3.3V only.   
 Note: Some Qwiic breakout boards requires additional connections.   
-Note: Purchasing from SparkFun directly with regular shipping is not fast enough. Purchasing via DigiKey for SparkFun items they have in stock is.
+Note: Purchasing from SparkFun directly with regular shipping is not reliable/fast enough. Purchasing via DigiKey for SparkFun items they have in stock usually is.
 
 ## Your Existing Sense Hat
 In addition to power and ground the sense hat uses:   
