@@ -18,6 +18,7 @@ Student Name: ________________________________
 |[Grove socket](https://www.digikey.ca/en/products/detail/seeed-technology-co-ltd/110990037/5482561)|      2.45 |      1 |             |    | 0.32|             |                    2.77 |      *Reading Week* |
 |[Grove Cable](https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4528/11627737)    |       2.81 |      1 |             |    | 0.37|             |                    3.18 |      *Reading Week* |
 |[Qwiic Cable](https://www.digikey.ca/en/products/detail/sparkfun-electronics/CAB-22726/21443057)  |       2.30 |      1 |             |    | 0.30|             |                    2.60 |      *Reading Week* |
+|[Qwiic Cable](https://www.digikey.ca/en/products/detail/adafruit-industries-llc/5384/16546428)    |       1.80 |      1 |             |    | 0.23|             |                    2.03 |      *Reading Week* |
 |[16mm Standoff](https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/971160151/6174641)|       1.11 |      4 |             |    | 0.58|             |                    5.02 |      *Reading Week* |
 |[M2.5 Screw](https://www.digikey.ca/en/products/detail/essentra-components/50M025045I016/11638680)|       0.26 |      4 |             |    | 0.14|             |                    1.18 |      *Reading Week* |
 |[Leadfree Solder](https://www.mouser.ca/ProductDetail/AIM/13949?qs=M7ZD%2F0QMIQw6T6JK0szTqg%3D%3D)|      96.11 |   0.02 |             |    |     |        1.92 |                         |              Week 0 |
