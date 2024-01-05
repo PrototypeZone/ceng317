@@ -5,7 +5,7 @@ Summer 2023 Class Schedule (Tentative)
 
 |Week|A         |B         |Topics/Assignment                                                                                         | Due %               |
 |----|----------|----------|----------------------------------------------------------------------------------------------------------|---------------------|
-|1   |2024-05-09|2024-05-09|Course Introduction and Schedule, [First Class Sheet](firstclasssheet.md), Project Proposal               |1 First Class Sheet  |
+|1   |2024-05-09|2024-05-09|Course Introduction and Schedule, [First Class Sheet](firstclasssheet.md), GitHub, Project Proposal       |1 First Class Sheet  |
 |    |          |          |Make your choice be being the first to choose it on the Blackboard Discussion forum.                      |                     |
 |    |          |          |Include the sensor/effector name, I2C address, and a link to where you will buy it from.                  |                     |
 |    |          |          |Bring safety glasses if you don't already wear eyeglasses, parts kit, as well as Raspberry Pi kit every class from now on.|     |
