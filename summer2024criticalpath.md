@@ -15,7 +15,7 @@ Summer 2023 Class Schedule (Tentative)
 |    |2024-05-20|Monday    |Public Holiday (Victoria Day) - College Closed, 3D printing tutorial and library session sign up          |                     |
 |3   |2024-05-23|2024-05-23|[Bill Of Materials](hardware/bom.md), Laser Cutting/Adobe Illustrator                                     |5 BoM, 2 AI          |
 |4   |2024-05-30|2024-05-30|[Project Roadmap](https://github.blog/changelog/2023-01-31-roadmap-in-projects-public-beta/) (upload tsv file to hardware folder)|5 Roadmap|
-|5   |2024-06-06|2024-06-06|Proof of purchase,[Soldering resistors](https://www.linkedin.com/learning/learning-soldering-for-electronics/solder-for-electronic-products-and-manufacturing)|3, 1|
+|5   |2024-06-06|2024-06-06|Proof of purchase, [Soldering resistors](https://www.linkedin.com/learning/learning-soldering-for-electronics/solder-for-electronic-products-and-manufacturing)|3, 1|
 |6   |2024-06-13|2024-06-13|3D printing library session, Soldering vias                                                               |1                    |
 |7   |2024-06-20|2024-06-20|Enclosure, Soldering LED and transistor																	  |3 Case, 3 Soldering  |
 |    |2024-06-24|2024-06-28|*Reading Week, No Class Scheduled* Parts arrival                                                          |                     |
