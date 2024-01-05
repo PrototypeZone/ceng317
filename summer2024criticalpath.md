@@ -6,6 +6,8 @@ Summer 2023 Class Schedule (Tentative)
 |Week|A         |B         |Topics/Assignment                                                                                         | Due %               |
 |----|----------|----------|----------------------------------------------------------------------------------------------------------|---------------------|
 |1   |2024-05-09|2024-05-09|Course Introduction and Schedule, [First Class Sheet](firstclasssheet.md), Project Proposal               |1 First Class Sheet  |
+|    |          |          |Make your choice be being the first to choose it on the Blackboard Discussion forum.                      |                     |
+|    |          |          |Include the sensor/effector name, I2C address, and a link to where you will buy it from.                  |                     |
 |    |          |          |Bring safety glasses if you don't already wear eyeglasses, parts kit, as well as Raspberry Pi kit every class from now on.|     |
 |2   |2024-05-16|2024-05-16|[Project Group Selection](https://github.com/PrototypeZone/ceng317/blob/main/fall2023projects.md), [KiCad](/hardware/pcb/)|1 Group, 5 Gerbers|
 |    |          |          |(Contact me via course messages if you have yet to choose one on the discussion board)                    |                     |
