@@ -7,10 +7,10 @@
 4. Start with default settings:   
 ![](media/2.png)
 5. I have followed [Using a template](https://techexplorations.com/guides/kicad/3e/create-a-new-kicad-project-from-a-template/) and [Vlad's guide to PCB facilities in J233](PCBPrototypes.md) to a certain extent in order to create the below files to start from:
--   [Project File](/hardware/pcb/StudentName2023-09-24.kicad_pro)
--   [Schematic File](/hardware/pcb/StudentName2023-09-24.kicad_sch)
--   [PCB File](/hardware/pcb/StudentName2023-09-24.kicad_pcb)   
-6. Download the above /hardware/pcb/StudentName2023-09-24.kicad_pro, pcb, and sch.
+-   [Project File](/hardware/pcb/StudentName2023-11-08.kicad_pro)
+-   [Schematic File](/hardware/pcb/StudentName2023-11-08.kicad_sch)
+-   [PCB File](/hardware/pcb/StudentName2023-11-08.kicad_pcb)   
+6. Download the above /hardware/pcb/StudentName2023-11-08.kicad_pro, pcb, and sch.
 7. Use KiCad to open the _pro project file, then navigate to opening the PCB file.
 8. Change the board in the PCB view to have your name and the current date.
 9. If not routed already, route the BJT as a switch circuit (Section 4.5 Page 192 in your Electronic Devices by Floyd) traces on the PCB. To do this:
