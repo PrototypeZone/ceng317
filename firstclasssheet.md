@@ -2,10 +2,10 @@
 
 | Student name:                        |           |
 |--------------------------------------|-----------|	
-|CENG 317 Hardware Project             |           |
-| Section Letter Code:                 |           |
 |CENG 322 Software Project             |           |
 | Semester enrolled (incl. year):      |           |
+| Section Letter Code:                 |           |
+|CENG 317 Hardware Project             |           |
 | Section Letter Code:                 |           |
 |Project choice on bb discussion board |           |
 | Sensor/effector name:                |           |
