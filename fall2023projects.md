@@ -54,7 +54,7 @@
    A Julian Fragassi [SparkFun Qwiic Mini ToF Imager - VL53L5CX](https://www.sparkfun.com/products/19013) (0x52)   
    B Kaiden Phillip [SparkFun RFID Qwiic Reader](https://www.sparkfun.com/products/15191) and [RFID Reader ID-12LA (125 kHz)](https://www.sparkfun.com/products/11827) (0x7D)   
 - 8\.    
-- 12\. [AgriMonitoring by AgriFarms](https://github.com/AlexFontaineBolanos1828/AgriMonitoring)   
+- 12\. [AgriMonitoring by AgriFarms](https://github.com/AlexFontaineBolanos1828/AgriMonitoring) [355 Alex](https://github.com/PrototypeZone/hardware-project-AlexFontaineBolanos1828)   
     A Nitesh Kumar [Water Level Module?](https://secure.sayal.com/STORE4/prodetails.php?SKU=258280) (0x48?) perhaps with [12 Bit ADC - 4 Channel (ADS1015)](https://www.sparkfun.com/products/15334)? (default 0x48, 0x49, 0x4A, 0x4B)   
     A Alex Fontaine-Bolanos [Indoor Air Quality Sensor - ENS160 (Qwiic)](https://www.sparkfun.com/products/20844) (Default 0x53, 0x52)   
     A Mi Nam Alcantara [Qwiic Soil Moisture Sensor](https://www.sparkfun.com/products/17731) (default 0x28)   
