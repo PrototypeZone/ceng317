@@ -59,7 +59,7 @@
     A Alex Fontaine-Bolanos [Indoor Air Quality Sensor - ENS160 (Qwiic)](https://www.sparkfun.com/products/20844) (Default 0x53, 0x52)   
     A Mi Nam Alcantara [Qwiic Soil Moisture Sensor](https://www.sparkfun.com/products/17731) (default 0x28)   
     A Taksim Islam [Micro Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21273) (default 0x3C, 0x38)   
-- 0\.  B Aaron Morris Jara [Person Sensor by Useful Sensors](https://www.sparkfun.com/products/21231) (0x62)   
+- 0\.  [355 Aaron](https://github.com/PrototypeZone/hardware-project-Aaron367123) B Aaron Morris Jara [Person Sensor by Useful Sensors](https://www.sparkfun.com/products/21231) (0x62)   
 - 0\.  Jasnam Gill   
  
 ## Fall 2023 Sensor/effector choices:
