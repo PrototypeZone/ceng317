@@ -33,7 +33,7 @@
 - 0\.  B Marqus Jaravata [Humidity Sensor SHTC3 (Qwiic)](https://www.sparkfun.com/products/16467) (0x70)   
 
 ## 355A Block 2:25-5:05   
-- 1\. [PetasosExpress Delivery Robot by Hermes Logistics](https://github.com/IlliaPopov1791/PetasosExpress)    
+- 1\. [PetasosExpress Delivery Robot by Hermes Logistics](https://github.com/IlliaPopov1791/PetasosExpress) [355 Illia](https://github.com/PrototypeZone/hardware-project-IlliaPopov1791)    
    A William Margalik Optical odometer such as Breakout for ADNS2620 Optical Mouse Sensor change to DC motor   
    A Illia Popov [Ultrasonic Distance Sensor with I2C Interface](https://www.adafruit.com/product/4742) (0x57 doesn't share I2C 100%)   
    A Dylan Ashton [Proximity Sensor Breakout VCNL4040 (Qwiic)](https://www.sparkfun.com/products/15177) (0x60)   
