@@ -38,7 +38,7 @@
    A Illia Popov [Ultrasonic Distance Sensor with I2C Interface](https://www.adafruit.com/product/4742) (0x57 doesn't share I2C 100%)   
    A Dylan Ashton [Proximity Sensor Breakout VCNL4040 (Qwiic)](https://www.sparkfun.com/products/15177) (0x60)   
    A Ahmad Aljawish [Triple Axis Magnetometer Breakout - MLX90393 (Qwiic)](https://www.sparkfun.com/products/14571) (0xC0)   
-- 2\. [Sentry Security by Secure Squad](https://github.com/DavydTsapko4242/smart-security-app)   
+- 2\. [Sentry Security by Secure Squad](https://github.com/DavydTsapko4242/smart-security-app) [355 Melvin](https://github.com/PrototypeZone/hardware-project-MelvinCarlPote3399)   
    A Cedric Miguel Mercado [6DoF IMU Breakout - BMI270 (Qwiic)](https://www.sparkfun.com/products/22397) (0x68) changing to [Qwiic IR Breakout (PIR Sensor)](https://www.sparkfun.com/products/15804) (0x40)   
    B Melvin Carl Pote [Qwiic Mini dToF Imager - TMF8821](https://www.sparkfun.com/products/19451) (0x41) changed to [Triple Axis Accelerometer Breakout - KX132 (Qwiic)](https://www.sparkfun.com/products/17871) (0x1E, alternate 0x1F)   
    B Youngkyu Chung [6DoF IMU Breakout - BMI270 (Qwiic)](https://www.sparkfun.com/products/22397) (0x68) changing to RC522 RFID Reader (0x3C)   
@@ -48,7 +48,7 @@
    A Medi Muamba Nzambi [SparkFun Qwiic BMA400 Micro Triple Axis Accelerometer Breakout](https://www.sparkfun.com/products/21207) (0x14 (Default), 0x15)   
    B Damanpreet Singh [SparkFun Spectral Sensor Breakout - AS7262 Visible (Qwiic)](https://www.sparkfun.com/products/14347) (0x49) changing to ADS1115   
    Aduse Boateng (future temperature)
-- 7\. [Inventory management by Innovisionaries](https://github.com/JaredCraig6148/InventoryManagement)   
+- 7\. [Inventory management by Innovisionaries](https://github.com/JaredCraig6148/InventoryManagement) [355 Jared](https://github.com/PrototypeZone/hardware-project-JaredCraig6148)   
    A Lucas Szwagiel [BH1750 Light Intensity Sensor](https://www.addicore.com/products/bh1750-light-intensity-sensor) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x23, 0x5C)   
    B Jared Craig [SparkFun Photodetector Breakout - MAX30101 (Qwiic)](https://www.sparkfun.com/products/16474) (0x57) changing to: [HX711](https://www.circuito.io/app?components=9443,13879,200000) - [Load Cell Amplifier - HX711](https://www.sparkfun.com/products/13879) and [Load cell](https://www.sparkfun.com/products/13329)   
    A Julian Fragassi [SparkFun Qwiic Mini ToF Imager - VL53L5CX](https://www.sparkfun.com/products/19013) (0x52)   
