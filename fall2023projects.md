@@ -15,7 +15,7 @@
     A Gobind Matharu [SparkFun Human Presence Sensor Breakout - AK9753 (Qwiic)](https://www.sparkfun.com/products/14349) (0x64, jumper selectable to 0x65 or 0x67) changed to [Distance Sensor - 1.3 Meter, VL53L4CD (Qwiic)](https://www.sparkfun.com/products/18993) (0x29)   
     A David Ankrah [9DoF IMU Breakout - ICM-20948](https://www.sparkfun.com/products/15335) (Qwiic) (0x69) changed to [SGP40 Air Quality Sensor](https://www.adafruit.com/product/4829) (0x59)   
     David Ajose   
-- 9\.  [Cave Examination Bot by TeamBot](https://github.com/HassanNoorani5518/CaveExaminationBot)   
+- 9\.  [Cave Examination Bot by TeamBot](https://github.com/HassanNoorani5518/CaveExaminationBot) [355 Hassan](https://github.com/PrototypeZone/hardware-project-HassanNoorani5518)   
     B Adrian Portal Calcines [Spectral Sensor Breakout - AS7263 NIR (Qwiic)](https://www.sparkfun.com/products/14351) (0x49)   
     B Alfred Dowuona [Ambient Light Sensor - VEML6030 (Qwiic)](https://www.sparkfun.com/products/15436) (Default 0x48 but using jumper to choose 0x10)   
     B Ali Mohebi [Qwiic OLED Display (SSD1306 0.91 in, 128x32)](https://www.sparkfun.com/products/17153) (0x3C)   
