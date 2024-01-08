@@ -10,7 +10,7 @@
    A Komal Devi [SparkFun Human Presence Sensor Breakout - AK9753 (Qwiic)](https://www.sparkfun.com/products/14349) (0x64, jumper selectable to 0x65 or 0x67)   
    A Devonte Williams [6 Degrees of Freedom Breakout - LSM6DSO](https://www.sparkfun.com/products/18020) (default 0x6B, 0x6A)   
    B Richard Peoples [High Precision Temperature Sensor - TMP117 (Qwiic)](https://www.sparkfun.com/products/15805) (0x48)   
-- 6\. [myDisposal by Studious](https://github.com/TajinderNotta9056/Studious)   
+- 6\. [myDisposal by Studious](https://github.com/TajinderNotta9056/Studious), [355 David](https://github.com/PrototypeZone/hardware-project-DavidAnkrah1980)   
     A Tajinder Notta [Qwiic Scale - NAU7802](https://www.sparkfun.com/products/15242) plus a Load Cell (0x2A)   
     A Gobind Matharu [SparkFun Human Presence Sensor Breakout - AK9753 (Qwiic)](https://www.sparkfun.com/products/14349) (0x64, jumper selectable to 0x65 or 0x67) changed to [Distance Sensor - 1.3 Meter, VL53L4CD (Qwiic)](https://www.sparkfun.com/products/18993) (0x29)   
     A David Ankrah [9DoF IMU Breakout - ICM-20948](https://www.sparkfun.com/products/15335) (Qwiic) (0x69) changed to [SGP40 Air Quality Sensor](https://www.adafruit.com/product/4829) (0x59)   
