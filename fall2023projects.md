@@ -1,5 +1,5 @@
 # Group Number from CENG 322, Section letter from CENG 317, Blocks from CENG 355
-## 355B Block   
+## 355B Block 11:40-2:20   
 - 3\. [Auto pilot by StellarNavigators](https://github.com/AlessandroAlberico7149/ProjectUranus)   
    B Alessandro Alberico [Qwiic Motor Driver](https://www.sparkfun.com/products/15451) (0x5D, jumper selectable to 0x58, 0x59, 0x5A, 0x5B, ... 0x63) and a [stepper motor](https://www.sparkfun.com/products/19515)    
    B Emiliyano Ilia [SparkFun Digital Temperature Sensor - TMP102 (Qwiic)](https://www.sparkfun.com/products/16304) (0x48 by default, 0x49, 0x4A, 0x4B) changing to [9DoF IMU Breakout - ISM330DHCX, MMC5983MA (Qwiic)](https://www.sparkfun.com/products/19895) (Default 0x6B & 0x30, Alternate 0x6A & 0x30)   
@@ -32,7 +32,7 @@
     B Nathaniel Lozano [SparkFun 9DoF IMU Breakout - ICM - 20948](https://www.sparkfun.com/products/15335) (0x69, 0x68 with Jumper)   
 - 0\.  B Marqus Jaravata [Humidity Sensor SHTC3 (Qwiic)](https://www.sparkfun.com/products/16467) (0x70)   
 
-## 355A Block   
+## 355A Block 2:25-5:05   
 - 1\. [PetasosExpress Delivery Robot by Hermes Logistics](https://github.com/IlliaPopov1791/PetasosExpress)    
    A William Margalik Optical odometer such as Breakout for ADNS2620 Optical Mouse Sensor change to DC motor   
    A Illia Popov [Ultrasonic Distance Sensor with I2C Interface](https://www.adafruit.com/product/4742) (0x57 doesn't share I2C 100%)   
