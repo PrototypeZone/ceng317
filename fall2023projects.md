@@ -20,7 +20,7 @@
     B Alfred Dowuona [Ambient Light Sensor - VEML6030 (Qwiic)](https://www.sparkfun.com/products/15436) (Default 0x48 but using jumper to choose 0x10)   
     B Ali Mohebi [Qwiic OLED Display (SSD1306 0.91 in, 128x32)](https://www.sparkfun.com/products/17153) (0x3C)   
     B Hassan Noorani [TFMini - Micro LiDAR Module (Qwiic)](https://www.sparkfun.com/products/14786) (0x10) changed to [Qwiic Motor Driver](https://www.sparkfun.com/products/15451) (0x5d) and [DC Geared Motors](https://www.sparkfun.com/products/13302)   
-- 10\. [VitalTracker by LifesaverEngineeringTechs](https://github.com/MichaelCarinci0052/LifesaverEngineersVitalTracker)   
+- 10\. [VitalTracker by LifesaverEngineeringTechs](https://github.com/MichaelCarinci0052/LifesaverEngineersVitalTracker) [355 Michael](https://github.com/PrototypeZone/hardware-project-MichaelCarinci0052)   
    A Patrik Prenga [Pulse Oximeter and Heart Rate Sensor - MAX30101 & MAX32664 (Qwiic)](https://www.sparkfun.com/products/15219) (0x55)   
    A Michael Carinci [High Accuracy MAX30205MTA MAX30205 Human Body Temperature Sensor](https://www.amazon.ca/Accuracy-MAX30205MTA-Temperature-Measuring-Wristband/dp/B09PZDVMSS) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x48, 0x4D)   
    A Jason Macdonald [Triple Axis Accelerometer Breakout - KX134](https://www.sparkfun.com/products/17589) (0x1E, 0x1F alternate)   
