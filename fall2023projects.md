@@ -38,7 +38,7 @@
    A Illia Popov [Ultrasonic Distance Sensor with I2C Interface](https://www.adafruit.com/product/4742) (0x57 doesn't share I2C 100%)   
    A Dylan Ashton [Proximity Sensor Breakout VCNL4040 (Qwiic)](https://www.sparkfun.com/products/15177) (0x60)   
    A Ahmad Aljawish [Triple Axis Magnetometer Breakout - MLX90393 (Qwiic)](https://www.sparkfun.com/products/14571) (0xC0)   
-- 2\. [Sentry Security by Secure Squad](https://github.com/DavydTsapko4242/smart-security-app) [355 Melvin](https://github.com/PrototypeZone/hardware-project-MelvinCarlPote3399)   
+- 2\. [Sentry Security by Secure Squad](https://github.com/DavydTsapko4242/smart-security-app) [355 Melvin](https://github.com/PrototypeZone/hardware-project-MelvinCarlPote3399) [Fake cam](https://blog.balena.io/bring-a-dummy-security-camera-to-life-using-a-raspberry-pi-and-webrtc/)   
    A Cedric Miguel Mercado [6DoF IMU Breakout - BMI270 (Qwiic)](https://www.sparkfun.com/products/22397) (0x68) changing to [Qwiic IR Breakout (PIR Sensor)](https://www.sparkfun.com/products/15804) (0x40)   
    B Melvin Carl Pote [Qwiic Mini dToF Imager - TMF8821](https://www.sparkfun.com/products/19451) (0x41) changed to [Triple Axis Accelerometer Breakout - KX132 (Qwiic)](https://www.sparkfun.com/products/17871) (0x1E, alternate 0x1F)   
    B Youngkyu Chung [6DoF IMU Breakout - BMI270 (Qwiic)](https://www.sparkfun.com/products/22397) (0x68) changing to RC522 RFID Reader (0x3C)   
