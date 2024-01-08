@@ -5,7 +5,7 @@
    B Emiliyano Ilia [SparkFun Digital Temperature Sensor - TMP102 (Qwiic)](https://www.sparkfun.com/products/16304) (0x48 by default, 0x49, 0x4A, 0x4B) changing to [9DoF IMU Breakout - ISM330DHCX, MMC5983MA (Qwiic)](https://www.sparkfun.com/products/19895) (Default 0x6B & 0x30, Alternate 0x6A & 0x30)   
    B Sebastian Luis [Liquid Level Sensor - 8"](https://www.sparkfun.com/products/10221) with [Qwiic 12 Bit ADC - 4 Channel (ADS1015)](https://www.sparkfun.com/products/15334) (default 0x48, 0x49, 0x4A, 0x4B) changed to [I2CgroveLevel](https://canada.newark.com/seeed-studio/101020635/water-level-sensor-board-arduino/dp/42AK5700)   
    B Abdicasis Ali [SparkFun Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21262) (0x3C) requesting change to [Atmospheric Sensor Breakout - BME280 (Qwiic)](https://www.sparkfun.com/products/15440) (0x77)?   
-- 4\. [DisasterDetection by AlertGuard](https://github.com/EnriqueRobles2490/DisasterDetectionTool)   
+- 4\. [DisasterDetection by AlertGuard](https://github.com/EnriqueRobles2490/DisasterDetectionTool) [355 Enrique](https://github.com/PrototypeZone/hardware-project-EnriqueRobles2490)   
    A Enrique Robles [9DoF IMU Breakout - ISM330DHCX, MMC5983MA](https://www.sparkfun.com/products/19895) (Qwiic) (Default 0x6B, Alternate 0x6A) requesting a change to [Environmental Combo Breakout - ENS160/BME280 (Qwiic)](https://www.sparkfun.com/products/22858) (Default 0x53/0x77, 0x52/0x76)   
    A Komal Devi [SparkFun Human Presence Sensor Breakout - AK9753 (Qwiic)](https://www.sparkfun.com/products/14349) (0x64, jumper selectable to 0x65 or 0x67)   
    A Devonte Williams [6 Degrees of Freedom Breakout - LSM6DSO](https://www.sparkfun.com/products/18020) (default 0x6B, 0x6A)   
