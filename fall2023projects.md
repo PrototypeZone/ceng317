@@ -45,8 +45,9 @@
    Davyd Tsapko with [INA219](https://www.adafruit.com/product/904) (Default 0x40, A0 soldered 0x41, A1 soldered 0x44, A0 and A1 soldered 0x45)    
 - 5\. [SmartFeeder by TechPet](https://github.com/MediMuamba/SmartFeeder) [355 Damanpreet](https://github.com/PrototypeZone/hardware-project-DamanpreetSingh6028)   
    B Robert Rowlison [SparkFun Ambient Light Sensor - VEML6030 (Qwiic)](https://www.sparkfun.com/products/15436) (0x48)   
-   B Damanpreet Singh [SparkFun Spectral Sensor Breakout - AS7262 Visible (Qwiic)](https://www.sparkfun.com/products/14347) (0x49) changing to ADS1115   
-   Jasnam Gill, Aduse Boateng (future temperature)
+   B Damanpreet Singh [SparkFun Spectral Sensor Breakout - AS7262 Visible (Qwiic)](https://www.sparkfun.com/products/14347) (0x49) changing to ADS1115
+   [355 Aaron](https://github.com/PrototypeZone/hardware-project-Aaron367123) B Aaron Morris Jara [Person Sensor by Useful Sensors](https://www.sparkfun.com/products/21231) (0x62)   
+   Jasnam Gill, Aduse Boateng (future temperature)   
 - 7\. [Inventory management by Innovisionaries](https://github.com/JaredCraig6148/InventoryManagement) [355 Jared](https://github.com/PrototypeZone/hardware-project-JaredCraig6148)   
    A Lucas Szwagiel [BH1750 Light Intensity Sensor](https://www.addicore.com/products/bh1750-light-intensity-sensor) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x23, 0x5C)   
    B Jared Craig [SparkFun Photodetector Breakout - MAX30101 (Qwiic)](https://www.sparkfun.com/products/16474) (0x57) changing to: [HX711](https://www.circuito.io/app?components=9443,13879,200000) - [Load Cell Amplifier - HX711](https://www.sparkfun.com/products/13879) and [Load cell](https://www.sparkfun.com/products/13329)   
@@ -58,8 +59,6 @@
     A Alex Fontaine-Bolanos [Indoor Air Quality Sensor - ENS160 (Qwiic)](https://www.sparkfun.com/products/20844) (Default 0x53, 0x52)   
     A Mi Nam Alcantara [Qwiic Soil Moisture Sensor](https://www.sparkfun.com/products/17731) (default 0x28)   
     A Taksim Islam [Micro Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21273) (default 0x3C, 0x38)   
-- 0\.  [355 Aaron](https://github.com/PrototypeZone/hardware-project-Aaron367123) B Aaron Morris Jara [Person Sensor by Useful Sensors](https://www.sparkfun.com/products/21231) (0x62)   
-- 0\.  Jasnam Gill   
  
 ## Fall 2023 Sensor/effector choices:
 1. A Muhammad Desai [SparkFun Humidity Sensor Breakout](https://www.sparkfun.com/products/16467) (0x70)   
