@@ -49,10 +49,10 @@
    [355 Aaron](https://github.com/PrototypeZone/hardware-project-Aaron367123) B Aaron Morris Jara [Person Sensor by Useful Sensors](https://www.sparkfun.com/products/21231) (0x62)   
    Jasnam Gill, Aduse Boateng (future temperature)   
 - 7\. [Inventory management by Innovisionaries](https://github.com/JaredCraig6148/InventoryManagement) [355 Jared](https://github.com/PrototypeZone/hardware-project-JaredCraig6148)   
-   A Lucas Szwagiel [BH1750 Light Intensity Sensor](https://www.addicore.com/products/bh1750-light-intensity-sensor) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x23, 0x5C)   
    B Jared Craig [SparkFun Photodetector Breakout - MAX30101 (Qwiic)](https://www.sparkfun.com/products/16474) (0x57) changing to: [HX711](https://www.circuito.io/app?components=9443,13879,200000) - [Load Cell Amplifier - HX711](https://www.sparkfun.com/products/13879) and [Load cell](https://www.sparkfun.com/products/13329)   
-   A Julian Fragassi [SparkFun Qwiic Mini ToF Imager - VL53L5CX](https://www.sparkfun.com/products/19013) (0x52)   
    B Kaiden Phillip [SparkFun RFID Qwiic Reader](https://www.sparkfun.com/products/15191) and [RFID Reader ID-12LA (125 kHz)](https://www.sparkfun.com/products/11827) (0x7D)   
+   A Lucas Szwagiel [BH1750 Light Intensity Sensor](https://www.addicore.com/products/bh1750-light-intensity-sensor) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x23, 0x5C)   
+   A Julian Fragassi [SparkFun Qwiic Mini ToF Imager - VL53L5CX](https://www.sparkfun.com/products/19013) (0x52)   
 - 8\.    
 - 12\. [AgriMonitoring by AgriFarms](https://github.com/AlexFontaineBolanos1828/AgriMonitoring) [355 Alex](https://github.com/PrototypeZone/hardware-project-AlexFontaineBolanos1828)   
     A Nitesh Kumar [Water Level Module?](https://secure.sayal.com/STORE4/prodetails.php?SKU=258280) (0x48?) perhaps with [12 Bit ADC - 4 Channel (ADS1015)](https://www.sparkfun.com/products/15334)? (default 0x48, 0x49, 0x4A, 0x4B)   
