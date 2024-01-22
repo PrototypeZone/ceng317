@@ -33,7 +33,7 @@ In CENG 317, students learn how to create the embedded modules. In CENG 322, stu
 - We work with prototypes and prototypes are not to be left powered unattended.
 
 ## Project Examples
-- Automated plant watering system modular [scaleable](https://www.verticalgardensdirect.com.au/collections/best-sellers/products/maze-vertical-planter-kit) [irrigated](https://www.irrigationdepot.ca/boutique/english/product/item/living-wall-vertical-garden-glw08.html) planters.
+- Automated plant watering system: modular [scaleable](https://www.verticalgardensdirect.com.au/collections/best-sellers/products/maze-vertical-planter-kit) [irrigated](https://www.irrigationdepot.ca/boutique/english/product/item/living-wall-vertical-garden-glw08.html) planters.
 - Parking lot
 - Living environment monitoring system
 - Pet food dispenser
