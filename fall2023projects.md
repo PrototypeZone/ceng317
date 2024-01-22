@@ -21,7 +21,6 @@
     B Faraz Ahmed [SparkFun Qwiic Mini ToF Imager - VL53L5CX](https://www.sparkfun.com/products/19013) (0x52) changed to [Capacitive Touch Slider - CAP1203 (Qwiic)](https://www.sparkfun.com/products/15344) (0x28)   
     B Nathaniel Lozano [SparkFun 9DoF IMU Breakout - ICM - 20948](https://www.sparkfun.com/products/15335) (0x69, 0x68 with Jumper)   
 - 0\.  B Marqus Jaravata [Humidity Sensor SHTC3 (Qwiic)](https://www.sparkfun.com/products/16467) (0x70)   
-   A Lucas Szwagiel [BH1750 Light Intensity Sensor](https://www.addicore.com/products/bh1750-light-intensity-sensor) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x23, 0x5C)   
 
 ## 355A Block 2:25-5:05   
 - 1\. [PetasosExpress Delivery Robot by Hermes Logistics](https://github.com/IlliaPopov1791/PetasosExpress) [355 Illia](https://github.com/PrototypeZone/hardware-project-IlliaPopov1791)    
@@ -42,6 +41,7 @@
 - 7\. [Inventory management by Innovisionaries](https://github.com/JaredCraig6148/InventoryManagement) [355 Jared](https://github.com/PrototypeZone/hardware-project-JaredCraig6148)   
    B Jared Craig [SparkFun Photodetector Breakout - MAX30101 (Qwiic)](https://www.sparkfun.com/products/16474) (0x57) changing to: [HX711](https://www.circuito.io/app?components=9443,13879,200000) - [Load Cell Amplifier - HX711](https://www.sparkfun.com/products/13879) and [Load cell](https://www.sparkfun.com/products/13329)   
    B Kaiden Phillip [SparkFun RFID Qwiic Reader](https://www.sparkfun.com/products/15191) and [RFID Reader ID-12LA (125 kHz)](https://www.sparkfun.com/products/11827) (0x7D)   
+   A Lucas Szwagiel [BH1750 Light Intensity Sensor](https://www.addicore.com/products/bh1750-light-intensity-sensor) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x23, 0x5C)   
 - 8\.    
 - 9\.  [Cave Examination Bot by TeamBot](https://github.com/HassanNoorani5518/CaveExaminationBot) [355 Hassan](https://github.com/PrototypeZone/hardware-project-HassanNoorani5518)   
     B Adrian Portal Calcines [Spectral Sensor Breakout - AS7263 NIR (Qwiic)](https://www.sparkfun.com/products/14351) (0x49)   
