@@ -15,16 +15,6 @@
     A Gobind Matharu [SparkFun Human Presence Sensor Breakout - AK9753 (Qwiic)](https://www.sparkfun.com/products/14349) (0x64, jumper selectable to 0x65 or 0x67) changed to [Distance Sensor - 1.3 Meter, VL53L4CD (Qwiic)](https://www.sparkfun.com/products/18993) (0x29)   
     A David Ankrah [9DoF IMU Breakout - ICM-20948](https://www.sparkfun.com/products/15335) (Qwiic) (0x69) changed to [SGP40 Air Quality Sensor](https://www.adafruit.com/product/4829) (0x59)   
     David Ajose   
-- 9\.  [Cave Examination Bot by TeamBot](https://github.com/HassanNoorani5518/CaveExaminationBot) [355 Hassan](https://github.com/PrototypeZone/hardware-project-HassanNoorani5518)   
-    B Adrian Portal Calcines [Spectral Sensor Breakout - AS7263 NIR (Qwiic)](https://www.sparkfun.com/products/14351) (0x49)   
-    B Alfred Dowuona [Ambient Light Sensor - VEML6030 (Qwiic)](https://www.sparkfun.com/products/15436) (Default 0x48 but using jumper to choose 0x10)   
-    B Ali Mohebi [Qwiic OLED Display (SSD1306 0.91 in, 128x32)](https://www.sparkfun.com/products/17153) (0x3C)   
-    B Hassan Noorani [TFMini - Micro LiDAR Module (Qwiic)](https://www.sparkfun.com/products/14786) (0x10) changed to [Qwiic Motor Driver](https://www.sparkfun.com/products/15451) (0x5d) and [DC Geared Motors](https://www.sparkfun.com/products/13302)   
-- 10\. [VitalTracker by LifesaverEngineeringTechs](https://github.com/MichaelCarinci0052/LifesaverEngineersVitalTracker) [355 Michael](https://github.com/PrototypeZone/hardware-project-MichaelCarinci0052)   
-   A Patrik Prenga [Pulse Oximeter and Heart Rate Sensor - MAX30101 & MAX32664 (Qwiic)](https://www.sparkfun.com/products/15219) (0x55)   
-   A Michael Carinci [High Accuracy MAX30205MTA MAX30205 Human Body Temperature Sensor](https://www.amazon.ca/Accuracy-MAX30205MTA-Temperature-Measuring-Wristband/dp/B09PZDVMSS) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x48, 0x4D)   
-   A Jason Macdonald [Triple Axis Accelerometer Breakout - KX134](https://www.sparkfun.com/products/17589) (0x1E, 0x1F alternate)   
-   Nicholas Rafuse  
 - 11\. [EcoRoutes by GreenLight Innovations](https://github.com/FarazAhmed7778/EcoRoutes), [355 Ali F.](https://github.com/PrototypeZone/hardware-project-Korimuzon)   
     B Ali Sunan Faizi [Qwiic MicroPressure Sensor](https://www.sparkfun.com/products/16476) (0x18)   
     B Steven Lambrinos [Distance Sensor Breakout - 4 Meter, VL53L1X (Qwiic)](https://www.sparkfun.com/products/14722) (0x29)   
@@ -54,6 +44,15 @@
    A Lucas Szwagiel [BH1750 Light Intensity Sensor](https://www.addicore.com/products/bh1750-light-intensity-sensor) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x23, 0x5C)   
    A Julian Fragassi [SparkFun Qwiic Mini ToF Imager - VL53L5CX](https://www.sparkfun.com/products/19013) (0x52)   
 - 8\.    
+- 9\.  [Cave Examination Bot by TeamBot](https://github.com/HassanNoorani5518/CaveExaminationBot) [355 Hassan](https://github.com/PrototypeZone/hardware-project-HassanNoorani5518)   
+    B Adrian Portal Calcines [Spectral Sensor Breakout - AS7263 NIR (Qwiic)](https://www.sparkfun.com/products/14351) (0x49)   
+    B Ali Mohebi [Qwiic OLED Display (SSD1306 0.91 in, 128x32)](https://www.sparkfun.com/products/17153) (0x3C)   
+    B Hassan Noorani [TFMini - Micro LiDAR Module (Qwiic)](https://www.sparkfun.com/products/14786) (0x10) changed to [Qwiic Motor Driver](https://www.sparkfun.com/products/15451) (0x5d) and [DC Geared Motors](https://www.sparkfun.com/products/13302)   
+- 10\. [VitalTracker by LifesaverEngineeringTechs](https://github.com/MichaelCarinci0052/LifesaverEngineersVitalTracker) [355 Michael](https://github.com/PrototypeZone/hardware-project-MichaelCarinci0052)   
+   A Patrik Prenga [Pulse Oximeter and Heart Rate Sensor - MAX30101 & MAX32664 (Qwiic)](https://www.sparkfun.com/products/15219) (0x55)   
+   A Michael Carinci [High Accuracy MAX30205MTA MAX30205 Human Body Temperature Sensor](https://www.amazon.ca/Accuracy-MAX30205MTA-Temperature-Measuring-Wristband/dp/B09PZDVMSS) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x48, 0x4D)   
+   A Jason Macdonald [Triple Axis Accelerometer Breakout - KX134](https://www.sparkfun.com/products/17589) (0x1E, 0x1F alternate)   
+   Nicholas Rafuse  
 - 12\. [AgriMonitoring by AgriFarms](https://github.com/AlexFontaineBolanos1828/AgriMonitoring) [355 Alex](https://github.com/PrototypeZone/hardware-project-AlexFontaineBolanos1828)   
     A Nitesh Kumar [Water Level Module?](https://secure.sayal.com/STORE4/prodetails.php?SKU=258280) (0x48?) perhaps with [12 Bit ADC - 4 Channel (ADS1015)](https://www.sparkfun.com/products/15334)? (default 0x48, 0x49, 0x4A, 0x4B)   
     A Alex Fontaine-Bolanos [Indoor Air Quality Sensor - ENS160 (Qwiic)](https://www.sparkfun.com/products/20844) (Default 0x53, 0x52)   
@@ -66,4 +65,5 @@
 3. B Calvin Naidu [Ambient Light Sensor - VEML7700 (Qwiic)](https://www.sparkfun.com/products/18981) (0x10)   
 4. A Nemanja Petrovic [Humidity and Temperature Sensor - DHT20](https://www.sparkfun.com/products/18364) (0x38)   
 5. A Medi Muamba Nzambi [SparkFun Qwiic BMA400 Micro Triple Axis Accelerometer Breakout](https://www.sparkfun.com/products/21207) (0x14 (Default), 0x15)   
+9.    B Alfred Dowuona [Ambient Light Sensor - VEML6030 (Qwiic)](https://www.sparkfun.com/products/15436) (Default 0x48 but using jumper to choose 0x10)   
 
