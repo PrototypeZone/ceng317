@@ -39,8 +39,8 @@ HTS221 Humidity/Temperature sensor (0x5f)
 1.  SGP40 Air
 2.  ENS160 Air quality (the replacement for the popular, but now-discontinued CCS811 https://www.adafruit.com/product/5606), also available as ENS160/BME280 Air quality, THP
 4.  BME680 Gas, Temp Humid Pressure
-5.  4245 PSOC DC Motor
-6.  4245 PSOC Stepper Motor
+5.  4245 PSOC DC Motor *requires motor and power*
+6.  4245 PSOC Stepper Motor *requires motor and power*
 7.  ADS1015 ADC for liquid level
 8.  MicroPressure
 9.  MAX30101 Oximeter/Rate MAX30102? Oximeter and Heart Rate Sensor (0x57)
