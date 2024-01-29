@@ -138,7 +138,8 @@ HTS221 Humidity/Temperature sensor (0x5f)
     [Battery Babysitter - BQ24075](https://www.sparkfun.com/products/13777)   
 
 ### Austrailian options
-[https://core-electronics.com.au/piicodev.html](https://core-electronics.com.au/piicodev.html)
+[https://core-electronics.com.au/piicodev.html](https://core-electronics.com.au/piicodev.html)   
+https://pcbartists.com/product/i2c-decibel-sound-level-meter-module/ with [qwiic adapter](https://www.digikey.ca/en/products/detail/sparkfun-electronics/DEV-14495/7942483)   
 
 ### Past sensor/effector address choices to prevent bus conflicts
 - Suplemental (to the SenseHat) choices:   
