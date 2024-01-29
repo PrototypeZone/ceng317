@@ -39,8 +39,8 @@ HTS221 Humidity/Temperature sensor (0x5f)
 1.  SGP40 Air
 2.  ENS160 Air quality (the replacement for the popular, but now-discontinued CCS811 https://www.adafruit.com/product/5606), also available as ENS160/BME280 Air quality, THP
 4.  BME680 Gas, Temp Humid Pressure
-5.  4245 PSOC DC Motor *requires motor and power*
-6.  4245 PSOC Stepper Motor *requires motor and power*
+5.  4245 PSOC DC Motor *requires motor, power, and mount*
+6.  4245 PSOC Stepper Motor *requires motor, power, and mount*
 7.  ADS1015 ADC for liquid level
 8.  MicroPressure
 9.  MAX30101 Oximeter/Rate MAX30102? Oximeter and Heart Rate Sensor (0x57)
@@ -65,7 +65,7 @@ HTS221 Humidity/Temperature sensor (0x5f)
 24. zio oled https://www.sparkfun.com/products/15890
 
 ### Mounting holes .8" wide, 1.2" height (20.32mm x 30.48mm) 
-25. NAU7802 scale https://www.sparkfun.com/products/15242 and load cell?
+25. NAU7802 scale https://www.sparkfun.com/products/15242 and load cell? *requires load cell and mount*
 
 ### Mounting holes 2.05" wide, .8" height (52.07mm x 20.32mm)
 26. Relay https://www.sparkfun.com/products/15093 and solenoid?
@@ -77,7 +77,7 @@ HTS221 Humidity/Temperature sensor (0x5f)
 28. CAP1203 touch https://www.sparkfun.com/products/15344
 
 ### Mounting holes 1" wide, .7" height
-29. HX711 Scale https://www.sparkfun.com/products/13879
+29. HX711 Scale https://www.sparkfun.com/products/13879  *requires load cell, mount, pcb update*
 
 ### Mounting holes .7" wide
 30. AK9753 Human https://www.sparkfun.com/products/14349
