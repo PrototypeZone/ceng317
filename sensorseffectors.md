@@ -30,10 +30,11 @@ LSM9DS1 IMU magnetometer 0x1c(0x1e) and accelerometer/gyroscope 0x6a(0x6b)
 LPS25H Pressure/Temperature sensor (0x5c)   
 HTS221 Humidity/Temperature sensor (0x5f)   
 
-## IC Part number, Descriptive Name, I2C address, footprint, purchasing link
-### In stock
+## IC Part number with DigiKey purchasing link, Descriptive Name, DigiKey stock status, I2C address, DEV_ID, footprint
 
-### Currently out of stock
+IC | Name | DigiKey stock status | I2C address | DEV_ID | footprint
+-------------------------------------------------------------------
+| In stock| 1/31/2024 out of stock| Retired Product| 0.8"
 
 ### Qwiic mounting holes 0.8" apart
 1.  SGP40 Air
