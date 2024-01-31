@@ -32,9 +32,9 @@ HTS221 Humidity/Temperature sensor (0x5f)
 
 ## IC Part number with DigiKey purchasing link, Descriptive Name, DigiKey stock status, I2C address, DEV_ID, footprint, buyer beware
 
-|Part Number | Name | DigiKey stock status | I2C address | DEV_ID | footprint|Note|
-|------------|------|----------------------|-------------|--------|----------|----|
-|IC| In stock| 1/31/2024 out of stock| Retired Product|WHO_AM_I| 0.8"|additional component/wiring required|
+|Choice number|Part Number | Name | DigiKey stock status | I2C address | DEV_ID | footprint|Note|
+|-------------|------------|------|----------------------|-------------|--------|----------|----|
+|0. |IC| In stock| 1/31/2024 out of stock| Retired Product|WHO_AM_I| 0.8"|additional component/wiring required|
 
 ### Qwiic mounting holes 0.8" apart
 1.  SGP40 Air
