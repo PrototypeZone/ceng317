@@ -35,27 +35,27 @@ HTS221 Humidity/Temperature sensor (0x5f)
 |Choice number|Part Number | Name | DigiKey stock status | I2C address | DEV_ID | footprint|Note|
 |-------------|------------|------|----------------------|-------------|--------|----------|----|
 |0 |IC| In stock| 1/31/2024 out of stock| Retired Product|WHO_AM_I| 0.8"|additional component/wiring required|
-|1|  SGP40 Air |Qwiic mounting holes 0.8" apart|
-|2|  ENS160 Air quality (the replacement for the popular, but now-discontinued CCS811 https://www.adafruit.com/product/5606), also available as ENS160/BME280 Air quality, THP|Qwiic mounting holes 0.8" apart|
-|4|  BME680 Gas, Temp Humid Pressure|Qwiic mounting holes 0.8" apart|
-|5|  4245 PSOC->DRV8835 DC Motor *requires motor, power, and mount*|Qwiic mounting holes 0.8" apart|
-|6|  4245 PSOC->DRV8835 Stepper Motor *requires motor, power, and mount*|Qwiic mounting holes 0.8" apart|
-|7|  ADS1015 ADC for liquid level|Qwiic mounting holes 0.8" apart|
-|8|  MicroPressure|Qwiic mounting holes 0.8" apart|
-|9|  MAX30101 Oximeter/Rate MAX30102? Oximeter and Heart Rate Sensor (0x57)|Qwiic mounting holes 0.8" apart|
-|10| ID-12LA RFID Reader|Qwiic mounting holes 0.8" apart|
-|11| ST25DV64KC RFID Tag|Qwiic mounting holes 0.8" apart|
-|12| VEML6030 Light|Qwiic mounting holes 0.8" apart|
-|13| VEML7700 Light|Qwiic mounting holes 0.8" apart|
-|14| AS7262 Visible Spectrum|Qwiic mounting holes 0.8" apart|
-|15| AS7263 NIR spectrum|Qwiic mounting holes 0.8" apart|
-|16| VCNL4040 Proximity|Qwiic mounting holes 0.8" apart|
-|17| PL-N823 PIR|Qwiic mounting holes 0.8" apart|
-|18| TMF8821 ToF|Qwiic mounting holes 0.8" apart|
-|19| VL53L1X ToF|Qwiic mounting holes 0.8" apart|
-|20| VL53L4CD ToF|Qwiic mounting holes 0.8" apart|
-|21| VL53L5CX ToF|Qwiic mounting holes 0.8" apart|
-|22| OPT4048DTSR Color|Qwiic mounting holes 0.8" apart|
+|1| SGP40| Air ||0x|0x|Qwiic mounting holes 0.8" apart|
+|2| ENS160| Air quality (the replacement for the popular, but now-discontinued CCS811 https://www.adafruit.com/product/5606), also available as ENS160/BME280 Air quality, THP||0x|0x|Qwiic mounting holes 0.8" apart|
+|4| BME680| Gas, Temp Humid Pressure||0x|0x|Qwiic mounting holes 0.8" apart|
+|5| 4245 PSOC->DRV8835| DC Motor *requires motor, power, and mount*||0x|0x|Qwiic mounting holes 0.8" apart|
+|6| 4245 PSOC->DRV8835| Stepper Motor *requires motor, power, and mount*||0x|0x|Qwiic mounting holes 0.8" apart|
+|7| ADS1015|ADC for liquid level||0x|0x|Qwiic mounting holes 0.8" apart|
+|8| |MicroPressure||0x|0x|Qwiic mounting holes 0.8" apart|
+|9| MAX30101|Oximeter/Rate MAX30102? Oximeter and Heart Rate Sensor (0x57)||0x|0x|Qwiic mounting holes 0.8" apart|
+|10|ID-12LA|RFID Reader||0x|0x|Qwiic mounting holes 0.8" apart|
+|11|ST25DV64KC|RFID Tag||0x|0x|Qwiic mounting holes 0.8" apart|
+|12|VEML6030|Light||0x|0x|Qwiic mounting holes 0.8" apart|
+|13|VEML7700|Light||0x|0x|Qwiic mounting holes 0.8" apart|
+|14|AS7262|Visible Spectrum||0x|0x|Qwiic mounting holes 0.8" apart|
+|15|AS7263|NIR spectrum||0x|0x|Qwiic mounting holes 0.8" apart|
+|16|VCNL4040|Proximity||0x|0x|Qwiic mounting holes 0.8" apart|
+|17|PL-N823|PIR||0x|0x|Qwiic mounting holes 0.8" apart|
+|18|TMF8821|ToF||0x|0x|Qwiic mounting holes 0.8" apart|
+|19|VL53L1X|ToF||0x|0x|Qwiic mounting holes 0.8" apart|
+|20|VL53L4CD|ToF||0x|0x|Qwiic mounting holes 0.8" apart|
+|21|VL53L5CX|ToF||0x|0x|Qwiic mounting holes 0.8" apart|
+|22|OPT4048DTSR||0x|0x|Color|Qwiic mounting holes 0.8" apart|
 
 ### No mount 
 23. MAX30101 & MAX32664 https://www.sparkfun.com/products/15219
