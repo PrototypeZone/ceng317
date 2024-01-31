@@ -33,7 +33,7 @@ HTS221 Humidity/Temperature sensor (0x5f)
 ## IC Part number with DigiKey purchasing link, Descriptive Name, DigiKey stock status, I2C address, DEV_ID, footprint, buyer beware
 
 |Choice number|Part Number|Name|DigiKey stock status|I2C address|WHO_AM_I register|DEV_ID|footprint|Note|
-|-------------|------------|------|----------------------|-------------|--------|----------|----|
+|-------------|-----------|----|--------------------|-----------|-----------------|------|---------|----|
 |0 |IC| In stock| 1/31/2024 out of stock| Retired Product|0x|0x| 0.8"|additional component/wiring required|
 |1| SGP40| Air ||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |2| ENS160| Air quality (the replacement for the popular, but now-discontinued CCS811 https://www.adafruit.com/product/5606), also available as ENS160/BME280 Air quality, THP||0x|0x|0x|Qwiic mounting holes 0.8" apart|
