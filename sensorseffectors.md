@@ -55,7 +55,7 @@ HTS221 Humidity/Temperature sensor (0x5f)
 |19|VL53L1X|ToF||0x|0x|Qwiic mounting holes 0.8" apart|
 |20|VL53L4CD|ToF||0x|0x|Qwiic mounting holes 0.8" apart|
 |21|VL53L5CX|ToF||0x|0x|Qwiic mounting holes 0.8" apart|
-|22|OPT4048DTSR||0x|0x|Color|Qwiic mounting holes 0.8" apart|
+|22|OPT4048DTSR|Color||0x|0x|Qwiic mounting holes 0.8" apart|
 
 ### No mount 
 23. MAX30101 & MAX32664 https://www.sparkfun.com/products/15219
