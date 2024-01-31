@@ -33,7 +33,7 @@ HTS221 Humidity/Temperature sensor (0x5f)
 ## IC Part number with DigiKey purchasing link, Descriptive Name, DigiKey stock status, I2C address, DEV_ID, footprint
 
 |Part Number | Name | DigiKey stock status | I2C address | DEV_ID | footprint|
-------------------------------------------------------------------------------
+|------------|------|----------------------|-------------|--------|----------|
 |IC| In stock| 1/31/2024 out of stock| Retired Product|WHO_AM_I| 0.8"|
 
 ### Qwiic mounting holes 0.8" apart
