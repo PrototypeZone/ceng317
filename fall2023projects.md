@@ -35,7 +35,7 @@
    Davyd Tsapko with [INA219](https://www.adafruit.com/product/904) (Default 0x40, A0 soldered 0x41, A1 soldered 0x44, A0 and A1 soldered 0x45)    
 - 5\. [SmartFeeder by TechPet](https://github.com/MediMuamba/SmartFeeder) [355 Damanpreet](https://github.com/PrototypeZone/hardware-project-DamanpreetSingh6028)   
    Jasnam Gill, Aduse Boateng (future temperature)   
-   B **PCB** Robert Rowlison [SparkFun Ambient Light Sensor - VEML6030 (Qwiic)](https://www.sparkfun.com/products/15436) (0x48)   
+   B **PCB** Robert Rowlison [SparkFun Ambient Light Sensor - VEML6030 (Qwiic)](https://www.sparkfun.com/products/15436) (0x48), changed to pH sensor   
    B Damanpreet Singh [SparkFun Spectral Sensor Breakout - AS7262 Visible (Qwiic)](https://www.sparkfun.com/products/14347) (0x49) changing to ADS1115
    [355 Aaron](https://github.com/PrototypeZone/hardware-project-Aaron367123) B Aaron Morris Jara [Person Sensor by Useful Sensors](https://www.sparkfun.com/products/21231) (0x62)   
 - 7\. [Inventory management by Innovisionaries](https://github.com/JaredCraig6148/InventoryManagement) [355 Jared](https://github.com/PrototypeZone/hardware-project-JaredCraig6148)   
