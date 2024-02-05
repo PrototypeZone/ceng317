@@ -48,7 +48,7 @@
     B Hassan Noorani [TFMini - Micro LiDAR Module (Qwiic)](https://www.sparkfun.com/products/14786) (0x10) changed to [Qwiic Motor Driver](https://www.sparkfun.com/products/15451) (0x5d) and [DC Geared Motors](https://www.sparkfun.com/products/13302)   
     B Adrian Portal Calcines [Spectral Sensor Breakout - AS7263 NIR (Qwiic)](https://www.sparkfun.com/products/14351) (0x49)   
 - 10\. [VitalTracker by LifesaverEngineeringTechs](https://github.com/MichaelCarinci0052/LifesaverEngineersVitalTracker) [355 Michael](https://github.com/PrototypeZone/hardware-project-MichaelCarinci0052)   
-   A Michael Carinci [High Accuracy MAX30205MTA MAX30205 Human Body Temperature Sensor](https://www.amazon.ca/Accuracy-MAX30205MTA-Temperature-Measuring-Wristband/dp/B09PZDVMSS) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x48, 0x4D)   
+   A Michael Carinci [High Accuracy MAX30205MTA MAX30205 Human Body Temperature Sensor](https://www.amazon.ca/Accuracy-MAX30205MTA-Temperature-Measuring-Wristband/dp/B09PZDVMSS) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x48, 0x4D), changed to [TMP102](https://www.sparkfun.com/products/16304) (0x48)   
    A Jason Macdonald [Triple Axis Accelerometer Breakout - KX134](https://www.sparkfun.com/products/17589) (0x1E, 0x1F alternate)   
    A Patrik Prenga [Pulse Oximeter and Heart Rate Sensor - MAX30101 & MAX32664 (Qwiic)](https://www.sparkfun.com/products/15219) (0x55)   
    Nicholas Rafuse  
