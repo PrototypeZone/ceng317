@@ -1,6 +1,5 @@
 # Group Number from CENG 322, Section letter from CENG 317, Blocks from CENG 355
 ## 355B Block 11:40-2:20   
-- 0\.  B Marqus Jaravata [Humidity Sensor SHTC3 (Qwiic)](https://www.sparkfun.com/products/16467) (0x70)   
 - 3\. [Auto pilot by StellarNavigators](https://github.com/AlessandroAlberico7149/ProjectUranus), [355 Alessandro](https://github.com/PrototypeZone/hardware-project-AlessandroAlberico7149)   
    B Alessandro Alberico [Qwiic Motor Driver](https://www.sparkfun.com/products/15451) (0x5D, jumper selectable to 0x58, 0x59, 0x5A, 0x5B, ... 0x63) and a [stepper motor](https://www.sparkfun.com/products/19515)    
    B Abdicasis Ali [SparkFun Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/products/21262) (0x3C) requesting change to [Atmospheric Sensor Breakout - BME280 (Qwiic)](https://www.sparkfun.com/products/15440) (0x77)?   
@@ -44,6 +43,7 @@
    A Lucas Szwagiel [BH1750 Light Intensity Sensor](https://www.addicore.com/products/bh1750-light-intensity-sensor) plus [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495) (default 0x23, 0x5C)   
 - 8\.    
 - 9\.  [Cave Examination Bot by TeamBot](https://github.com/HassanNoorani5518/CaveExaminationBot) [355 Hassan](https://github.com/PrototypeZone/hardware-project-HassanNoorani5518)   
+    B Marqus Jaravata [Humidity Sensor SHTC3 (Qwiic)](https://www.sparkfun.com/products/16467) (0x70)   
     B Ali Mohebi [Qwiic OLED Display (SSD1306 0.91 in, 128x32)](https://www.sparkfun.com/products/17153) (0x3C)   
     B Hassan Noorani [TFMini - Micro LiDAR Module (Qwiic)](https://www.sparkfun.com/products/14786) (0x10) changed to [Qwiic Motor Driver](https://www.sparkfun.com/products/15451) (0x5d) and [DC Geared Motors](https://www.sparkfun.com/products/13302)   
     B Adrian Portal Calcines [Spectral Sensor Breakout - AS7263 NIR (Qwiic)](https://www.sparkfun.com/products/14351) (0x49)   
