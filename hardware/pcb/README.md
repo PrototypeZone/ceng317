@@ -1,5 +1,5 @@
 # KiCad   
-1. We will be designing a Raspberry Pi Interface board using [KiCad 6.0.10]([https://www.kicad.org/](https://downloads.kicad.org/kicad/windows/explore/stable/download/kicad-6.0.10-x86_64.exe)).
+1. We will be designing a Raspberry Pi Interface board using [KiCad 6.0.10](https://downloads.kicad.org/kicad/windows/explore/stable/download/kicad-6.0.10-x86_64.exe).
 2. Chapter 18 of the below textbook on pages 259-284, pages 268-293 of the pdf, has Project 2: Design a small Raspberry Pi HAT.
    Dalmaris, Peter. (2018). KiCad Like a Pro 2nd edition. United Kingdom: Elektor International Media B.V. Tech Explorations: EBOOK SOLO 978-1-64440-886-5. Note that newer versions of the textbook do not include the Design a small Raspberry Pi HAT project.   
 3. Launch KiCad:   
