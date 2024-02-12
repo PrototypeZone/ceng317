@@ -36,8 +36,8 @@ HTS221 Humidity/Temperature sensor (0x5f)
 |-------------|-----------|----|--------------------|-----------|-----------------|------|---------|----|
 |-4| LED2472G|  ||0x46|0x|0x|Part of SenseHat||
 |-3| LSM9DS1|  ||0x1c|0x|0x|Part of SenseHat||
-|-2| LPS25H|  ||0x5c|0x|0x|Part of SenseHat||
-|-1| HTS221|  ||0x5f|0x|0x|Part of SenseHat||
+|-2| LPS25H|  ||0x5c|0xf|0x5c|Part of SenseHat||
+|-1| HTS221|  ||0x5f|0xf|0x5f|Part of SenseHat||
 |0 |IC| In stock| 1/31/2024 out of stock| Retired Product|0x|0x| 0.8"|additional component/wiring required|
 |1| SGP40| Air ||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |2| ENS160| Air quality (the replacement for the popular, but now-discontinued CCS811 https://www.adafruit.com/product/5606), also available as ENS160/BME280 Air quality, THP||0x|0x|0x|Qwiic mounting holes 0.8" apart|
@@ -56,9 +56,9 @@ HTS221 Humidity/Temperature sensor (0x5f)
 |16|VCNL4040|Proximity||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |17|PL-N823|PIR||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |18|TMF8821|ToF||0x|0x|0x|Qwiic mounting holes 0.8" apart|
-|19|VL53L1X|ToF||0x|0x|0x|Qwiic mounting holes 0.8" apart|
-|20|VL53L4CD|ToF||0x|0x|0x|Qwiic mounting holes 0.8" apart|
-|21|VL53L5CX|ToF||0x|0x|0x|Qwiic mounting holes 0.8" apart|
+|19|VL53L1X|ToF||0x18|0x0f|0x29|Qwiic mounting holes 0.8" apart|
+|20|VL53L4CD|ToF||0x18|0x0f|0x29|Qwiic mounting holes 0.8" apart|
+|21|VL53L5CX|ToF||0x18|0x0f|0x29|Qwiic mounting holes 0.8" apart|
 |22|OPT4048DTSR|Color||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 
 ### No mount 
