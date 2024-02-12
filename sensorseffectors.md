@@ -1,5 +1,5 @@
 # Sensor (sense the environment) and Effector (cause an effect in the environment) Choices
-When choosing a sensor/effector consider your interest, the cost (of it and additional components required), availability (in stock vs backordered), the I2C address, ease of development, and whether it duplicates something already available on the Sense Hat.   
+When choosing a sensor/effector consider your interest, the cost (of it and additional components required), availability (in stock vs backordered), the I2C address, ease of development (RPi has built in SDA/SCL pull-up resistors, you may disconnect any on add-on boards), and whether it duplicates something already available on the Sense Hat.   
 The following IMUs, Accel/Magnet/Gyros duplicate SenseHat functionality:    
 https://www.sparkfun.com/categories/tags/qwiic-movement   
 Typical choices are I2C sensors/effectors, Dallas one wire and SPI sensors/effectors often require more hardware/software work, while simple On/Off digital sensors/effectors such as breakbeam, IR proximity, and capacitive touch are too simple unless multiples are considered. Examples:   
