@@ -9,7 +9,7 @@ https://www.sparkfun.com/categories/tags/qwiic-environmental
 https://www.sparkfun.com/categories/tags/qwiic-other   
 However some Qwiic options are problematic for example:   
 https://www.sparkfun.com/categories/tags/qwiic-gps   
-The 0x10 XA1110 GPS Breakout it not a good choice since we don't have access to a solid GPS signal in the classroom and since it seems to require clock stretching not supported by the Pi.   
+The 0x10 XA1110 GPS Breakout it not a good choice since we don't have access to a solid GPS signal in the classroom and since it seems to require I2C clock stretching not supported by the Pi.   
 Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Black for GND, Red for V+, Blue for SDA, Yellow for SCL). Keep in mind the logic on the Raspberry Pi is 3.3V only.   
 Note: Some Qwiic breakout boards require additional connections.   
 Note: Purchasing from SparkFun directly with regular shipping is not reliable/fast enough given that we make our choices in the first couple of weeks of class and need them by reading week. Purchasing via DigiKey for SparkFun items they have in stock usually is fast enough.
