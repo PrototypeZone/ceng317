@@ -1,4 +1,4 @@
-:capital_abcd: `:ANCD in capital letters:`   
+:capital_abcd: `:ABCD in capital letters:`   
 :abcd: `:abcd in lowercase letters:`   
 :heavy_plus_sign: `:addition:`   
 :aerial_tramway: `:aerial tramway:`   
@@ -91,19 +91,13 @@
 :chestnut: `:chestnut:`   
 :chicken: `:chicken:`   
 :children_crossing: `:children:`   
-:chocolate_bar: `:chocolate_bar:`   
+:chocolate_bar: `:chocolate bar:`   
 :christmas_tree: `:christmas tree:`   
 :circus_tent: `:circus:`   
 :clap: `:clap:`   
 :clapper: `:clapper:`   
 :clipboard: `:clipboard:`   
 :clock1: `:clock1:`   
-:clock10: `:clock10:`   
-:clock1030: `:clock1030:`   
-:clock11: `:clock11:`   
-:clock1130: `:clock1130:`   
-:clock12: `:clock12:`   
-:clock1230: `:clock1230:`   
 :clock130: `:clock130:`   
 :clock2: `:clock2:`   
 :clock230: `:clock230:`   
@@ -121,6 +115,12 @@
 :clock830: `:clock830:`   
 :clock9: `:clock9:`   
 :clock930: `:clock930:`   
+:clock10: `:clock10:`   
+:clock1030: `:clock1030:`   
+:clock11: `:clock11:`   
+:clock1130: `:clock1130:`   
+:clock12: `:clock12:`   
+:clock1230: `:clock1230:`   
 :closed_umbrella: `:closed umbrella:`   
 :cloud: `:cloud:`   
 :clubs: `:clubs:`   
@@ -142,7 +142,7 @@
 :crocodile: `:crocodile:`   
 :crown: `:crown:`   
 :cry: `:cry:`   
-:crystal_ball: `:crystal_ball:`   
+:crystal_ball: `:crystal ball:`   
 :cupid: `:cupid:`   
 :curry: `:curry:`   
 :custard: `:custard:`   
@@ -154,13 +154,13 @@
 :date: `:date:`   
 :deciduous_tree: `:deciduous tree:`   
 :department_store: `:department store:`   
-:heavy_dollar_sign: `:dollar sign:`   
 :diamonds: `:diamonds:`   
 :disappointed: `:disappointed:`   
 :heavy_division_sign: `:division:`   
 :dizzy: `:dizzy:`   
 :dog: `:dog:`   
 :dollar: `:dollar:`   
+:heavy_dollar_sign: `:dollar sign:`   
 :dolls: `:dolls:`   
 :dolphin: `:dolphin:`   
 :door: `:door:`   
@@ -178,7 +178,6 @@
 :electric_plug: `:electric plug:`   
 :elephant: `:elephant:`   
 :email: `:email:`   
-:e-mail: `:e-mail:`   
 :envelope: `:envelope:`   
 :euro: `:euro:`   
 :evergreen_tree: `:evergreen tree:`   
@@ -212,13 +211,12 @@
 :black_nib: `:fountain pen:`   
 :four: `:four:`   
 :four_leaf_clover: `:four leaf clover:`   
-:fried_shrimp: `:shrimp:`   
 :fries: `:fries:`   
 :frog: `:frog:`   
 :frowning: `:frowning:`   
 :fuelpump: `:fuelpump:`   
 :full_moon: `:full moon:`   
-:game_die: `:game_die:`   
+:game_die: `:game die:`   
 :gem: `:gem:`   
 :ghost: `:ghost:`   
 :gift: `:gift:`   
@@ -248,6 +246,7 @@
 :hamster: `:hamster:`   
 :hand: `:hand:`   
 :handbag: `:handbag:`   
+:pray: `:hands together:`   
 :hatching_chick: `:hatching chick:`   
 :headphones: `:headphones:`   
 :hear_no_evil: `:hear no evil:`   
@@ -307,7 +306,7 @@
 :metro: `:metro:`   
 :microphone: `:microphone:`   
 :microscope: `:microscope:`   
-:milky_way: `:milky_way:`   
+:milky_way: `:milky way galaxy:`   
 :minibus: `:minibus:`   
 :minidisc: `:minidisc:`   
 :monkey: `:monkey:`   
@@ -326,7 +325,6 @@
 :musical_note: `:musical note:`   
 :musical_score: `:musical score:`   
 :mute: `:mute:`   
-:name_badge: `:name_badge:`   
 :neckbeard: `:neckbeard:`   
 :necktie: `:necktie:`   
 :new_moon: `:new moon:`   
@@ -335,7 +333,6 @@
 :no_good: `:not good:`   
 :nose: `:nose:`   
 :notebook: `:notebook:`   
-:notebook_with_decorative_cover: `:peach book:`   
 :notes: `:notes:`   
 :1234: `:numbers:`   
 :hash: `:number sign:`   
@@ -362,6 +359,7 @@
 :partly_sunny: `:partly sunny:`   
 :paw_prints: `:paw prints:`   
 :peach: `:peach:`   
+:notebook_with_decorative_cover: `:peach book:`   
 :pear: `:pear:`   
 :pencil2: `:pencil:`   
 :penguin: `:penguin:`   
@@ -389,7 +387,6 @@
 :pouch: `:pouch:`   
 :poultry_leg: `:poultry:`   
 :pound: `:pound:`   
-:pray: `:hands together:`   
 :princess: `:princess:`   
 :purple_heart: `:purple heart:`   
 :purse: `:purse:`   
@@ -451,6 +448,7 @@
 :ship: `:ship:`   
 :shoe: `:shoe:`   
 :shower: `:shower:`   
+:fried_shrimp: `:shrimp:`   
 :six: `:six:`   
 :ski: `:ski:`   
 :sleeping: `:sleeping:`   
