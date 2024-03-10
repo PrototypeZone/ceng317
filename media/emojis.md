@@ -29,7 +29,6 @@
 :barber: `:barber:`   
 :baseball: `:baseball:`   
 :basketball: `:basketball:`   
-:bath: `:bath:`   
 :bathtub: `:bathtub:`   
 :battery: `:battery:`   
 :bear: `:bear:`   
