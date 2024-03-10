@@ -253,7 +253,6 @@
 :herb: `:herb:`   
 :hibiscus: `:hibiscus:`   
 :high_heel: `:high_heel:`   
-:hocho: `:hocho:`   
 :honey_pot: `:honey:`   
 :honeybee: `:honeybee:`   
 :horse: `:horse:`   
@@ -273,6 +272,7 @@
 :keycap_ten: `:ten:`   
 :kiss: `:kiss:`   
 :kissing: `:kissing:`   
+:hocho: `:knife:`   
 :koala: `:koala:`   
 :last_quarter_moon: `:last quarter moon:`   
 :laughing: `:laughing:`    
