@@ -113,8 +113,8 @@
 :nose: `:nose:`   
 :tongue: `:tongue:`   
 :love_letter: `:letter:`   
-:speech_balloon: `:speech_balloon:`   
-:thought_balloon: `:thought_balloon:`   
+:speech_balloon: `:speech balloon:`   
+:thought_balloon: `:thought balloon:`   
 :cloud: `:cloud:`   
 :sunny: `:sunny:`   
 :umbrella: `:umbrella:`   
@@ -135,7 +135,6 @@
 :koala: `:koala:`   
 :bear: `:bear:`   
 :pig: `:pig:`   
-:cow: `:cow:`   
 :boar: `:boar:`   
 :monkey: `:monkey:`   
 :horse: `:horse:`   
@@ -159,7 +158,7 @@
 :fish: `:fish:`   
 :whale: `:whale:`   
 :dolphin: `:dolphin:`   
-:cow2: `:cow2:`   
+:cow2: `:cow:`   
 :ram: `:ram:`   
 :rat: `:rat:`   
 :water_buffalo: `:water_buffalo:`   
@@ -172,30 +171,28 @@
 :pig2: `:pig2:`   
 :mouse2: `:mouse2:`   
 :ox: `:ox:`   
-:dragon_face: `:dragon_face:`   
 :blowfish: `:blowfish:`   
 :crocodile: `:crocodile:`   
-:dromedary_camel: `:dromedary_camel:`   
 :leopard: `:leopard:`   
 :cat2: `:cat2:`   
 :poodle: `:poodle:`   
-:paw_prints: `:paw_prints:`   
+:paw_prints: `:paw prints:`   
 :bouquet: `:bouquet:`   
 :cherry_blossom: `:cherry_blossom:`   
 :tulip: `:tulip:`   
-:four_leaf_clover: `:four_leaf_clover:`   
+:four_leaf_clover: `:four leaf clover:`   
 :rose: `:rose:`   
 :sunflower: `:sunflower:`   
 :hibiscus: `:hibiscus:`   
-:maple_leaf: `:maple_leaf:`   
+:maple_leaf: `:maple leaf:`   
 :leaves: `:leaves:`   
-:fallen_leaf: `:fallen_leaf:`   
+:fallen_leaf: `:fallen leaves:`   
 :herb: `:herb:`   
 :mushroom: `:mushroom:`   
 :cactus: `:cactus:`   
-:palm_tree: `:palm_tree:`   
-:evergreen_tree: `:evergreen_tree:`   
-:deciduous_tree: `:deciduous_tree:`   
+:palm_tree: `:palm tree:`   
+:evergreen_tree: `:evergreen tree:`   
+:deciduous_tree: `:deciduous tree:`   
 :chestnut: `:chestnut:`   
 :seedling: `:seedling:`   
 :blossom: `:blossom:`   
@@ -209,41 +206,40 @@
 :waxing_gibbous_moon: `:waxing gibbous moon:`   
 :full_moon: `:full moon:`   
 :waning_gibbous_moon: `:waning gibbous moon:`   
-:last_quarter_moon: `:last_quarter_moon:`   
-:waning_crescent_moon: `:waning_crescent_moon:`   
+:last_quarter_moon: `:last quarter moon:`   
+:waning_crescent_moon: `:waning crescent moon:`   
 :earth_africa: `:africa:`   
 :earth_americas: `:americas:`   
 :earth_asia: `:asia:`   
 :volcano: `:volcano:`   
 :milky_way: `:milky_way:`   
-:partly_sunny: `:partly_sunny:`   
+:partly_sunny: `:partly sunny:`   
 :bamboo: `:bamboo:`   
 :dolls: `:dolls:`   
 :school_satchel: `:school bag:`   
 :mortar_board: `:graduate:`   
 :fireworks: `:fireworks:`   
 :sparkler: `:sparkler:`   
-:wind_chime: `:wind_chime:`   
+:wind_chime: `:wind chime:`   
 :jack_o_lantern: `:Hallowe'en:`   
 :ghost: `:ghost:`   
 :santa: `:santa:`   
 :christmas_tree: `:christmas_tree:`   
 :gift: `:gift:`   
 :bell: `:bell:`   
-:tanabata_tree: `:tanabata_tree:`   
 :tada: `:tada:`   
-:confetti_ball: `:confetti_ball:`   
+:confetti_ball: `:confetti ball:`   
 :balloon: `:balloon:`   
 :crystal_ball: `:crystal_ball:`   
 :cd: `:cd:`   
 :dvd: `:dvd:`   
-:floppy_disk: `:floppy_disk:`   
+:floppy_disk: `:floppy disk:`   
 :camera: `:camera:`   
 :video_camera: `:video_camera:`   
 :movie_camera: `:movie_camera:`   
 :computer: `:computer:`   
 :tv: `:tv:`   
-:iphone: `:iphone:`   
+:iphone: `:smartphone:`   
 :phone: `:phone:`   
 :telephone: `:telephone:`   
 :telephone_receiver: `:telephone_receiver:`   
@@ -255,25 +251,19 @@
 :speaker: `:speaker:`   
 :mute: `:mute:`   
 :loudspeaker: `:loudspeaker:`   
-:mega: `:mega:`   
+:mega: `:megaphone:`   
 :hourglass: `:hourglass:`   
 :hourglass_flowing_sand: `:hourglass_flowing_sand:`   
 :alarm_clock: `:alarm_clock:`   
 :watch: `:watch:`   
 :radio: `:radio:`   
 :satellite: `:satellite:`   
-:loop: `:loop:`   
-:mag: `:mag:`   
-:mag_right: `:mag_right:`   
+:mag: `:magnifying glass:`   
 :unlock: `:unlock:`   
 :lock: `:lock:`   
-:lock_with_ink_pen: `:lock_with_ink_pen:`   
-:closed_lock_with_key: `:closed_lock_with_key:`   
 :key: `:key:`   
 :bulb: `:bulb:`   
 :flashlight: `:flashlight:`   
-:high_brightness: `:high_brightness:`   
-:low_brightness: `:low_brightness:`   
 :electric_plug: `:electric_plug:`   
 :battery: `:battery:`   
 :calling: `:calling:`   
@@ -288,16 +278,12 @@
 :nut_and_bolt: `:nut_and_bolt:`   
 :hammer: `:hammer:`   
 :seat: `:seat:`   
-:moneybag: `:moneybag:`   
 :yen: `:yen:`   
 :dollar: `:dollar:`   
 :pound: `:pound:`   
 :euro: `:euro:`   
 :credit_card: `:credit_card:`   
-:money_with_wings: `:money_with_wings:`   
 :e-mail: `:e-mail:`   
-:inbox_tray: `:inbox_tray:`   
-:outbox_tray: `:outbox_tray:`   
 :envelope: `:envelope:`   
 :incoming_envelope: `:incoming_envelope:`   
 :postal_horn: `:postal_horn:`   
@@ -395,18 +381,16 @@
 :shirt: `:shirt:`   
 :tshirt: `:tshirt:`   
 :necktie: `:necktie:`   
-:womans_clothes: `:womans_clothes:`   
+:womans_clothes: `:blouse:`   
 :dress: `:dress:`   
-:running_shirt_with_sash: `:running_shirt_with_sash:`   
+:running_shirt_with_sash: `:tank top:`   
 :jeans: `:jeans:`   
-:kimono: `:kimono:`   
-:bikini: `:bikini:`   
+:bikini: `:swimsuit:`   
 :ribbon: `:ribbon:`   
 :tophat: `:tophat:`   
 :crown: `:crown:`   
-:womans_hat: `:womans_hat:`   
-:mans_shoe: `:mans_shoe:`   
-:closed_umbrella: `:closed_umbrella:`   
+:womans_hat: `:sun hat:`   
+:closed_umbrella: `:closed umbrella:`   
 :briefcase: `:briefcase:`   
 :handbag: `:handbag:`   
 :pouch: `:pouch:`   
@@ -421,42 +405,36 @@
 :beers: `:beers:`   
 :cocktail: `:cocktail:`   
 :tropical_drink: `:tropical_drink:`   
-:wine_glass: `:wine_glass:`   
-:fork_and_knife: `:fork_and_knife:`   
+:wine_glass: `:glass:`   
+:fork_and_knife: `:fork and knife:`   
 :pizza: `:pizza:`   
 :hamburger: `:hamburger:`   
 :fries: `:fries:`   
-:poultry_leg: `:poultry_leg:`   
-:meat_on_bone: `:meat_on_bone:`   
+:poultry_leg: `:poultry:`   
+:meat_on_bone: `:meat:`   
 :spaghetti: `:spaghetti:`   
 :curry: `:curry:`   
-:fried_shrimp: `:fried_shrimp:`   
+:fried_shrimp: `:shrimp:`   
 :bento: `:bento:`   
 :sushi: `:sushi:`   
-:fish_cake: `:fish_cake:`   
-:rice_ball: `:rice_ball:`   
 :rice_cracker: `:rice_cracker:`   
 :rice: `:rice:`   
 :ramen: `:ramen:`   
 :stew: `:stew:`   
-:oden: `:oden:`   
-:dango: `:dango:`   
 :egg: `:egg:`   
 :bread: `:bread:`   
 :doughnut: `:doughnut:`   
 :custard: `:custard:`   
 :icecream: `:icecream:`   
-:ice_cream: `:ice_cream:`   
-:shaved_ice: `:shaved_ice:`   
 :birthday: `:birthday:`   
 :cake: `:cake:`   
 :cookie: `:cookie:`   
 :chocolate_bar: `:chocolate_bar:`   
 :candy: `:candy:`   
 :lollipop: `:lollipop:`   
-:honey_pot: `:honey_pot:`   
+:honey_pot: `:honey:`   
 :apple: `:apple:`   
-:green_apple: `:green_apple:`   
+:green_apple: `:green apple:`   
 :tangerine: `:tangerine:`   
 :lemon: `:lemon:`   
 :cherries: `:cherries:`   
@@ -468,12 +446,12 @@
 :banana: `:banana:`   
 :pear: `:pear:`   
 :pineapple: `:pineapple:`   
-:sweet_potato: `:sweet_potato:`   
+:sweet_potato: `:sweet potato:`   
 :eggplant: `:eggplant:`   
 :tomato: `:tomato:`   
 :corn: `:corn:`   
 :house: `:house:`   
-:house_with_garden: `:house_with_garden:`   
+:house_with_garden: `:house with yard:`   
 :school: `:school:`   
 :office: `:office:`   
 :post_office: `:post office:`   
@@ -485,13 +463,12 @@
 :european_post_office: `:post office:`   
 :city_sunrise: `:sunrise in city:`   
 :city_sunset: `:sunset in city:`   
-:japanese_castle: `:japanese_castle:`   
-:european_castle: `:european_castle:`   
+:european_castle: `:castle:`   
 :tent: `:tent:`   
 :factory: `:factory:`   
 :sunrise_over_mountains: `:sunrise over mountains:`   
 :sunrise: `:sunrise:`   
-:bridge_at_night: `:bridge_at_night:`   
+:bridge_at_night: `:bridge:`   
 :carousel_horse: `:carousel horse:`   
 :rainbow: `:rainbow:`   
 :ferris_wheel: `:ferris wheel:`   
@@ -506,13 +483,13 @@
 :rocket: `:rocket:`   
 :airplane: `:airplane:`   
 :helicopter: `:helicopter:`   
-:steam_locomotive: `:steam_locomotive:`   
+:steam_locomotive: `:steam locomotive:`   
 :tram: `:tram:`   
-:mountain_railway: `:mountain_railway:`   
+:mountain_railway: `:mountain railway:`   
 :bike: `:bike:`   
-:aerial_tramway: `:aerial_tramway:`   
-:suspension_railway: `:suspension_railway:`   
-:mountain_cableway: `:mountain_cableway:`   
+:aerial_tramway: `:aerial tramway:`   
+:suspension_railway: `:suspension railway:`   
+:mountain_cableway: `:mountain cableway:`   
 :tractor: `:tractor:`   
 :blue_car: `:blue car:`   
 :car: `:car:`   
@@ -528,7 +505,7 @@
 :train: `:train:`   
 :station: `:station:`   
 :bullettrain_side: `:bullettrain:`   
-:light_rail: `:light_rail:`   
+:light_rail: `:light rail:`   
 :monorail: `:monorail:`   
 :railway_car: `:railway_car:`   
 :trolleybus: `:trolleybus:`   
@@ -541,7 +518,7 @@
 :barber: `:barber:`   
 :checkered_flag: `:finish:`   
 :circus_tent: `:circus:`   
-:performing_arts: `:performing_arts:`   
+:performing_arts: `:performing arts:`   
 :round_pushpin: `:round pin:`   
 :triangular_flag_on_post: `:triangular flag:`   
 :one: `:one:`   
@@ -564,7 +541,7 @@
 :abcd: `:lowercase abcd:`   
 :arrow_right: `:right:`   
 :arrow_up: `:up:`   
-:leftwards_arrow_with_hook: `:return`
+:leftwards_arrow_with_hook: `:return`   
 :arrows_counterclockwise: `:counterclockwise:`   
 :ok: `:okay:`   
 :twisted_rightwards_arrows: `:cross:`   
@@ -578,28 +555,10 @@
 :parking: `:parking:`   
 :wheelchair: `:wheelchair:`   
 :metro: `:metro:`   
-:baggage_claim: `:baggage_claim:`   
-:accept: `:accept:`   
+:baggage_claim: `:luggage:`   
 :wc: `:wc:`   
 :potable_water: `:potable_water:`   
 :put_litter_in_its_place: `:put_litter_in_its_place:`   
-:secret: `:secret:`   
-:congratulations: `:congratulations:`   
-:m: `:m:`   
-:passport_control: `:passport_control:`   
-:left_luggage: `:left_luggage:`   
-:customs: `:customs:`   
-:ideograph_advantage: `:ideograph_advantage:`   
-:cl: `:cl:`   
-:sos: `:sos:`   
-:id: `:id:`   
-:no_entry_sign: `:no_entry_sign:`   
-:underage: `:underage:`   
-:no_mobile_phones: `:no_mobile_phones:`   
-:do_not_litter: `:do_not_litter:`   
-:non-potable_water: `:non-potable_water:`   
-:no_bicycles: `:no_bicycles:`   
-:no_pedestrians: `:no_pedestrians:`   
 :children_crossing: `:children:`   
 :recycle: `:recycle:`   
 :clock1: `:clock1:`   
@@ -627,8 +586,6 @@
 :clock9: `:clock9:`   
 :clock930: `:clock930:`   
 :heavy_dollar_sign: `:heavy_dollar_sign:`   
-:copyright: `:copyright:`   
-:registered: `:registered:`   
 :heavy_exclamation_mark: `:heavy_exclamation_mark:`   
 :heavy_multiplication_x: `:heavy_multiplication_x:`   
 :heavy_plus_sign: `:heavy_plus_sign:`   
@@ -637,21 +594,17 @@
 :white_flower: `:white_flower:`   
 :100: `:100:`   
 :heavy_check_mark: `:heavy_check_mark:`   
-:ballot_box_with_check: `:ballot_box_with_check:`   
+:ballot_box_with_check: `:blue square with white check mark:`   
 :radio_button: `:radio_button:`   
 :link: `:link:`   
-:curly_loop: `:curly_loop:`   
-:wavy_dash: `:wavy_dash:`   
-:part_alternation_mark: `:part_alternation_mark:`   
 :trident: `:trident:`   
-:white_check_mark: `:white_check_mark:`   
+:white_check_mark: `:green square with white check mark:`   
 :black_square_button: `:black_square_button:`   
 :white_square_button: `:white_square_button:`   
-:black_circle: `:black_circle:`   
-:white_circle: `:white_circle:`   
-:red_circle: `:red_circle:`   
-:large_blue_circle: `:blue_circle:`   
-:large_blue_diamond: `:blue_diamond:`   
-:large_orange_diamond: `:orange_diamond:`   
-:small_red_triangle: `:red_triangle:`   
-:small_red_triangle_down: `:red_triangle_down:`   
+:black_circle: `:black circle:`   
+:white_circle: `:white circle:`   
+:red_circle: `:red circle:`   
+:large_blue_circle: `:blue circle:`   
+:large_blue_diamond: `:blue diamond:`   
+:large_orange_diamond: `:orange diamond:`   
+:small_red_triangle: `:red triangle:`   
