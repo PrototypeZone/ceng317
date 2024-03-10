@@ -4,9 +4,6 @@
 :smiley: `:smiley:`   
 :relaxed: `:relaxed:`   
 :smirk: `:smirk:`   
-:heart_eyes: `:heart_eyes:`   
-:kissing_heart: `:kissing_heart:`   
-:kissing_closed_eyes: `:kissing_closed_eyes:`   
 :flushed: `:flushed:`   
 :relieved: `:relieved:`   
 :satisfied: `:satisfied:`   
@@ -43,7 +40,6 @@
 :yum: `:yum:`   
 :mask: `:mask:`   
 :sunglasses: `:sunglasses:`   
-:imp: `:imp:`   
 :innocent: `:innocent:`   
 :alien: `:alien:`   
 :yellow_heart: `:yellow_heart:`   
@@ -51,106 +47,63 @@
 :purple_heart: `:purple_heart:`   
 :green_heart: `:green_heart:`   
 :two_hearts: `:two_hearts:`   
-
 :heart: `:heart:`   
-:heartbeat: `:heartbeat:`   
-:heartpulse: `:heartpulse:`   
 :cupid: `:cupid:`   
 :sparkles: `:sparkles:`   
 :star: `:star:`   
 :dizzy: `:dizzy:`   
 :boom: `:boom:`   
 :collision: `:collision:`   
-:anger: `:anger:`   
 :exclamation: `:exclamation:`   
 :question: `:question:`   
 :grey_exclamation: `:grey_exclamation:`   
 :grey_question: `:grey_question:`   
-:zzz: `:zzz:`   
+:zzz: `:sleeping:`   
 :dash: `:dash:`   
-:sweat_drops: `:sweat_drops:`   
+:sweat_drops: `:sweat drops:`   
 :notes: `:notes:`   
-:musical_note: `:musical_note:`   
+:musical_note: `:musical note:`   
 :fire: `:fire:`   
-:hankey: `:hankey:`   
 :poop: `:poop:`   
-:shit: `:shit:`   
-:+1: `:+1:`   
-:thumbsup: `:thumbsup:`   
-:-1: `:-1:`   
-:thumbsdown: `:thumbsdown:`   
-:ok_hand: `:ok_hand:`   
-:punch: `:punch:`   
-:facepunch: `:facepunch:`   
+:thumbsup: `:thumbs up:`   
+:thumbsdown: `:thumbs down:`   
+:ok_hand: `:okay:`   
 :fist: `:fist:`   
 :v: `:v:`   
 :wave: `:wave:`   
 :hand: `:hand:`   
-:raised_hand: `:raised_hand:`   
-:open_hands: `:open_hands:`   
-:point_up: `:point_up:`   
-:point_down: `:point_down:`   
-:point_left: `:point_left:`   
-:point_right: `:point_right:`   
-:raised_hands: `:raised_hands:`   
-:pray: `:pray:`   
-:point_up_2: `:point_up_2:`   
+:open_hands: `:open hands:`   
+:point_up: `:point up:`   
+:point_down: `:point down:`   
+:point_left: `:point left:`   
+:point_right: `:point right:`   
+:raised_hands: `:raised hands:`   
+:pray: `:hands together:`   
 :clap: `:clap:`   
 :muscle: `:muscle:`   
-:metal: `:metal:`   
-:fu: `:fu:`   
 :walking: `:walking:`   
-:runner: `:runner:`   
 :running: `:running:`   
-:couple: `:couple:`   
-:family: `:family:`   
-:two_men_holding_hands: `:two_men_holding_hands:`   
-:two_women_holding_hands: `:two_women_holding_hands:`   
 :dancer: `:dancer:`   
 :dancers: `:dancers:`   
-:ok_woman: `:ok_woman:`   
-:no_good: `:no_good:`   
-:information_desk_person: `:information_desk_person:`   
+:ok_woman: `:okay:`   
+:no_good: `:not good:`   
 :raising_hand: `:raising_hand:`   
-:bride_with_veil: `:bride_with_veil:`   
-:person_with_pouting_face: `:person_with_pouting_face:`   
-:person_frowning: `:person_frowning:`   
 :bow: `:bow:`   
-:couplekiss: `:couplekiss:`   
-:couple_with_heart: `:couple_with_heart:`   
-:massage: `:massage:`   
 :haircut: `:haircut:`   
-:nail_care: `:nail_care:`   
 :boy: `:boy:`   
 :girl: `:girl:`   
 :woman: `:woman:`   
 :man: `:man:`   
 :baby: `:baby:`   
-:older_woman: `:older_woman:`   
-:older_man: `:older_man:`   
-:person_with_blond_hair: `:person_with_blond_hair:`   
-:man_with_gua_pi_mao: `:man_with_gua_pi_mao:`   
-:man_with_turban: `:man_with_turban:`   
+:older_woman: `:older woman:`   
+:older_man: `:older man:`   
 :construction_worker: `:construction_worker:`   
-:cop: `:cop:`   
-:angel: `:angel:`   
+:cop: `:police:`   
 :princess: `:princess:`   
-:smiley_cat: `:smiley_cat:`   
-:smile_cat: `:smile_cat:`   
-:heart_eyes_cat: `:heart_eyes_cat:`   
-:kissing_cat: `:kissing_cat:`   
-:smirk_cat: `:smirk_cat:`   
-:scream_cat: `:scream_cat:`   
-:crying_cat_face: `:crying_cat_face:`   
-:joy_cat: `:joy_cat:`   
-:pouting_cat: `:pouting_cat:`   
-:japanese_ogre: `:japanese_ogre:`   
-:japanese_goblin: `:japanese_goblin:`   
 :see_no_evil: `:see_no_evil:`   
 :hear_no_evil: `:hear_no_evil:`   
 :speak_no_evil: `:speak_no_evil:`   
 :guardsman: `:guardsman:`   
-:skull: `:skull:`   
 :feet: `:feet:`   
 :lips: `:lips:`   
 :kiss: `:kiss:`   
@@ -159,9 +112,7 @@
 :eyes: `:eyes:`   
 :nose: `:nose:`   
 :tongue: `:tongue:`   
-:love_letter: `:love_letter:`   
-:bust_in_silhouette: `:bust_in_silhouette:`   
-:busts_in_silhouette: `:busts_in_silhouette:`   
+:love_letter: `:letter:`   
 :speech_balloon: `:speech_balloon:`   
 :thought_balloon: `:thought_balloon:`   
 :cloud: `:cloud:`   
@@ -184,22 +135,17 @@
 :koala: `:koala:`   
 :bear: `:bear:`   
 :pig: `:pig:`   
-:pig_nose: `:pig_nose:`   
 :cow: `:cow:`   
 :boar: `:boar:`   
-:monkey_face: `:monkey_face:`   
 :monkey: `:monkey:`   
 :horse: `:horse:`   
-:racehorse: `:racehorse:`   
 :camel: `:camel:`   
 :sheep: `:sheep:`   
 :elephant: `:elephant:`   
-:panda_face: `:panda_face:`   
+:panda_face: `:panda:`   
 :snake: `:snake:`   
 :bird: `:bird:`   
-:baby_chick: `:baby_chick:`   
-:hatched_chick: `:hatched_chick:`   
-:hatching_chick: `:hatching_chick:`   
+:hatching_chick: `:hatching chick:`   
 :chicken: `:chicken:`   
 :penguin: `:penguin:`   
 :turtle: `:turtle:`   
@@ -212,7 +158,6 @@
 :tropical_fish: `:tropical_fish:`   
 :fish: `:fish:`   
 :whale: `:whale:`   
-:whale2: `:whale2:`   
 :dolphin: `:dolphin:`   
 :cow2: `:cow2:`   
 :ram: `:ram:`   
@@ -257,38 +202,29 @@
 :ear_of_rice: `:ear_of_rice:`   
 :shell: `:shell:`   
 :globe_with_meridians: `:globe_with_meridians:`   
-:sun_with_face: `:sun_with_face:`   
-:full_moon_with_face: `:full_moon_with_face:`   
-:new_moon_with_face: `:new_moon_with_face:`   
-:new_moon: `:new_moon:`   
-:waxing_crescent_moon: `:waxing_crescent_moon:`   
-:first_quarter_moon: `:first_quarter_moon:`   
-:waxing_gibbous_moon: `:waxing_gibbous_moon:`   
-:full_moon: `:full_moon:`   
-:waning_gibbous_moon: `:waning_gibbous_moon:`   
+:sun_with_face: `:sun:`   
+:new_moon: `:new moon:`   
+:waxing_crescent_moon: `:waxing crescent moon:`   
+:first_quarter_moon: `:first quarter moon:`   
+:waxing_gibbous_moon: `:waxing gibbous moon:`   
+:full_moon: `:full moon:`   
+:waning_gibbous_moon: `:waning gibbous moon:`   
 :last_quarter_moon: `:last_quarter_moon:`   
 :waning_crescent_moon: `:waning_crescent_moon:`   
-:last_quarter_moon_with_face: `:last_quarter_moon_with_face:`   
-:first_quarter_moon_with_face: `:first_quarter_moon_with_face:`   
-:moon: `:moon:`   
-:earth_africa: `:earth_africa:`   
-:earth_americas: `:earth_americas:`   
-:earth_asia: `:earth_asia:`   
+:earth_africa: `:africa:`   
+:earth_americas: `:americas:`   
+:earth_asia: `:asia:`   
 :volcano: `:volcano:`   
 :milky_way: `:milky_way:`   
 :partly_sunny: `:partly_sunny:`   
-:octocat: `:octocat:`   
-:squirrel: `:squirrel:`   
 :bamboo: `:bamboo:`   
 :dolls: `:dolls:`   
-:school_satchel: `:school_satchel:`   
-:mortar_board: `:mortar_board:`   
-:flags: `:flags:`   
+:school_satchel: `:school bag:`   
+:mortar_board: `:graduate:`   
 :fireworks: `:fireworks:`   
 :sparkler: `:sparkler:`   
 :wind_chime: `:wind_chime:`   
-:rice_scene: `:rice_scene:`   
-:jack_o_lantern: `:jack_o_lantern:`   
+:jack_o_lantern: `:Hallowe'en:`   
 :ghost: `:ghost:`   
 :santa: `:santa:`   
 :christmas_tree: `:christmas_tree:`   
