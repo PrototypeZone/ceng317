@@ -1,5 +1,5 @@
-:capital_abcd: `:capital abcd:`   
-:abcd: `:lowercase abcd:`   
+:capital_abcd: `:ANCD in capital letters:`   
+:abcd: `:abcd in lowercase letters:`   
 :heavy_plus_sign: `:addition:`   
 :aerial_tramway: `:aerial tramway:`   
 :earth_africa: `:africa:`   
@@ -42,11 +42,14 @@
 :bird: `:bird:`   
 :birthday: `:birthday:`   
 :black_circle: `:black circle:`   
-:black_square_button: `:black_square_button:`   
+:white_square_button: `:black square with a white border:`   
 :blossom: `:blossom:`   
+:womans_clothes: `:blouse:`   
 :blowfish: `:blowfish:`   
 :blue_book: `:blue book:`   
 :blue_car: `:blue car:`   
+:large_blue_circle: `:blue circle:`   
+:large_blue_diamond: `:blue diamond:`   
 :blue_heart: `:blue heart:`   
 :blush: `:blush:`   
 :boar: `:boar:`   
@@ -134,6 +137,7 @@
 :corn: `:corn:`   
 :arrows_counterclockwise: `:counterclockwise:`   
 :cow2: `:cow:`   
+:rice_cracker: `:cracker:`   
 :credit_card: `:credit card:`   
 :crocodile: `:crocodile:`   
 :crown: `:crown:`   
@@ -219,6 +223,7 @@
 :ghost: `:ghost:`   
 :gift: `:gift:`   
 :girl: `:girl:`   
+:wine_glass: `:glass:`   
 :globe_with_meridians: `:globe with meridians:`   
 :goat: `:goat:`   
 :golf: `:golf:`   
@@ -227,6 +232,7 @@
 :green_book: `:green book:`   
 :heavy_check_mark: `:green check mark:`   
 :green_heart: `:green heart:`   
+:white_check_mark: `:green square with white check mark:`   
 :grey_exclamation: `:grey exclamation mark:`   
 :grey_question: `:grey question mark:`   
 :grimacing: `:grimacing:`   
@@ -271,15 +277,10 @@
 :kiss: `:kiss:`   
 :kissing: `:kissing:`   
 :koala: `:koala:`   
-:large_blue_circle: `:blue circle:`   
-:large_blue_diamond: `:blue diamond:`   
-:large_orange_diamond: `:orange diamond:`   
 :last_quarter_moon: `:last quarter moon:`   
 :laughing: `:laughing:`    
 :leaves: `:leaves:`   
-:ledger: `:yellow book:`   
 :arrow_left: `:left:`   
-:leftwards_arrow_with_hook: `:return`   
 :lemon: `:lemon:`   
 :leopard: `:leopard:`   
 :light_rail: `:light rail:`   
@@ -302,7 +303,7 @@
 :meat_on_bone: `:meat:`   
 :mega: `:megaphone:`   
 :melon: `:melon:`   
-:mens: `:mens:`   
+:mens: `:men's:`   
 :metro: `:metro:`   
 :microphone: `:microphone:`   
 :microscope: `:microscope:`   
@@ -350,6 +351,7 @@
 :one: `:one:`   
 :open_hands: `:open hands:`   
 :orange_book: `:orange book:`   
+:large_orange_diamond: `:orange diamond:`   
 :ox: `:ox:`   
 :page_facing_up: `:page:`   
 :pager: `:pager:`   
@@ -361,7 +363,7 @@
 :paw_prints: `:paw prints:`   
 :peach: `:peach:`   
 :pear: `:pear:`   
-:pencil2: `:pencil2:`   
+:pencil2: `:pencil:`   
 :penguin: `:penguin:`   
 :pensive: `:pensive:`   
 :performing_arts: `:performing arts:`   
@@ -379,9 +381,8 @@
 :cop: `:police:`   
 :police_car: `:police car:`   
 :poodle: `:poodle:`   
-:poop: `:poop:`   
+:poop: `:poo:`   
 :post_office: `:post office:`   
-:european_post_office: `:post office:`   
 :postal_horn: `:postal_horn:`   
 :postbox: `:postbox:`   
 :potable_water: `:potable water:`   
@@ -394,7 +395,6 @@
 :purse: `:purse:`   
 :pushpin: `:pushpin:`   
 :put_litter_in_its_place: `:put litter in its place:`   
-:question: `:red question mark:`   
 :rabbit: `:rabbit:`   
 :rabbit2: `:rabbit2:`   
 :radio: `:radio:`   
@@ -412,15 +412,15 @@
 :red_car: `:red car:`   
 :red_circle: `:red circle:`   
 :exclamation: `:red exclamation mark:`   
+:question: `:red question mark:`   
 :small_red_triangle: `:red triangle:`   
 :relaxed: `:relaxed:`   
 :relieved: `:relieved:`   
 :repeat: `:clockwise:`   
 :repeat_one: `:repeat_one:`   
-:restroom: `:washroom:`   
+:leftwards_arrow_with_hook: `:return:`   
 :ribbon: `:ribbon:`   
 :rice: `:rice:`   
-:rice_cracker: `:cracker:`   
 :arrow_right: `:right:`   
 :ring: `:ring:`   
 :rocket: `:rocket:`   
@@ -431,7 +431,6 @@
 :rowboat: `:rowboat:`   
 :rugby_football: `:rugby_football:`   
 :running: `:running:`   
-:running_shirt_with_sash: `:tank top:`   
 :sailboat: `:sailboat:`   
 :sandal: `:sandal:`   
 :santa: `:santa:`   
@@ -469,7 +468,6 @@
 :sob: `:sob:`   
 :soccer: `:soccer:`   
 :sound: `:sound:`   
-:space_invader: `:space_invader:`   
 :spades: `:spades:`   
 :spaghetti: `:spaghetti:`   
 :sparkler: `:sparkler:`   
@@ -488,6 +486,7 @@
 :sun_with_face: `:sun:`   
 :sunflower: `:sunflower:`   
 :sunglasses: `:sunglasses:`   
+:womans_hat: `:sun hat:`   
 :sunny: `:sunny:`   
 :sunrise: `:sunrise:`   
 :sunrise_over_mountains: `:sunrise over mountains:`   
@@ -501,10 +500,12 @@
 :sweet_potato: `:sweet potato:`   
 :swimmer: `:swimmer:`   
 :bikini: `:swimsuit:`   
+:twisted_rightwards_arrows: `:switch:`   
 :symbols: `:symbols:`   
 :syringe: `:syringe:`   
 :tada: `:tada:`   
 :tangerine: `:tangerine:`   
+:running_shirt_with_sash: `:tank top:`   
 :taxi: `:taxi:`   
 :tea: `:tea:`   
 :telephone: `:telephone:`   
@@ -524,6 +525,7 @@
 :tongue: `:tongue:`   
 :tophat: `:tophat:`   
 :tractor: `:tractor:`   
+:vertical_traffic_light: `:traffic light:`   
 :train: `:train:`   
 :tram: `:tram:`   
 :triangular_flag_on_post: `:triangular flag:`   
@@ -540,7 +542,6 @@
 :tulip: `:tulip:`   
 :turtle: `:turtle:`   
 :tv: `:tv:`   
-:twisted_rightwards_arrows: `:cross:`   
 :two: `:two:`   
 :two_hearts: `:two hearts:`   
 :umbrella: `:umbrella:`   
@@ -548,7 +549,6 @@
 :unlock: `:unlock:`   
 :arrow_up: `:up:`   
 :v: `:v:`   
-:vertical_traffic_light: `:traffic light:`   
 :vhs: `:vhs:`   
 :video_camera: `:video camera:`   
 :video_game: `:video_game:`   
@@ -558,30 +558,28 @@
 :waning_crescent_moon: `:waning crescent moon:`   
 :waning_gibbous_moon: `:waning gibbous moon:`   
 :warning: `:warning:`   
+:wc: `:water closet:`   
+:restroom: `:washroom:`   
 :watch: `:watch:`   
 :water_buffalo: `:water buffalo:`   
 :watermelon: `:watermelon:`   
 :wave: `:wave:`   
 :waxing_crescent_moon: `:waxing crescent moon:`   
 :waxing_gibbous_moon: `:waxing gibbous moon:`   
-:wc: `:wc:`   
 :weary: `:weary:`   
 :whale: `:whale:`   
 :wheelchair: `:wheelchair:`   
-:white_check_mark: `:green square with white check mark:`   
 :white_circle: `:white circle:`   
 :white_flower: `:white flower:`   
-:white_square_button: `:white_square_button:`   
+:black_square_button: `:white square with a black border:`   
 :wind_chime: `:wind chime:`   
-:wine_glass: `:glass:`   
 :wink: `:wink:`   
 :wolf: `:wolf:`   
 :woman: `:woman:`   
-:womans_clothes: `:blouse:`   
-:womans_hat: `:sun hat:`   
-:womens: `:womens:`   
+:womens: `:women's:`   
 :worried: `:worried:`   
 :wrench: `:wrench:`   
+:ledger: `:yellow book:`   
 :yellow_heart: `:yellow heart:`   
 :yen: `:yen:`   
 :yum: `:yum:`   
