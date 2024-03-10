@@ -35,7 +35,6 @@
 :bear: `:bear:`   
 :beetle: `:beetle:`   
 :bell: `:bell:`   
-:bento: `:bento:`   
 :bicyclist: `:bicyclist:`   
 :bike: `:bike:`   
 :8ball: `:billiard ball:`   
