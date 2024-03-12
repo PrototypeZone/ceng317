@@ -25,13 +25,15 @@
 
 #define DEV_PATH "/dev/i2c-1"
 /**For the HTS221*/   
-//#define DEV_ID 0x5F
+//#define I2C_ADDR 0x5F
+#define HTS221_DEV_ID 0xBC
 /**For the LPS25H*/
-//#define DEV_ID 0x5c
+//#define I2C_ADDR 0x5c
+#define LPS25H_DEV_ID 0xBD
 /**For the relay*/
-//#define DEV_ID 0x18
+//#define I2C_ADDR 0x18
 /**For the VL53Lseries*/
-#define DEV_ID 0x29
+#define I2C_ADDR 0x29
 
 #define WHO_AM_I 0x0F
 
@@ -51,13 +53,13 @@ int main(void) {
     }
 
     /* configure i2c slave */
-    if (ioctl(fd, I2C_SLAVE, DEV_ID) < 0) {
+    if (ioctl(fd, I2C_SLAVE, I2C_ADDR) < 0) {
         perror("Unable to configure i2c slave device");
         close(fd);
         exit(1);
     }
 
-    printf("\nThe device at %#x identifies as %#x\n",DEV_ID,i2c_smbus_read_byte_data(fd, WHO_AM_I));
+    printf("\nThe device at %#x identifies as %#x\n",I2C_ADDR,i2c_smbus_read_byte_data(fd, WHO_AM_I));
 
     //For the HTS221 Should provide
     //The device at 0x5f identifies as 0xbc
@@ -72,7 +74,7 @@ int main(void) {
     //The device at 0x5c identifies as 0x?
 
     /* check we are who we should be */
-    if (i2c_smbus_read_byte_data(fd, WHO_AM_I) != 0xBC) {
+    if (i2c_smbus_read_byte_data(fd, WHO_AM_I) != HTS221_DEV_ID) {
         printf("%s\n", "who_am_i error");
         close(fd);
         exit(1);
