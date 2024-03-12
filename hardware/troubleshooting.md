@@ -19,22 +19,24 @@
 ```c
 /**For the HTS221*/   
 #define DEV_PATH "/dev/i2c-1"   
-#define DEV_ID 0x5F   
-#define WHO_AM_I 0x0F   
+#define HTS221_I2C_ADDR 0x5F   
+#define HTS221_WHO_AM_I 0x0F   
+//#define HTS221_DEV_ID 0xBC   
 fd = open(DEV_PATH, O_RDWR);
-ioctl(fd, I2C_SLAVE, DEV_ID);
-printf("\nThe device at %#x identifies as %#x\n",DEV_ID,i2c_smbus_read_byte_data(fd, WHO_AM_I));
+ioctl(fd, I2C_SLAVE, HTS221_I2C_ADDR);
+printf("\nThe device at %#x identifies as %#x\n",HTS221_I2C_ADDR,i2c_smbus_read_byte_data(fd, HTS221_WHO_AM_I));
 //Should provide
 //The device at 0x5f identifies as 0xbc
  
 /**For the LPS25H*/
 #define DEV_PATH "/dev/i2c-1"
-#define DEV_ID 0x5c
-#define WHO_AM_I 0x0F
+#define LPS25H_I2C_ADDR 0x5c
+#define LPS25H_WHO_AM_I 0x0F
+//#define LPS25H_DEV_ID 0xBD   
 fd = open(DEV_PATH, O_RDWR);
-ioctl(fd, I2C_SLAVE, DEV_ID);
-printf("\nThe device at %#x identifies as %#x\n",DEV_ID,i2c_smbus_read_byte_data(fd, WHO_AM_I));
+ioctl(fd, I2C_SLAVE, LPS25H_I2C_ADDR);
+printf("\nThe device at %#x identifies as %#x\n",LPS25H_I2C_ADDR,i2c_smbus_read_byte_data(fd, WHO_AM_I));
 //Should provide
 //The device at 0x5c identifies as 0xbd
 ```
-17. What does your device at DEV_ID 0x__ identify as?
+17. What does your device at I2C_ADDR 0x__ identify as?
