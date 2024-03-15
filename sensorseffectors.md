@@ -29,6 +29,7 @@ LSM9DS1 IMU magnetometer 0x1c(0x1e) and accelerometer/gyroscope 0x6a(0x6b)
 [9DoF Stick IMU - LSM9DS1 SparkFun Retired Product equivalent to that on the sense hat](https://www.sparkfun.com/products/13944)   
 LPS25H Pressure/Temperature sensor (0x5c)   
 HTS221 Humidity/Temperature sensor (0x5f)   
+Version 2 also has TCS3400 RGB colour sensor (0x39)   
 
 ## IC Part number with DigiKey purchasing link, Descriptive Name, DigiKey stock status, I2C address, DEV_ID, footprint, buyer beware
 
