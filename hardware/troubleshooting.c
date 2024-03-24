@@ -39,6 +39,24 @@ int main(void) {
     int fd = 0;
     uint8_t status = 0;
 
+    fprintf(stdout,"Use i2cdetect -y 1 to determine what addresses have peripherals, then enter an i2c address\t\n");
+    fprintf(stdout,"Examples:\n 
+        mprls\t0x18\n
+        cap1203\t0x28\n
+        vl53l1x\t0x29\tvl53l4cd\t0x29\n
+        nau7802\t0x2a\n
+        ism330\t0x30\n
+        tmp117\t0x48\n
+        sgp40\t0x59\n
+        drv8835\t0x5d\n
+        hts221\t0x5f\n
+        i2cdB\t0x64\n
+        icm20948\t0x69\n
+        lsm6dso\t0x6b\n
+        bme280\t0x77\tgroveh2olevel\t0x77\tens160\t0x77\n");
+    hex i2caddr; //?
+    fscanf("%x",i2caddr);
+    
     /* open i2c comms */
     if ((fd = open(DEV_PATH, O_RDWR)) < 0) {
         perror("Unable to open i2c device");
