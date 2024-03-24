@@ -1,22 +1,15 @@
-/*
- *  C code to whoami registers from say the
+/*  C code to read whoami registers from say the
  *  Raspberry Pi Sense HAT add-on board (HTS221 sensor)
- *
+ *  Inspired by https://github.com/davebm1/c-sense-hat/blob/main/humidity.c
  *  sudo raspi-config --> interfacing options --> enable i2c
- *
  *  sudo apt install libi2c-dev
- *
  *  Build with:  gcc -Wall -O2 troubleshooting.c -o troubleshooting -li2c
  *               or just 'make'
- *
- *  Tested with:  Sense HAT v1.0 / Raspberry Pi 3 B+ / Raspbian GNU/Linux 10 (buster)
- *
  */
 
 #include <fcntl.h>
 #include <i2c/smbus.h>
 #include <linux/i2c-dev.h>
-//#include <i2c/smbus.h> //new
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
