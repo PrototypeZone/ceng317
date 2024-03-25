@@ -65,7 +65,7 @@ Version 2 also has TCS3400 RGB colour sensor (0x39)
 |22|OPT4048DTSR|Color||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |23|[MAX30101 & MAX32664](https://www.sparkfun.com/products/15219)|||0x|0x|0x|Qwiic no mount|
 |24|[zio](https://www.sparkfun.com/products/15890)|oled||0x|0x|0x|Qwiic Mounting holes 1.2" wide, 1.6" height (30.48mm x 40.64mm)|
-25|[NAU7802](https://www.sparkfun.com/products/15242)|scale||0x2A|0x1F|0x00|Qwiic Mounting holes .8" wide, 1.2" height (20.32mm x 30.48mm)|*requires load cell and mount*|
+25|[NAU7802](https://www.sparkfun.com/products/15242)|scale||0x2A|0x1F|0x00|Qwiic Mounting holes .8" wide, 1.2" height (20.32mm x 30.48mm)|load cell and mount|
 26|[Relay](https://www.sparkfun.com/products/15093)|||0x|0x|0x|Qwiic Mounting holes 2.05" wide, .8" height (52.07mm x 20.32mm)|Solenoid or other required|
 27|[SparkFun Qwiic OLED](https://www.sparkfun.com/products/17153)|128x32||0x3C|0x|0x|Qwiic Mounting holes 44mm wide, 9mm height|
 28|[CAP1203](https://www.sparkfun.com/products/15344)|touch||0x|0x|0x|Qwiic Mounting holes 1.3" wide, .8" height|
