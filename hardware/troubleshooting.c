@@ -40,8 +40,9 @@ int main(void) {
         "vl53l1x\t\t0x29\tvl53l4cd\t0x29\n"
         "nau7802\t\t0x2A\n"
         "ism330\t\t0x30\n"
+        "stts22h\t\t0x3C\n"
         "tcs3400\t\t0x39\n"
-        "tmp117\t\t0x48\n"
+        "tmp117\t\t0x48\tads1115\t0x48\n"
         "sgp40\t\t0x59\n"
         "lps25h\t\t0x5C\n"
         "drv8835\t\t0x5D\n"
@@ -71,8 +72,9 @@ int main(void) {
         "vl53l1x\t\t0x?\tvl53l4cd\t0x?\n"
         "nau7802\t\t0x?\n"
         "ism330\t\t0x?\n"
+        "stts22h\t\t0x01\n"
         "tcs3400\t\t0x92\n"
-        "tmp117\t\t0x?\n"
+        "tmp117\t\t0x?\tads1115\tox?\n"
         "sgp40\t\t0x?\n"
         "lps25h\t\t0x0F\n"
         "drv8835\t\t0x?\n"
@@ -90,23 +92,25 @@ int main(void) {
  
     //This should provide for the
     //relay:       The device at 0x18, in register 0x0F, identifies as 0x0?
-    //mprls:       The device at 0x18, in register 0x, identifies as 0x
+    //mprls:       The device at 0x18, in register 0x, identifies as 0x46
     //lsm9ds1_mg:  The device at 0x1C, in register 0x0F, identifies as 0x3D
-    //cap1203:     The device at 0x28, in register 0x, identifies as 0x
-    //vl53lseries: The device at 0x29, in register 0x0F, identifies as 0x?
-    //nau7802:     The device at 0x2A, in register 0x, identifies as 0x
-    //ism330:      The device at 0x30, in register 0x, identifies as 0x
+    //cap1203:     The device at 0x28, in register 0x, identifies as 0x28
+    //vl53lseries: The device at 0x29, in register 0x0F, identifies as 0x29
+    //nau7802:     The device at 0x2A, in register 0x, identifies as 0x87
+    //ism330:      The device at 0x30, in register 0x, identifies as 0x61
+    //stts22h:     The device at 0x3C, in register 0x01, identifies as 0xA0
     //tcs3400:     The device at 0x39, in register 0x92, identifies as 0x90
     //tmp117:      The device at 0x48, in register 0x, identifies as 0x
-    //sgp40:       The device at 0x59, in register 0x, identifies as 0x
+    //ads1115:     The device at 0x48, in register 0x?, identifies as 0x87
+    //sgp40:       The device at 0x59, in register 0x, identifies as 0x87
     //lps25h:      The device at 0x5C, in register 0x0F, identifies as 0xBD
-    //drv8835:     The device at 0x5D, in register 0x, identifies as 0x
+    //drv8835:     The device at 0x5D, in register 0x, identifies as 0xA9
     //hts221:      The device at 0x5F, in register 0x0F, identifies as 0xBC
     //i2cdB:       The device at 0x64, in register 0x, identifies as 0x
-    //icm20948:    The device at 0x69, in register 0x, identifies as 0x
+    //icm20948:    The device at 0x69, in register 0x, identifies as 0x69
     //lsm9ds1_ag:  The device at 0x6A, in register 0x0F, identifies as 0x68
     //lsm6dso:     The device at 0x6B, in register 0x, identifies as 0x
-    //bme280:      The device at 0x77, in register 0x, identifies as 0x
+    //bme280:      The device at 0x77, in register 0x, identifies as 0x60
 
     /* Power down the device */
     i2c_smbus_write_byte_data(fd, CTRL_REG1, 0x00);
