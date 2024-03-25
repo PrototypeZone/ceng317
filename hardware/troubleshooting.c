@@ -33,8 +33,9 @@ int main(void) {
 
     fprintf(stdout,"Use i2cdetect -y 1 to determine what addresses have peripherals, then enter an i2c address\n");
     fprintf(stdout,"Examples:\n" 
-        "lsm9ds1_mg\t0x1C\n"
+        "relay\t\t0x18\n"
         "mprls\t\t0x18\n"
+        "lsm9ds1_mg\t0x1C\n"
         "cap1203\t\t0x28\n"
         "vl53l1x\t\t0x29\tvl53l4cd\t0x29\n"
         "nau7802\t\t0x2A\n"
@@ -63,8 +64,9 @@ int main(void) {
 
     fprintf(stdout,"Read the datasheet to determine what register contains the device id, then enter it\n");
     fprintf(stdout,"Examples:\n"
-        "lsm9ds1_mg\t0x0F\n"
+        "relay\t\t0x?\n"
         "mprls\t\t0x?\n"
+        "lsm9ds1_mg\t0x0F\n"
         "cap1203\t\t0x?\n"
         "vl53l1x\t\t0x?\tvl53l4cd\t0x?\n"
         "nau7802\t\t0x?\n"
@@ -87,23 +89,24 @@ int main(void) {
     printf("\nThe device at %#X, in register %#X, identifies as %#X\n",i2caddr,whoami,i2c_smbus_read_byte_data(fd, whoami));
  
     //This should provide for the
+    //relay:       The device at 0x18, in register 0x0F, identifies as 0x0?
+    //mprls:       The device at 0x18, in register 0x, identifies as 0x
     //lsm9ds1_mg:  The device at 0x1C, in register 0x0F, identifies as 0x3D
-    //lsm9ds1_ag:  The device at 0x6A, in register 0x0F, identifies as 0x68
-    //hts221:      The device at 0x5F, in register 0x0F, identifies as 0xBC
-    //lps25h:      The device at 0x5C, in register 0x0F, identifies as 0xBD
+    //cap1203:     The device at 0x28, in register 0x, identifies as 0x
+    //vl53lseries: The device at 0x29, in register 0x0F, identifies as 0x?
+    //nau7802:     The device at 0x2A, in register 0x, identifies as 0x
+    //ism330:      The device at 0x30, in register 0x, identifies as 0x
     //tcs3400:     The device at 0x39, in register 0x92, identifies as 0x90
-    //:      The device at 0x, in register 0x, identifies as 0x
-    //:      The device at 0x, in register 0x, identifies as 0x
-    //:      The device at 0x, in register 0x, identifies as 0x
-    //:      The device at 0x, in register 0x, identifies as 0x
-    //:      The device at 0x, in register 0x, identifies as 0x
-    //:      The device at 0x, in register 0x, identifies as 0x
-    //:      The device at 0x, in register 0x, identifies as 0x
-    //:      The device at 0x, in register 0x, identifies as 0x
-    //:      The device at 0x, in register 0x, identifies as 0x
-    //:      The device at 0x, in register 0x, identifies as 0x
-    //Relay:       The device at 0x18, in register 0x0F, identifies as 0x0?
-    //VL53Lseries: The device at 0x29, in register 0x0F, identifies as 0x?
+    //tmp117:      The device at 0x48, in register 0x, identifies as 0x
+    //sgp40:       The device at 0x59, in register 0x, identifies as 0x
+    //lps25h:      The device at 0x5C, in register 0x0F, identifies as 0xBD
+    //drv8835:     The device at 0x5D, in register 0x, identifies as 0x
+    //hts221:      The device at 0x5F, in register 0x0F, identifies as 0xBC
+    //i2cdB:       The device at 0x64, in register 0x, identifies as 0x
+    //icm20948:    The device at 0x69, in register 0x, identifies as 0x
+    //lsm9ds1_ag:  The device at 0x6A, in register 0x0F, identifies as 0x68
+    //lsm6dso:     The device at 0x6B, in register 0x, identifies as 0x
+    //bme280:      The device at 0x77, in register 0x, identifies as 0x
 
     /* Power down the device */
     i2c_smbus_write_byte_data(fd, CTRL_REG1, 0x00);
