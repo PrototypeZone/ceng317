@@ -9,7 +9,7 @@ https://www.sparkfun.com/categories/tags/qwiic-environmental
 https://www.sparkfun.com/categories/tags/qwiic-other   
 However some Qwiic options are problematic for example:   
 https://www.sparkfun.com/categories/tags/qwiic-gps   
-The 0x10 XA1110 GPS Breakout it not a good choice since we don't have access to a solid GPS signal in the classroom and since it seems to require I2C clock stretching not supported by the Pi.   
+The 0x10 XA1110 GPS Breakout (WHO_AM_I register 0x0F: 0x2C) is not a good choice since we don't have access to a solid GPS signal in the classroom and since it seems to require I2C clock stretching not supported by the Pi.   
 Note: Stemma QT uses the same 4 Pin JST SH 1.0mm pitch connectors as Qwiic (Black for GND, Red for V+, Blue for SDA, Yellow for SCL). Keep in mind the logic on the Raspberry Pi is 3.3V only.   
 Note: Some Qwiic breakout boards require additional connections.   
 Note: Purchasing from SparkFun directly with regular shipping is not reliable/fast enough given that we make our choices in the first couple of weeks of class and need them by reading week. Purchasing via DigiKey for SparkFun items they have in stock usually is fast enough.
@@ -49,14 +49,14 @@ Version 2 also has TCS3400 RGB colour sensor (0x39)
 |6| 4245 PSOC->DRV8835| Stepper Motor *requires motor, power, and mount*||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |7| ADS1015|ADC for liquid level||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |8| |MicroPressure||0x|0x|0x|Qwiic mounting holes 0.8" apart|
-|9| MAX30101|Oximeter/Rate MAX30102? Oximeter and Heart Rate Sensor (0x57)||0x|0x|0x|Qwiic mounting holes 0.8" apart|
+|9| MAX30101|Oximeter/Rate MAX30102? Oximeter and Heart Rate Sensor (0x57)||0x48|0x00|0x0D|Qwiic mounting holes 0.8" apart|
 |10|ID-12LA|RFID Reader||0x|0x|0x|Qwiic mounting holes 0.8" apart|Initial Configuration via Arduino|
 |11|ST25DV64KC|RFID Tag||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |12|VEML6030|Light||0x48|0x|0x|Qwiic mounting holes 0.8" apart|
 |13|VEML7700|Light||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |14|AS7262|Visible Spectrum||0x|0x|0x|Qwiic mounting holes 0.8" apart|
-|15|AS7263|NIR spectrum||0x49|0x|0x|Qwiic mounting holes 0.8" apart|
-|16|VCNL4040|Proximity||0x|0x|0x|Qwiic mounting holes 0.8" apart|
+|15|AS7263|NIR spectrum||0x49|0x00|0x80|Qwiic mounting holes 0.8" apart|
+|16|VCNL4040|Proximity||0x60|0x00|0x01|Qwiic mounting holes 0.8" apart|
 |17|PL-N823|PIR||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |18|TMF8821|ToF||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |19|VL53L1X|ToF||0x18|0x0f|0x29|Qwiic mounting holes 0.8" apart|
@@ -71,7 +71,7 @@ Version 2 also has TCS3400 RGB colour sensor (0x39)
 24. zio oled https://www.sparkfun.com/products/15890
 
 ### Mounting holes .8" wide, 1.2" height (20.32mm x 30.48mm) 
-25. NAU7802 scale https://www.sparkfun.com/products/15242 and load cell? *requires load cell and mount*
+25. NAU7802 scale (0x2A, in register 0x1F, identifies as 0x00) https://www.sparkfun.com/products/15242 and load cell? *requires load cell and mount*
 
 ### Mounting holes 2.05" wide, .8" height (52.07mm x 20.32mm)
 26. Relay https://www.sparkfun.com/products/15093 and solenoid?
@@ -202,19 +202,19 @@ PN532 NFC/RFID reader (Use UART pins 8:TX and 10:RX)
 ### Duplication of SenseHat
 1.  SHTC3 Humidity
 2.  DHT20 Temp Humid (non qwiic)
-3.  BME280 Temp Humid Pressure
+3.  BME280 Temp Humid Pressure (0x77, in register 0xD0, identifies as 0x60)
 4.  TMP102 Temp
-5.  TMP117 Temp
-6.  STTS22H Temp
+5.  TMP117 Temp (0x48)
+6.  STTS22H Temp (0x3C, in register 0x01, identifies as 0xA0)
 7.  MAX30205MTA Contact Body temp
 8.  BMI270 IMU
-9.  ICM-20948 IMU
-10. ISM330DHCX, MMC5983MA IMU
+9.  ICM-20948 IMU (0x69)
+10. ISM330DHCX (0x6B, in register 0x0F, identifies as 0x6B), MMC5983MA (0x30, in register 0x2F, identifies as 0x30) IMU
 11. BMA400 Accel
-12. KX132 Accel
-13. KX134 Accel
-14. LSM6DSO Accel/Gyro
-15. MLX90393 Magnet
+12. KX132 Accel at 0x1F, in register 0x13, identifies as 0x3D
+13. KX134 Accel at 0x1F, in register 0x87, identifies as 0x79
+14. LSM6DSO Accel/Gyro (0x6B)
+15. MLX90393 Magnet (0x0C, in register 0x10, identifies as 0xD4)
 
 ### Using the [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495)
    - Redudent (to the SenseHat) choices:   
