@@ -32,8 +32,8 @@ int main(void) {
     }
 
     fprintf(stdout,"Use i2cdetect -y 1 to determine what addresses have peripherals, then enter an i2c address\n");
-    fprintf(stdout,"Examples:\n 
-        lsm9ds1_mg\t0x1C\n
+    fprintf(stdout,"Examples:\n" 
+/*        lsm9ds1_mg\t0x1C\n
         mprls\t0x18\n
         cap1203\t0x28\n
         vl53l1x\t0x29\tvl53l4cd\t0x29\n
@@ -49,21 +49,21 @@ int main(void) {
         icm20948\t0x69\n
         lsm9ds1_ag\t0x6A\n
         lsm6dso\t0x6B\n
-        bme280\t0x77\tgroveh2olevel\t0x77\tens160\t0x77\n
-        enter a hexidecimal i2c address (e.g. 5F): ");
+        bme280\t0x77\tgroveh2olevel\t0x77\tens160\t0x77\n*/
+        "enter a hexidecimal i2c address (e.g. 5F): ");
     int i2caddr;
-    fscanf("%x",&i2caddr);
+    scanf("%x",&i2caddr);
     
     /* configure i2c slave */
-    if (ioctl(fd, I2C_SLAVE, I2C_ADDR) < 0) {
+    if (ioctl(fd, I2C_SLAVE, i2caddr) < 0) {
         perror("Unable to configure i2c slave device");
         close(fd);
         exit(1);
     }
 
     fprintf(stdout,"Read the datasheet to determine what register contains the device id, then enter it\n");
-    fprintf(stdout,"Examples:\n 
-        lsm9ds1_mg\t0x0F\n
+    fprintf(stdout,"Examples:\n "
+/*        lsm9ds1_mg\t0x0F\n
         mprls\t0x?\n
         cap1203\t0x?\n
         vl53l1x\t0x?\tvl53l4cd\t0x?\n
@@ -79,10 +79,10 @@ int main(void) {
         icm20948\t0x?\n
         lsm9ds1_ag\t0x0F\n
         lsm6dso\t0x?\n
-        bme280\t0x?\tgroveh2olevel\t0x?\tens160\t0x?\n
-        enter a hexidecimal register (e.g. 0F): ");
+        bme280\t0x?\tgroveh2olevel\t0x?\tens160\t0x?\n*/
+        "enter a hexidecimal register (e.g. 0F): ");
     int whoami;
-    fscanf("%x",&whoami);
+    scanf("%x",&whoami);
     
     printf("\nThe device at %#X, in register %#X, identifies as %#X\n",i2caddr,whoami,i2c_smbus_read_byte_data(fd, whoami));
  
