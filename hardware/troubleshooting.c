@@ -33,23 +33,23 @@ int main(void) {
 
     fprintf(stdout,"Use i2cdetect -y 1 to determine what addresses have peripherals, then enter an i2c address\n");
     fprintf(stdout,"Examples:\n" 
-/*        lsm9ds1_mg\t0x1C\n
-        mprls\t0x18\n
-        cap1203\t0x28\n
-        vl53l1x\t0x29\tvl53l4cd\t0x29\n
-        nau7802\t0x2A\n
-        ism330\t0x30\n
-        tcs3400\t0x39\n
-        tmp117\t0x48\n
-        sgp40\t0x59\n
-        lps25h\t0x5C\n
-        drv8835\t0x5D\n
-        hts221\t0x5F\n
-        i2cdB\t0x64\n
-        icm20948\t0x69\n
-        lsm9ds1_ag\t0x6A\n
-        lsm6dso\t0x6B\n
-        bme280\t0x77\tgroveh2olevel\t0x77\tens160\t0x77\n*/
+        "lsm9ds1_mg\t0x1C\n"
+        "mprls\t\t0x18\n"
+        "cap1203\t\t0x28\n"
+        "vl53l1x\t\t0x29\tvl53l4cd\t0x29\n"
+        "nau7802\t\t0x2A\n"
+        "ism330\t\t0x30\n"
+        "tcs3400\t\t0x39\n"
+        "tmp117\t\t0x48\n"
+        "sgp40\t\t0x59\n"
+        "lps25h\t\t0x5C\n"
+        "drv8835\t\t0x5D\n"
+        "hts221\t\t0x5F\n"
+        "i2cdB\t\t0x64\n"
+        "icm20948\t0x69\n"
+        "lsm9ds1_ag\t0x6A\n"
+        "lsm6dso\t\t0x6B\n"
+        "bme280\t\t0x77\tgroveh2olevel\t0x77\tens160\t0x77\n"
         "enter a hexidecimal i2c address (e.g. 5F): ");
     int i2caddr;
     scanf("%x",&i2caddr);
@@ -62,24 +62,24 @@ int main(void) {
     }
 
     fprintf(stdout,"Read the datasheet to determine what register contains the device id, then enter it\n");
-    fprintf(stdout,"Examples:\n "
-/*        lsm9ds1_mg\t0x0F\n
-        mprls\t0x?\n
-        cap1203\t0x?\n
-        vl53l1x\t0x?\tvl53l4cd\t0x?\n
-        nau7802\t0x?\n
-        ism330\t0x?\n
-        tcs3400\t0x92\n
-        tmp117\t0x?\n
-        sgp40\t0x?\n
-        lps25h\t0x0F\n
-        drv8835\t0x?\n
-        hts221\t0x?\n
-        i2cdB\t0x?\n
-        icm20948\t0x?\n
-        lsm9ds1_ag\t0x0F\n
-        lsm6dso\t0x?\n
-        bme280\t0x?\tgroveh2olevel\t0x?\tens160\t0x?\n*/
+    fprintf(stdout,"Examples:\n"
+        "lsm9ds1_mg\t0x0F\n"
+        "mprls\t\t0x?\n"
+        "cap1203\t\t0x?\n"
+        "vl53l1x\t\t0x?\tvl53l4cd\t0x?\n"
+        "nau7802\t\t0x?\n"
+        "ism330\t\t0x?\n"
+        "tcs3400\t\t0x92\n"
+        "tmp117\t\t0x?\n"
+        "sgp40\t\t0x?\n"
+        "lps25h\t\t0x0F\n"
+        "drv8835\t\t0x?\n"
+        "hts221\t\t0x?\n"
+        "i2cdB\t\t0x?\n"
+        "icm20948\t0x?\n"
+        "lsm9ds1_ag\t0x0F\n"
+        "lsm6dso\t\t0x?\n"
+        "bme280\t\t0x?\tgroveh2olevel\t0x?\tens160\t0x?\n"
         "enter a hexidecimal register (e.g. 0F): ");
     int whoami;
     scanf("%x",&whoami);
