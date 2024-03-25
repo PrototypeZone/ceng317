@@ -63,30 +63,13 @@ Version 2 also has TCS3400 RGB colour sensor (0x39)
 |20|VL53L4CD|ToF||0x18|0x0f|0x29|Qwiic mounting holes 0.8" apart|
 |21|VL53L5CX|ToF||0x18|0x0f|0x29|Qwiic mounting holes 0.8" apart|
 |22|OPT4048DTSR|Color||0x|0x|0x|Qwiic mounting holes 0.8" apart|
-
-### No mount 
-23. MAX30101 & MAX32664 https://www.sparkfun.com/products/15219
-
-### Mounting holes 1.2" wide, 1.6" height (30.48mm x 40.64mm)
-24. zio oled https://www.sparkfun.com/products/15890
-
-### Mounting holes .8" wide, 1.2" height (20.32mm x 30.48mm) 
-25. NAU7802 scale (0x2A, in register 0x1F, identifies as 0x00) https://www.sparkfun.com/products/15242 and load cell? *requires load cell and mount*
-
-### Mounting holes 2.05" wide, .8" height (52.07mm x 20.32mm)
-26. Relay https://www.sparkfun.com/products/15093 and solenoid?
-
-### Mounting holes 44mm wide, 9mm height
-27. SparkFun Qwiic OLED (0x3C for 128x32) https://www.sparkfun.com/products/17153
-
-### Mounting holes 1.3" wide, .8" height
-28. CAP1203 touch https://www.sparkfun.com/products/15344
-
-### Mounting holes 1" wide, .7" height
-29. HX711 Scale https://www.sparkfun.com/products/13879  *requires load cell, mount, pcb update*
-
-### Mounting holes .7" wide
-30. AK9753 Human https://www.sparkfun.com/products/14349
+|23|[MAX30101 & MAX32664](https://www.sparkfun.com/products/15219)|||0x|0x|0x|Qwiic no mount|
+|24|[zio](https://www.sparkfun.com/products/15890)|oled||0x|0x|0x|Qwiic Mounting holes 1.2" wide, 1.6" height (30.48mm x 40.64mm)|
+25|[NAU7802](https://www.sparkfun.com/products/15242)|scale||0x2A|0x1F|0x00|Qwiic Mounting holes .8" wide, 1.2" height (20.32mm x 30.48mm)|*requires load cell and mount*|
+26|[Relay](https://www.sparkfun.com/products/15093)|||0x|0x|0x|Qwiic Mounting holes 2.05" wide, .8" height (52.07mm x 20.32mm)|Solenoid or other required|
+27|[SparkFun Qwiic OLED](https://www.sparkfun.com/products/17153)|128x32||0x3C|0x|0x|Qwiic Mounting holes 44mm wide, 9mm height|
+28|[CAP1203](https://www.sparkfun.com/products/15344)|touch||0x|0x|0x|Qwiic Mounting holes 1.3" wide, .8" height|
+29|[AK9753](https://www.sparkfun.com/products/14349)|human||0x|0x|0x|Qwiic Mounting holes .7" wide|
 
 ### Need to find the footprints, perhaps using KiCad to import Eagle files
 1.  INA219 current https://www.adafruit.com/product/904
@@ -130,7 +113,7 @@ Version 2 also has TCS3400 RGB colour sensor (0x39)
 [Further to the above](https://www.instructables.com/Interfacing-With-a-Mouse-Sensor-ADNS-3050/), [alternate](https://www.hackteria.org/wiki/Hacked_Optical_Mouse).   
 
 ### Using the [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495)
-   - Suplemental (to the SenseHat) choices:   
+   - Supplemental (to the SenseHat) choices:   
     [Particle Sensor - MAX30105](https://www.sparkfun.com/products/16474)   
     [Air Quality Sensor - CCS811 SparkFun Retired Product](https://www.sparkfun.com/products/retired/14181)   
     [ToF Range Finder - VL6180](https://www.sparkfun.com/products/12785)   
@@ -145,10 +128,13 @@ Version 2 also has TCS3400 RGB colour sensor (0x39)
 
 ### Austrailian options
 [https://core-electronics.com.au/piicodev.html](https://core-electronics.com.au/piicodev.html)   
-https://pcbartists.com/product/i2c-decibel-sound-level-meter-module/ with [qwiic adapter](https://www.digikey.ca/en/products/detail/sparkfun-electronics/DEV-14495/7942483) *requires pcb update*   
+
+### Additional PCB work required
+- https://pcbartists.com/product/i2c-decibel-sound-level-meter-module/ with [qwiic adapter](https://www.digikey.ca/en/products/detail/sparkfun-electronics/DEV-14495/7942483) *requires pcb update*   
+- HX711 Scale https://www.sparkfun.com/products/13879  *requires load cell, mount, pcb update for TWI without address* Mounting holes 1" wide, .7" height
 
 ### Past sensor/effector address choices to prevent bus conflicts
-- Suplemental (to the SenseHat) choices:   
+- Supplemental (to the SenseHat) choices:   
 ADC needed for analog sensors   
 Relay or drivers required for higher current draw devices, freewheeling diodes for solenoids, consider buffers for servos   
 Si4713 FM Transmitter with RDS (0x11)   
