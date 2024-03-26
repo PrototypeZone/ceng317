@@ -114,7 +114,6 @@ Version 2 also has TCS3400 RGB colour sensor (0x39)
 
 ### Using the [SparkFun Qwiic Adapter for non-qwiic sensors](https://www.sparkfun.com/products/14495)
    - Supplemental (to the SenseHat) choices:   
-    [Particle Sensor - MAX30105](https://www.sparkfun.com/products/16474)   
     [Air Quality Sensor - CCS811 SparkFun Retired Product](https://www.sparkfun.com/products/retired/14181)   
     [ToF Range Finder - VL6180](https://www.sparkfun.com/products/12785)   
     [Haptic Motor Driver - DRV2605L](https://www.sparkfun.com/products/14538)   
