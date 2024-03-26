@@ -134,7 +134,7 @@ Version 2 also has TCS3400 RGB colour sensor (0x39)
 
 ### Past sensor/effector address choices to prevent bus conflicts
 - Supplemental (to the SenseHat) choices:   
-ADC needed for analog sensors   
+ADC needed for analog sensors such as [Liquid pH](https://www.amazon.ca/Detection-Monitoring-Control-Electrode-Controller/dp/B07KDPQGYD/)   
 Relay or drivers required for higher current draw devices, freewheeling diodes for solenoids, consider buffers for servos   
 Si4713 FM Transmitter with RDS (0x11)   
 VCNL40x0 proximity sensor (0x13)   
