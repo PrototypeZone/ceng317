@@ -49,7 +49,7 @@ Version 2 also has TCS3400 RGB colour sensor (0x39)
 |6| 4245 PSOC->DRV8835| Stepper Motor *requires motor, power, and mount*||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |7| ADS1015|ADC for liquid level||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |8| |MicroPressure||0x18|0x|0x|Qwiic mounting holes 0.8" apart|
-|9| [MAX30101](https://www.digikey.ca/en/products/detail/sparkfun-electronics/SEN-16474/12686341)|Photodetector (0x57)||0x48|0x00|0x0D|Qwiic mounting holes 0.8" apart|
+|9| [MAX30101](https://www.digikey.ca/en/products/detail/sparkfun-electronics/SEN-16474/12686341)|Photodetector||0x57|0x|0x|Qwiic mounting holes 0.8" apart|
 |10|ID-12LA|RFID Reader||0x|0x|0x|Qwiic mounting holes 0.8" apart|Initial Configuration via Arduino|
 |11|ST25DV64KC|RFID Tag||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |12|VEML6030|Light||0x48|0x|0x|Qwiic mounting holes 0.8" apart|
@@ -63,7 +63,7 @@ Version 2 also has TCS3400 RGB colour sensor (0x39)
 |20|VL53L4CD|ToF||0x18|0x0f|0x29|Qwiic mounting holes 0.8" apart|
 |21|VL53L5CX|ToF||0x18|0x0f|0x29|Qwiic mounting holes 0.8" apart|
 |22|OPT4048DTSR|Color||0x|0x|0x|Qwiic mounting holes 0.8" apart|
-|23|[MAX30101 & MAX32664](https://www.digikey.ca/en/products/detail/sparkfun-electronics/SEN-15219/10483252)|Pulse Oximeter||0x|0x|0x|Qwiic no mount|
+|23|[MAX30101 & MAX32664](https://www.digikey.ca/en/products/detail/sparkfun-electronics/SEN-15219/10483252)|Pulse Oximeter||0x48|0x00|0x0D|Qwiic no mount|
 |24|[zio](https://www.digikey.ca/en/products/detail/sparkfun-electronics/LCD-15890/11497535)|oled||0x|0x|0x|Qwiic Mounting holes 1.2" wide, 1.6" height (30.48mm x 40.64mm)|
 25|[NAU7802](https://www.digikey.ca/en/products/detail/sparkfun-electronics/SEN-15242/10064419)|scale||0x2A|0x1F|0x00|Qwiic Mounting holes .8" wide, 1.2" height (20.32mm x 30.48mm)|load cell and mount|
 26|[Relay](https://www.digikey.ca/en/products/detail/sparkfun-electronics/COM-15093/9856849)|||0x|0x|0x|Qwiic Mounting holes 2.05" wide, .8" height (52.07mm x 20.32mm)|Solenoid or other required|
