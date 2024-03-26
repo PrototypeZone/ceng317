@@ -37,7 +37,7 @@ Version 2 also has TCS3400 RGB colour sensor (0x39)
 |-------------|-----------|----|--------------------|-----------|-----------------|------|---------|----|
 |-6| LED2472G|8x8 LED, Nav Pad||0x46|kernel|driver|Part of SenseHat||
 |-5| TCS3400|RGB colour and brightness||0x39|0x92|0x90|Part of SenseHat Version 2||
-|-4| LSM9DS1_MG|magnetometer|0x1C|0x0F|0x3D|Part of SenseHat||
+|-4| LSM9DS1_MG|magnetometer||0x1C|0x0F|0x3D|Part of SenseHat||
 |-3| LSM9DS1_AG|accelerometer,gyroscope||0x6A|0x0F|0x68|Part of SenseHat||
 |-2| LPS25H|pressure||0x5C|0x0F|0xBD|Part of SenseHat||
 |-1| HTS221|humidity, temperature||0x5F|0x0F|0xBC|Part of SenseHat||
