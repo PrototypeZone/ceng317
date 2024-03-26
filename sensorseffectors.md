@@ -45,8 +45,8 @@ Version 2 also has TCS3400 RGB colour sensor (0x39)
 |1| SGP40| Air ||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |2| ENS160| Air quality (the replacement for the popular, but now-discontinued CCS811 https://www.adafruit.com/product/5606), also available as ENS160/BME280 Air quality, THP||0x53|0x|0x|Qwiic mounting holes 0.8" apart|
 |4| BME680| Gas, Temp Humid Pressure||0x|0x|0x|Qwiic mounting holes 0.8" apart|
-|5| 4245 PSOC->DRV8835| DC Motor||0x|0x|0x|Qwiic mounting holes 0.8" apart|motor, power, and mount|
-|6| 4245 PSOC->DRV8835| Stepper Motor||0x|0x|0x|Qwiic mounting holes 0.8" apart|motor, power, and mount|
+|5| 4245 PSOC->DRV8835| DC Motor||0x5D|0x01|0xA9|Qwiic mounting holes 0.8" apart|motor, power, and mount|
+|6| 4245 PSOC->DRV8835| Stepper Motor||0x5D|0x01|0xA9|Qwiic mounting holes 0.8" apart|motor, power, and mount|
 |7| ADS1015|ADC for liquid level||0x|0x|0x|Qwiic mounting holes 0.8" apart|
 |8| |MicroPressure||0x18|0x|0x|Qwiic mounting holes 0.8" apart|
 |9| [MAX30101](https://www.digikey.ca/en/products/detail/sparkfun-electronics/SEN-16474/12686341)|Photodetector||0x57|0x|0x|Qwiic mounting holes 0.8" apart|
