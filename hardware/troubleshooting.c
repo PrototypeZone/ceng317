@@ -11,7 +11,6 @@
  *  sudo raspi-config --> interfacing options --> enable i2c
  *  sudo apt install libi2c-dev
  *  Build with:  gcc -Wall -O2 troubleshooting.c -o troubleshooting -li2c
- *               or just 'make'
  */
 
 #include <fcntl.h>
